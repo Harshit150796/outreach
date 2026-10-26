@@ -44,37 +44,50 @@ SUBJECTS_ES = [
     "Un enlace gratuito para familias de {city}",
 ]
 
+LOGO = "https://coupondonation.com/favicon-192.png"
+GREEN, BLUE, INK = "#2e7d32", "#1565c0", "#16231a"
+
 T = {
     "en": dict(
         lang="en",
-        preheader="Free help with groceries, medicine and bills. One link to share with families.",
-        headline="Help for families,<br>one need at a time.",
-        intro="CouponDonation connects families in need with donors who cover a specific need: groceries, medicine, a ride or a bill. It's free to apply, and every donated dollar goes to the need.",
-        ask="Could {church} share this link with families who need help?",
+        preheader="Free help with groceries, medicine, rides and bills, for the families your church serves.",
+        eyebrow="For churches in California",
+        headline="Give what<br>people need.",
+        intro="CouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free, and every donated dollar covers their need.",
+        ask="Could {church} share our link with families who need help?",
         cta="Apply for help",
-        facts=["Free", "3-minute form", "2–3 day review"],
-        fine="Help arrives as a coupon, gift card or credit, never cash. Not every request can be approved.",
-        partner="Supporting specific households? <a href=\"{partners}\" style=\"color:#0f5c4c;\">Start a fundraiser for them</a>.",
-        partner_txt="Supporting specific households? Start a fundraiser for them: {partners}",
+        share_label="Or share the link",
+        steps=[("Apply", "Free, 3-minute form"),
+               ("Verify", "Reviewed in 2–3 days"),
+               ("Receive", "Gift card for the need")],
+        fine="Help comes as a coupon, gift card or credit, never cash. Not every request can be approved.",
+        partner="Already caring for a family? <a href=\"{partners}\" style=\"color:#1565c0;text-decoration:none;font-weight:600;\">Start a fundraiser for them&nbsp;&rarr;</a>",
+        partner_txt="Already caring for a family? Start a fundraiser for them: {partners}",
         reply="Questions? Just reply. A real person will answer.",
-        sign="The CouponDonation team",
+        sign="With gratitude,",
+        team="The CouponDonation team",
         why="You're receiving this because {church}'s email is on its public listing.",
         unsub="Unsubscribe",
         unsub_txt="To stop these emails, reply \"unsubscribe\" or write to {u}.",
     ),
     "es": dict(
         lang="es",
-        preheader="Ayuda gratuita con comida, medicinas y recibos. Un enlace para compartir con las familias.",
-        headline="Ayuda para las familias,<br>una necesidad a la vez.",
-        intro="CouponDonation conecta a familias necesitadas con donantes que cubren una necesidad concreta: comida, medicinas, transporte o un recibo. Solicitar es gratis y cada dólar donado va a esa necesidad.",
-        ask="¿Podría {church} compartir este enlace con las familias que necesitan ayuda?",
+        preheader="Ayuda gratuita con comida, medicinas, transporte y recibos para las familias de su iglesia.",
+        eyebrow="Para iglesias de California",
+        headline="Dar lo que<br>la gente necesita.",
+        intro="CouponDonation convierte donaciones en tarjetas de regalo para comida, medicinas, transporte y recibos. Las familias solicitan gratis y cada dólar donado cubre su necesidad.",
+        ask="¿Podría {church} compartir nuestro enlace con las familias que necesitan ayuda?",
         cta="Solicitar ayuda",
-        facts=["Gratis", "3 minutos", "Revisión en 2–3 días"],
+        share_label="O comparta el enlace",
+        steps=[("Solicitar", "Gratis, 3 minutos"),
+               ("Verificar", "Revisión en 2–3 días"),
+               ("Recibir", "Tarjeta para la necesidad")],
         fine="La ayuda llega como cupón, tarjeta de regalo o crédito, nunca en efectivo. No todas las solicitudes pueden aprobarse.",
         partner="",
         partner_txt="",
         reply="¿Preguntas? Responda a este correo; le contesta una persona real, en español si prefiere.",
-        sign="El equipo de CouponDonation",
+        sign="Con gratitud,",
+        team="El equipo de CouponDonation",
         why="Recibe este correo porque el email de {church} aparece en su listado público.",
         unsub="Cancelar suscripción",
         unsub_txt="Para no recibir más correos, responda \"unsubscribe\" o escriba a {u}.",
@@ -115,52 +128,107 @@ def compose(q):
     addr = CFG["postal_address"]
     u = CFG["unsubscribe_address"]
     unsub_link = f"mailto:{u}?subject=unsubscribe"
+    short_apply = APPLY.replace("https://www.", "")
 
     # ---------- plain text ----------
     txt = [hello, "", t["intro"], "", ask, "", f"{t['cta']}: {APPLY}", "",
-           " · ".join(t["facts"]) + ". " + t["fine"], ""]
+           " → ".join(f"{a} ({b})" for a, b in t["steps"]), t["fine"], ""]
     if t["partner_txt"]:
         txt += [t["partner_txt"].format(partners=PARTNERS), ""]
-    txt += [t["reply"], "", t["sign"], "hello@coupondonation.com · coupondonation.com", "",
+    txt += [t["reply"], "", t["sign"], t["team"], "hello@coupondonation.com · coupondonation.com", "",
             "--", f"CouponDonation Inc., {addr}", t["why"].format(church=church), t["unsub_txt"].format(u=u)]
     text = "\n".join(txt)
 
     # ---------- HTML ----------
-    F = "font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;"
-    facts = "".join(
-        f'<td align="center" style="{F}font-size:13px;line-height:18px;color:#0f5c4c;padding:10px 6px;'
-        f'border-left:{"0" if i == 0 else "1px solid #d7e7e1"};">{esc(f)}</td>'
-        for i, f in enumerate(t["facts"]))
-    partner = (f'<p style="{F}margin:0 0 14px;font-size:14px;line-height:22px;color:#4a5560;">'
-               f'{t["partner"].format(partners=PARTNERS)}</p>') if t["partner"] else ""
+    SANS = "font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;"
+    SERIF = "font-family:Georgia,'Times New Roman',Times,serif;"
+    steps = ""
+    for i, (a, b) in enumerate(t["steps"], 1):
+        steps += (
+            f'<td class="step" width="33%" valign="top" style="padding:0 6px;">'
+            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>'
+            f'<td style="background:#f6f8f5;border-radius:12px;padding:18px 14px 16px;">'
+            f'<div style="{SERIF}font-size:22px;line-height:22px;color:{GREEN};font-weight:400;">0{i}</div>'
+            f'<div style="{SANS}font-size:15px;line-height:20px;color:{INK};font-weight:700;padding-top:10px;">{esc(a)}</div>'
+            f'<div style="{SANS}font-size:13px;line-height:18px;color:#5d6b62;padding-top:3px;">{esc(b)}</div>'
+            f'</td></tr></table></td>')
+    partner = (f'<tr><td class="px" style="padding:0 44px 6px;{SANS}font-size:14px;line-height:22px;color:#46524a;">'
+               f'{t["partner"].format(partners=PARTNERS)}</td></tr>') if t["partner"] else ""
     html = f"""<!doctype html>
-<html lang="{t['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="light"><title>{esc(subj)}</title></head>
-<body style="margin:0;padding:0;background:#f4f2ee;">
-<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">{esc(t['preheader'])}</div>
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f4f2ee;">
-<tr><td align="center" style="padding:32px 16px;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:560px;">
-  <tr><td style="padding:0 4px 18px;{F}font-size:15px;font-weight:700;letter-spacing:.2px;color:#0f5c4c;">CouponDonation</td></tr>
-  <tr><td style="background:#ffffff;border-radius:14px;border:1px solid #e6e2da;padding:36px 36px 30px;">
-    <p style="{F}margin:0 0 18px;font-size:15px;line-height:22px;color:#4a5560;">{esc(hello)}</p>
-    <h1 style="{F}margin:0 0 16px;font-size:26px;line-height:32px;font-weight:700;color:#14202b;letter-spacing:-.3px;">{t['headline']}</h1>
-    <p style="{F}margin:0 0 22px;font-size:16px;line-height:25px;color:#33404c;">{esc(t['intro'])}</p>
-    <p style="{F}margin:0 0 22px;font-size:16px;line-height:25px;color:#14202b;font-weight:600;">{esc(ask)}</p>
-    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 22px;"><tr>
-      <td align="center" bgcolor="#0f5c4c" style="border-radius:10px;">
-        <a href="{APPLY}" style="{F}display:inline-block;padding:14px 28px;font-size:16px;font-weight:600;color:#ffffff;text-decoration:none;border-radius:10px;">{esc(t['cta'])} &rarr;</a>
-      </td></tr></table>
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#eef6f3;border-radius:10px;margin:0 0 14px;"><tr>{facts}</tr></table>
-    <p style="{F}margin:0 0 20px;font-size:13px;line-height:20px;color:#6b7680;">{esc(t['fine'])}</p>
-    {partner}
-    <p style="{F}margin:0 0 4px;font-size:14px;line-height:22px;color:#4a5560;">{esc(t['reply'])}</p>
-    <p style="{F}margin:16px 0 0;font-size:15px;line-height:22px;color:#14202b;font-weight:600;">{esc(t['sign'])}</p>
+<html lang="{t['lang']}" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="x-apple-disable-message-reformatting"><meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light only">
+<title>{esc(subj)}</title>
+<style>
+  body{{margin:0;padding:0;-webkit-text-size-adjust:100%;}}
+  a{{text-decoration:none;}}
+  @media (max-width:600px){{
+    .px{{padding-left:24px!important;padding-right:24px!important;}}
+    .hero{{font-size:38px!important;line-height:42px!important;}}
+    .step{{display:block!important;width:100%!important;padding:0 0 10px!important;box-sizing:border-box;}}
+    .steps{{padding-left:24px!important;padding-right:24px!important;}}
+    .btn a{{display:block!important;}}
+  }}
+</style></head>
+<body style="margin:0;padding:0;background:#eef1ec;">
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;mso-hide:all;">{esc(t['preheader'])}&#8199;&#65279;&#847;&#8199;&#65279;&#847;&#8199;&#65279;&#847;</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#eef1ec;">
+<tr><td align="center" style="padding:36px 12px 40px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;background:#ffffff;border-radius:20px;overflow:hidden;box-shadow:0 1px 3px rgba(22,35,26,.06);">
+
+  <!-- brand bar -->
+  <tr><td style="height:5px;line-height:5px;font-size:0;background:{GREEN};background-image:linear-gradient(90deg,{GREEN},{BLUE});">&nbsp;</td></tr>
+  <tr><td class="px" style="padding:30px 44px 0;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td valign="middle" style="padding-right:12px;"><img src="{LOGO}" width="44" height="44" alt="CouponDonation" style="display:block;border:0;width:44px;height:44px;"></td>
+      <td valign="middle" style="{SANS}font-size:21px;line-height:24px;font-weight:800;letter-spacing:-.3px;"><span style="color:{GREEN};">Coupon</span><span style="color:{BLUE};">Donation</span></td>
+    </tr></table>
   </td></tr>
-  <tr><td style="padding:20px 8px 0;{F}font-size:12px;line-height:18px;color:#8a8f94;text-align:center;">
-    CouponDonation Inc. · {esc(addr)}<br>
+
+  <!-- hero -->
+  <tr><td class="px" style="padding:40px 44px 0;">
+    <div style="{SANS}font-size:12px;line-height:16px;letter-spacing:1.6px;text-transform:uppercase;color:{GREEN};font-weight:700;">{esc(t['eyebrow'])}</div>
+    <h1 class="hero" style="{SERIF}margin:14px 0 0;font-size:48px;line-height:52px;font-weight:400;color:{INK};letter-spacing:-1px;">{t['headline']}</h1>
+  </td></tr>
+
+  <tr><td class="px" style="padding:28px 44px 0;{SANS}font-size:16px;line-height:26px;color:#46524a;">
+    <p style="margin:0 0 14px;color:{INK};">{esc(hello)}</p>
+    <p style="margin:0 0 14px;">{esc(t['intro'])}</p>
+    <p style="margin:0;color:{INK};font-weight:600;">{esc(ask)}</p>
+  </td></tr>
+
+  <!-- CTA -->
+  <tr><td class="px" style="padding:28px 44px 0;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="btn"><tr>
+      <td align="center" bgcolor="{GREEN}" style="border-radius:999px;">
+        <a href="{APPLY}" style="{SANS}display:inline-block;padding:16px 34px;font-size:16px;line-height:20px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:999px;letter-spacing:.2px;">{esc(t['cta'])}&nbsp;&nbsp;&rarr;</a>
+      </td></tr></table>
+    <div style="{SANS}font-size:13px;line-height:20px;color:#7a857d;padding-top:14px;">{esc(t['share_label'])}: <a href="{APPLY}" style="color:{BLUE};font-weight:600;text-decoration:none;">{esc(short_apply)}</a></div>
+  </td></tr>
+
+  <!-- steps -->
+  <tr><td class="steps" style="padding:34px 38px 0;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>{steps}</tr></table>
+  </td></tr>
+  <tr><td class="px" style="padding:14px 44px 26px;{SANS}font-size:12px;line-height:18px;color:#8a948d;">{esc(t['fine'])}</td></tr>
+
+  <tr><td class="px" style="padding:0 44px;"><div style="height:1px;line-height:1px;font-size:0;background:#e7ebe6;">&nbsp;</div></td></tr>
+  <tr><td style="height:24px;line-height:24px;font-size:0;">&nbsp;</td></tr>
+  {partner}
+  <tr><td class="px" style="padding:0 44px 34px;{SANS}font-size:14px;line-height:22px;color:#46524a;">
+    {esc(t['reply'])}<br><br>
+    <span style="color:#7a857d;">{esc(t['sign'])}</span><br>
+    <span style="color:{INK};font-weight:700;">{esc(t['team'])}</span><br>
+    <a href="https://www.coupondonation.com" style="color:{GREEN};text-decoration:none;">coupondonation.com</a>
+  </td></tr>
+</table>
+
+<!-- footer -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;">
+  <tr><td align="center" style="padding:22px 20px 0;{SANS}font-size:12px;line-height:19px;color:#8a948d;">
+    CouponDonation Inc. &middot; {esc(addr)}<br>
     {esc(t['why'].format(church=church))}<br>
-    <a href="{unsub_link}" style="color:#8a8f94;text-decoration:underline;">{esc(t['unsub'])}</a> · <a href="https://www.coupondonation.com" style="color:#8a8f94;text-decoration:underline;">coupondonation.com</a>
+    <a href="{unsub_link}" style="color:#8a948d;text-decoration:underline;">{esc(t['unsub'])}</a>
   </td></tr>
 </table>
 </td></tr></table>
