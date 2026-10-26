@@ -34,131 +34,138 @@ def the_church(n):
 
 SPANISH = lambda q: q["community"] == "Spanish" or q["denomination"].endswith("(Spanish-language)")
 
-TRADITION_EN = {
-    "Catholic": "The corporal works of mercy your parish practices every week, feeding the hungry and caring for those in need, are exactly where we hope to help.",
-    "United Methodist": "In the spirit of doing all the good you can, for all the people you can, we'd love to put one more practical tool in your hands.",
-    "Methodist (AME / CME)": "Your church's long tradition of caring for the whole family, body and spirit, is exactly where we hope to help.",
-    "Lutheran": "Your congregation's care for neighbors in need is exactly where we hope to help, with something practical and easy to share.",
-    "Presbyterian": "Your congregation's care for neighbors in need is exactly where we hope to help, with something practical and easy to share.",
-    "Episcopal / Anglican": "Your parish's care for neighbors in need is exactly where we hope to help, with something practical and easy to share.",
-    "Baptist": "James wrote that faith shows itself when a brother or sister lacks daily food and someone meets that need. That is the kind of help we built CouponDonation to deliver.",
-    "Southern / Missionary Baptist": "James wrote that faith shows itself when a brother or sister lacks daily food and someone meets that need. That is the kind of help we built CouponDonation to deliver.",
-    "Seventh-day Adventist": "Your church's commitment to health and to caring for the whole person is exactly where we hope to help.",
-    "Salvation Army": "Your corps already meets people at their point of need, and we'd love to add one more practical option for the families you see.",
-    "Orthodox": "Your parish's care for neighbors in need is exactly where we hope to help, with something practical and easy to share.",
-}
-OPENERS_EN = [
-    "Churches are often the first place a family turns when the groceries, the prescription or the utility bill doesn't stretch to the end of the month.",
-    "When a family in {city} runs short on groceries or medicine, a church is often the first door they knock on.",
-    "Pastors and church offices hear every week from families who are a few dollars short on groceries, medicine or a bill.",
-]
 SUBJECTS_EN = [
-    "{church}: free help for families in {city}",
-    "A free resource for families at {church}",
-    "Grocery and medicine help for {city} families",
-    "For the {church} office: a free link to share",
+    "Free help for families at {church}",
+    "A free link for {city} families",
+    "{church}: help for families in need",
+]
+SUBJECTS_ES = [
+    "Ayuda gratuita para las familias de {church}",
+    "Un enlace gratuito para familias de {city}",
 ]
 
-def greeting_en(q, church):
-    if q["salutation"]:
-        return f"Dear {q['salutation']},"
+T = {
+    "en": dict(
+        lang="en",
+        preheader="Free help with groceries, medicine and bills. One link to share with families.",
+        headline="Help for families,<br>one need at a time.",
+        intro="CouponDonation connects families in need with donors who cover a specific need: groceries, medicine, a ride or a bill. It's free to apply, and every donated dollar goes to the need.",
+        ask="Could {church} share this link with families who need help?",
+        cta="Apply for help",
+        facts=["Free", "3-minute form", "2–3 day review"],
+        fine="Help arrives as a coupon, gift card or credit, never cash. Not every request can be approved.",
+        partner="Supporting specific households? <a href=\"{partners}\" style=\"color:#0f5c4c;\">Start a fundraiser for them</a>.",
+        partner_txt="Supporting specific households? Start a fundraiser for them: {partners}",
+        reply="Questions? Just reply. A real person will answer.",
+        sign="The CouponDonation team",
+        why="You're receiving this because {church}'s email is on its public listing.",
+        unsub="Unsubscribe",
+        unsub_txt="To stop these emails, reply \"unsubscribe\" or write to {u}.",
+    ),
+    "es": dict(
+        lang="es",
+        preheader="Ayuda gratuita con comida, medicinas y recibos. Un enlace para compartir con las familias.",
+        headline="Ayuda para las familias,<br>una necesidad a la vez.",
+        intro="CouponDonation conecta a familias necesitadas con donantes que cubren una necesidad concreta: comida, medicinas, transporte o un recibo. Solicitar es gratis y cada dólar donado va a esa necesidad.",
+        ask="¿Podría {church} compartir este enlace con las familias que necesitan ayuda?",
+        cta="Solicitar ayuda",
+        facts=["Gratis", "3 minutos", "Revisión en 2–3 días"],
+        fine="La ayuda llega como cupón, tarjeta de regalo o crédito, nunca en efectivo. No todas las solicitudes pueden aprobarse.",
+        partner="",
+        partner_txt="",
+        reply="¿Preguntas? Responda a este correo; le contesta una persona real, en español si prefiere.",
+        sign="El equipo de CouponDonation",
+        why="Recibe este correo porque el email de {church} aparece en su listado público.",
+        unsub="Cancelar suscripción",
+        unsub_txt="Para no recibir más correos, responda \"unsubscribe\" o escriba a {u}.",
+    ),
+}
+
+def esc(s):
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+
+def greeting(q, church, lang):
+    sal = q["salutation"]
+    if lang == "es":
+        if sal:
+            return f"Estimado {sal.replace('Father', 'Padre')}:"
+        return f"Estimados hermanos de {church}:"
+    if sal:
+        return f"Dear {sal},"
     if q["denomination"] == "Catholic":
         return f"Dear {church} parish office,"
     base = re.sub(r"^the\s+", "", church, flags=re.I)
     return f"Hello {base} team,"
 
-def compose_en(q):
-    church = clean_name(q["name"])
-    city = q["city"] or "your area"
-    county = q["county"]
-    place = f"{city}" + (f" and across {county} County" if county and county.lower() != city.lower() else "")
-    who = "your parish" if q["denomination"] == "Catholic" else "your congregation"
-    opener = OPENERS_EN[h(q["id"], len(OPENERS_EN))].format(city=city)
-    trad = TRADITION_EN.get(q["denomination"], "")
-    community = ""
-    if q["community"] and q["community"] not in ("Spanish",):
-        community = f" That includes the {q['community']} families {who} walks alongside."
-    subj = SUBJECTS_EN[h(q["id"] + "s", len(SUBJECTS_EN))].format(church=church, city=city)
-    if len(subj) > 78:
-        subj = f"A free resource for families in {city}"
-    lines = [
-        greeting_en(q, church),
-        "",
-        f"I'm writing to {church} in {city} because {opener[0].lower() + opener[1:]}",
-        "",
-        "CouponDonation is a free way for people in need to ask for help with a specific need: groceries, medicine, a ride, clothing or a utility bill. "
-        "Donors fund those needs directly, 100% of each donation goes to the family, and every dollar is tracked from gift to receipt.",
-        "",
-        (trad + " " if trad else "") + f"Would you be willing to share our application link with families {who} serves?{community}",
-        "",
-        APPLY,
-        "",
-        "The application is free for US residents and takes about 3 minutes. Verification usually takes 2 to 3 business days. "
-        "We can't promise every application will be approved, and help comes as a coupon, gift card or credit for the stated need, not cash.",
-        "",
-        f"If {church} already supports particular households, you can also run a fundraiser for them, with each family's consent: {PARTNERS}",
-        "",
-        f"Thank you for all you do for {place}. If you have any questions, just reply to this email and a real person will answer.",
-        "",
-        "With gratitude,",
-        "The CouponDonation team",
-        "hello@coupondonation.com · +1 (315) 898-6745",
-        "https://www.coupondonation.com",
-    ]
-    return subj, "\n".join(lines)
-
-SUBJECTS_ES = [
-    "{church}: ayuda gratuita para familias en {city}",
-    "Un recurso gratuito para las familias de {church}",
-    "Ayuda con comida y medicinas para familias de {city}",
-]
-def compose_es(q):
-    church = clean_name(q["name"])
-    city = q["city"] or "su comunidad"
-    sal = f"Estimado {q['salutation'].replace('Father', 'Padre')}," if q["salutation"] else f"Estimados hermanos de {church}:"
-    if q["salutation"].startswith("Pastor"):
-        sal = f"Estimado {q['salutation']}:"
-    subj = SUBJECTS_ES[h(q["id"] + "s", len(SUBJECTS_ES))].format(church=church, city=city)
-    if len(subj) > 78:
-        subj = f"Ayuda gratuita para familias en {city}"
-    lines = [
-        sal,
-        "",
-        f"Le escribo a {church} en {city} porque muchas veces la iglesia es la primera puerta que toca una familia cuando no le alcanza para la comida, las medicinas o un recibo de luz.",
-        "",
-        "CouponDonation es una forma gratuita de pedir ayuda para una necesidad concreta: comida, medicinas, transporte, ropa o un servicio público. "
-        "Los donantes cubren esas necesidades directamente, el 100% de cada donación llega a la familia y cada dólar se puede rastrear.",
-        "",
-        "¿Podrían compartir este enlace con las familias de su congregación que lo necesiten?",
-        "",
-        APPLY,
-        "",
-        "La solicitud es gratuita para residentes de EE. UU. y toma unos 3 minutos. La verificación suele tardar de 2 a 3 días hábiles. "
-        "No podemos prometer que toda solicitud sea aprobada, y la ayuda llega como cupón, tarjeta de regalo o crédito, no en efectivo.",
-        "",
-        "Si prefieren responder en español, con gusto lo hacemos. Solo responda a este correo.",
-        "",
-        "Con gratitud,",
-        "El equipo de CouponDonation",
-        "hello@coupondonation.com · +1 (315) 898-6745",
-        "",
-        "— In English —",
-        f"We're writing to {church} because churches are often where families turn when groceries or medicine run short. "
-        f"Please consider sharing our free application link with families who need help: {APPLY}",
-    ]
-    return subj, "\n".join(lines)
-
-def footer(q):
-    church = clean_name(q["name"])
-    addr = CFG["postal_address"]
-    return ("\n\n--\n"
-            f"CouponDonation Inc., {addr}\n"
-            f"We found {church}'s email on its public listing. If you'd rather not hear from us, reply \"unsubscribe\" "
-            f"or email {CFG['unsubscribe_address']} and we won't write again.")
+def subject(q, church, city, lang):
+    opts = SUBJECTS_ES if lang == "es" else SUBJECTS_EN
+    s = opts[h(q["id"] + "s", len(opts))].format(church=church, city=city)
+    if len(s) > 70:
+        s = (f"Ayuda gratuita para familias de {city}" if lang == "es" else f"A free link for {city} families")
+    return s
 
 def compose(q):
-    subj, body = compose_es(q) if SPANISH(q) else compose_en(q)
-    return subj, body + footer(q)
+    lang = "es" if SPANISH(q) else "en"
+    t = T[lang]
+    church = clean_name(q["name"])
+    city = q["city"] or ("su comunidad" if lang == "es" else "your area")
+    subj = subject(q, church, city, lang)
+    hello = greeting(q, church, lang)
+    ask = t["ask"].format(church=church)
+    addr = CFG["postal_address"]
+    u = CFG["unsubscribe_address"]
+    unsub_link = f"mailto:{u}?subject=unsubscribe"
+
+    # ---------- plain text ----------
+    txt = [hello, "", t["intro"], "", ask, "", f"{t['cta']}: {APPLY}", "",
+           " · ".join(t["facts"]) + ". " + t["fine"], ""]
+    if t["partner_txt"]:
+        txt += [t["partner_txt"].format(partners=PARTNERS), ""]
+    txt += [t["reply"], "", t["sign"], "hello@coupondonation.com · coupondonation.com", "",
+            "--", f"CouponDonation Inc., {addr}", t["why"].format(church=church), t["unsub_txt"].format(u=u)]
+    text = "\n".join(txt)
+
+    # ---------- HTML ----------
+    F = "font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;"
+    facts = "".join(
+        f'<td align="center" style="{F}font-size:13px;line-height:18px;color:#0f5c4c;padding:10px 6px;'
+        f'border-left:{"0" if i == 0 else "1px solid #d7e7e1"};">{esc(f)}</td>'
+        for i, f in enumerate(t["facts"]))
+    partner = (f'<p style="{F}margin:0 0 14px;font-size:14px;line-height:22px;color:#4a5560;">'
+               f'{t["partner"].format(partners=PARTNERS)}</p>') if t["partner"] else ""
+    html = f"""<!doctype html>
+<html lang="{t['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light"><title>{esc(subj)}</title></head>
+<body style="margin:0;padding:0;background:#f4f2ee;">
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">{esc(t['preheader'])}</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f4f2ee;">
+<tr><td align="center" style="padding:32px 16px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:560px;">
+  <tr><td style="padding:0 4px 18px;{F}font-size:15px;font-weight:700;letter-spacing:.2px;color:#0f5c4c;">CouponDonation</td></tr>
+  <tr><td style="background:#ffffff;border-radius:14px;border:1px solid #e6e2da;padding:36px 36px 30px;">
+    <p style="{F}margin:0 0 18px;font-size:15px;line-height:22px;color:#4a5560;">{esc(hello)}</p>
+    <h1 style="{F}margin:0 0 16px;font-size:26px;line-height:32px;font-weight:700;color:#14202b;letter-spacing:-.3px;">{t['headline']}</h1>
+    <p style="{F}margin:0 0 22px;font-size:16px;line-height:25px;color:#33404c;">{esc(t['intro'])}</p>
+    <p style="{F}margin:0 0 22px;font-size:16px;line-height:25px;color:#14202b;font-weight:600;">{esc(ask)}</p>
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 22px;"><tr>
+      <td align="center" bgcolor="#0f5c4c" style="border-radius:10px;">
+        <a href="{APPLY}" style="{F}display:inline-block;padding:14px 28px;font-size:16px;font-weight:600;color:#ffffff;text-decoration:none;border-radius:10px;">{esc(t['cta'])} &rarr;</a>
+      </td></tr></table>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#eef6f3;border-radius:10px;margin:0 0 14px;"><tr>{facts}</tr></table>
+    <p style="{F}margin:0 0 20px;font-size:13px;line-height:20px;color:#6b7680;">{esc(t['fine'])}</p>
+    {partner}
+    <p style="{F}margin:0 0 4px;font-size:14px;line-height:22px;color:#4a5560;">{esc(t['reply'])}</p>
+    <p style="{F}margin:16px 0 0;font-size:15px;line-height:22px;color:#14202b;font-weight:600;">{esc(t['sign'])}</p>
+  </td></tr>
+  <tr><td style="padding:20px 8px 0;{F}font-size:12px;line-height:18px;color:#8a8f94;text-align:center;">
+    CouponDonation Inc. · {esc(addr)}<br>
+    {esc(t['why'].format(church=church))}<br>
+    <a href="{unsub_link}" style="color:#8a8f94;text-decoration:underline;">{esc(t['unsub'])}</a> · <a href="https://www.coupondonation.com" style="color:#8a8f94;text-decoration:underline;">coupondonation.com</a>
+  </td></tr>
+</table>
+</td></tr></table>
+</body></html>"""
+    return subj, text, html
 
 def state():
     return load("state.json", {"sent": {}, "suppressed": [], "runs": []})
@@ -193,9 +200,10 @@ def post(url, key, payload, idem):
 def cmd_preview(a):
     os.makedirs(os.path.join(HERE, "previews"), exist_ok=True)
     for q in next_batch(a.n):
-        subj, body = compose(q)
+        subj, body, html = compose(q)
         p = os.path.join(HERE, "previews", f"{q['seq']:05d}.txt")
         open(p, "w", encoding="utf-8").write(f"To: {q['email']}\nSubject: {subj}\n\n{body}\n")
+        open(p[:-4] + ".html", "w", encoding="utf-8").write(html)
         print(p)
 
 def cmd_send(a):
@@ -208,8 +216,8 @@ def cmd_send(a):
     today = dt.datetime.now(dt.timezone.utc).astimezone(dt.timezone(dt.timedelta(hours=-5))).date().isoformat()
     sent, failed = 0, []
     for q in batch:
-        subj, body = compose(q)
-        payload = {"from": CFG["from"], "to": [q["email"]], "reply_to": [CFG["reply_to"]], "subject": subj, "text": body,
+        subj, body, html = compose(q)
+        payload = {"from": CFG["from"], "to": [q["email"]], "reply_to": [CFG["reply_to"]], "subject": subj, "text": body, "html": html,
                    "headers": {"List-Unsubscribe": f"<mailto:{CFG['unsubscribe_address']}?subject=unsubscribe>"},
                    "tags": [{"name": "campaign", "value": "ca_churches_2026"}, {"name": "queue_id", "value": q["id"]}]}
         code, res = post("https://api.resend.com/emails", a.key, payload, "ca-churches-" + q["id"])
