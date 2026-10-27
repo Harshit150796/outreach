@@ -40,8 +40,9 @@ jobs:
           EVENT: ${{ github.event_name }}
         run: |
           dow=$(TZ=America/New_York date +%u)
-          if [ "$EVENT" = "workflow_run" ] && [ "$dow" -le 5 ]; then
-            echo "Weekday: the call list goes out after the Gmail/Zoho run instead."; exit 0
+          hr=$(date -u +%H)
+          if [ "$EVENT" = "workflow_run" ] && [ "$dow" -le 5 ] && [ "$hr" -lt 17 ]; then
+            echo "Weekday morning: the call list goes out after the Gmail/Zoho run instead."; exit 0
           fi
           python3 digest.py send --key "$RESEND_SEND_KEY"
 

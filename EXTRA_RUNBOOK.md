@@ -19,6 +19,12 @@ cd /home/claude/outreach && git config user.name "outreach-bot" && git config us
 ```
 (If the repo is not attached to the session, attach Harshit150796/outreach with push access first.)
 
+Then check that today's Resend job ran (GitHub sometimes skips scheduled runs):
+`gh api 'repos/Harshit150796/outreach/actions/workflows/daily-outreach.yml/runs?per_page=1' --jq '.workflow_runs[0].created_at'`.
+If that time is before 12:00 UTC today (or there is no run), start it once:
+`gh api -X POST repos/Harshit150796/outreach/actions/workflows/daily-outreach.yml/dispatches -f ref=main`
+and say so in the report. Don't start it if a run already exists today, whatever its result.
+
 ## 1. Read both inboxes (replies, opt-outs, bounces)
 - Gmail: `GMAIL_FETCH_EMAILS` on `gmail_spitz-fixed` with
   `query: 'newer_than:3d in:inbox (subject:re OR subject:"following up" OR from:mailer-daemon OR from:postmaster OR unsubscribe OR "delivery status")'`,
