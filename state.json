@@ -639,31 +639,191 @@
 "date": "2026-10-27",
 "resend_id": "01a17e82-1e08-7204-b3f2-123313a318ed",
 "subject": "A free link for Sacramento families"
+},
+"09572811cd48": {
+"email": "stkevin100@gmail.com",
+"name": "St Kevin's Catholic Church",
+"county": "San Francisco",
+"date": "2026-10-26",
+"resend_id": "01a1787f-f92a-77e6-9a83-f82de57e8b03",
+"subject": "A free resource for families at St Kevin's Catholic Church",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"417af6e4bf82": {
+"email": "office@npfcc.org",
+"name": "Newbury Park First Christian Church",
+"county": "Ventura",
+"date": "2026-10-26",
+"resend_id": "01a1787f-f626-7c7f-84b4-d84b521c04e6",
+"subject": "Grocery and medicine help for Thousand Oaks families",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"133c083f3644": {
+"email": "olvhemet@sbdiocese.org",
+"name": "Our Lady of the Valley",
+"county": "Riverside",
+"date": "2026-10-26",
+"resend_id": "01a1787f-f300-7c8f-b370-22a15c8271ed",
+"subject": "For the Our Lady of the Valley office: a free link to share",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"8c21f660086e": {
+"email": "info@calvaryitl.org",
+"name": "Calvary Chapel Into the Light",
+"county": "Orange",
+"date": "2026-10-26",
+"resend_id": "01a1787f-effd-7490-9ff9-f9b0d7feda83",
+"subject": "A free resource for families at Calvary Chapel Into the Light",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"252e79249707": {
+"email": "info@stagnes-la.org",
+"name": "Saint Agnes Roman Catholic Church",
+"county": "Los Angeles",
+"date": "2026-10-26",
+"resend_id": "01a1787f-ecfa-717a-bc32-8b00f7907f51",
+"subject": "A free resource for families at Saint Agnes Roman Catholic Church",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"935b697abafa": {
+"email": "info@lathirdcfsl.com",
+"name": "Los Angeles Third Church",
+"county": "Los Angeles",
+"date": "2026-10-26",
+"resend_id": "01a1787f-e9f0-71ee-adfe-a99bcf45ee06",
+"subject": "A free resource for families at Los Angeles Third Church",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"803d62afc386": {
+"email": "info@jesushouseantioch.org",
+"name": "RCCG Jesus House Antioch",
+"county": "Contra Costa",
+"date": "2026-10-26",
+"resend_id": "01a1787f-e6f6-768d-b872-ae96acc232c5",
+"subject": "RCCG Jesus House Antioch: free help for families in Antioch",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"a6f8669a1684": {
+"email": "oslchurch@oslchurch.org",
+"name": "Our Saviour's Lutheran Church Long Beach",
+"county": "Los Angeles",
+"date": "2026-10-26",
+"resend_id": "01a1787f-e3e9-7e9e-b7f7-7e6755c9ebf6",
+"subject": "For the Our Saviour's Lutheran Church Long Beach office: a free link to share",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"5174c82daa79": {
+"email": "espanol@thegrove.cc",
+"name": "The Grove en Español",
+"county": "Riverside",
+"date": "2026-10-26",
+"resend_id": "01a1787f-e0a3-76f6-8872-3fd5086bd797",
+"subject": "A free resource for families at The Grove en Español",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"68615cfcdc34": {
+"email": "city_church@icloud.com",
+"name": "City Church Of Jackson",
+"county": "Amador",
+"date": "2026-10-26",
+"resend_id": "01a1787f-dd59-76eb-bafe-839103873fc8",
+"subject": "A free resource for families at City Church Of Jackson",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"813eaf0b4d31": {
+"email": "zion_church3723@att.net",
+"name": "Zion Church In Jesus Christ",
+"county": "Sacramento",
+"date": "2026-10-26",
+"resend_id": "01a1787f-da07-7d43-8a73-0b523e444ea5",
+"subject": "Zion Church In Jesus Christ: free help for families in Sacramento",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"c1354b0ece2c": {
+"email": "info@truefellowshiprichmond.org",
+"name": "True Fellowship Baptist Church",
+"county": "Contra Costa",
+"date": "2026-10-26",
+"resend_id": "01a1787f-d6af-754d-b0a7-f95f83a01401",
+"subject": "For the True Fellowship Baptist Church office: a free link to share",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"083522f5ac8a": {
+"email": "litaracz@hotmail.com",
+"name": "Grace Mission Center",
+"county": "Los Angeles",
+"date": "2026-10-26",
+"resend_id": "01a1787f-d392-724d-86ca-11e79ff4d3e0",
+"subject": "Grace Mission Center: free help for families in Long Beach",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"49415743d23e": {
+"email": "jesushouseoc@gmail.com",
+"name": "Jesus House OC",
+"county": "Orange",
+"date": "2026-10-26",
+"resend_id": "01a1787f-d07d-76eb-9365-f0a567d2cfc3",
+"subject": "Grocery and medicine help for Huntington Beach families",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"1888451e0afe": {
+"email": "bob.rankin@standrewelsegundo.org",
+"name": "St. Andrew Russian Greek Catholic Church",
+"county": "Los Angeles",
+"date": "2026-10-26",
+"resend_id": "01a1787f-cd77-7b21-a3fb-169dd8e03f59",
+"subject": "St. Andrew Russian Greek Catholic Church: free help for families in El Segundo",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"f2b75596f25b": {
+"email": "info@sjf.org",
+"name": "St John Fisher Church",
+"county": "Los Angeles",
+"date": "2026-10-26",
+"resend_id": "01a1787f-ca64-7df4-95f6-af8bbba03d3b",
+"subject": "Grocery and medicine help for Rancho Palos Verdes families",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"b1a6c8592f5e": {
+"email": "macedo12@pacbell.net",
+"name": "Macedonia Church of God-Christ",
+"county": "San Mateo",
+"date": "2026-10-26",
+"resend_id": "01a1787f-7a25-72c7-8954-e1bce5a06308",
+"subject": "A free resource for families at Macedonia Church of God-Christ",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"0239ccb5a5c7": {
+"email": "info@mtsinaisanpedro.org",
+"name": "Mount Sinai Missionary Baptist Church",
+"county": "Los Angeles",
+"date": "2026-10-26",
+"resend_id": "01a1787f-7710-7eed-a1ad-7fcf429f3bd6",
+"subject": "Mount Sinai Missionary Baptist Church: free help for families in San Pedro",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"770cc3c70def": {
+"email": "staugustinessf@aol.com",
+"name": "St. Augustine Catholic Church",
+"county": "San Mateo",
+"date": "2026-10-26",
+"resend_id": "01a1787f-740e-7c21-900b-c788e460f6d0",
+"subject": "Grocery and medicine help for South San Francisco families",
+"note": "recovered: sent by the failed Oct 26 run"
+},
+"06f8e5ae9153": {
+"email": "pastor@alclathrop.com",
+"name": "Abundant Life Center",
+"county": "San Joaquin",
+"date": "2026-10-26",
+"resend_id": "01a1787f-7108-7b98-8331-3c8ebfa2eac6",
+"subject": "Grocery and medicine help for Lathrop families",
+"note": "recovered: sent by the failed Oct 26 run"
 }
 },
 "suppressed": [
 "cheryl@sbcministries.org",
-"info@gnwchurch.org",
-"bob.rankin@standrewelsegundo.org",
-"city_church@icloud.com",
-"espanol@thegrove.cc",
-"info@calvaryitl.org",
-"info@jesushouseantioch.org",
-"info@lathirdcfsl.com",
-"info@mtsinaisanpedro.org",
-"info@sjf.org",
-"info@stagnes-la.org",
-"info@truefellowshiprichmond.org",
-"jesushouseoc@gmail.com",
-"litaracz@hotmail.com",
-"macedo12@pacbell.net",
-"office@npfcc.org",
-"olvhemet@sbdiocese.org",
-"oslchurch@oslchurch.org",
-"pastor@alclathrop.com",
-"staugustinessf@aol.com",
-"stkevin100@gmail.com",
-"zion_church3723@att.net"
+"info@gnwchurch.org"
 ],
 "runs": [
 {
