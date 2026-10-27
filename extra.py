@@ -315,6 +315,13 @@ def cmd_record(a):
     save(xs)
     print(json.dumps(counts))
 
+def cmd_batch(a):
+    """Print items [start, start+n) as the exact `tools` array for COMPOSIO_MULTI_EXECUTE_TOOL."""
+    plan = json.load(open(a.plan, encoding="utf-8"))
+    part = plan["items"][a.start:a.start + a.n]
+    print(json.dumps([{"tool_slug": it["tool"], "account": it["account"], "arguments": it["args"]} for it in part], ensure_ascii=False))
+    print("KEYS (same order): " + json.dumps([it["key"] for it in part]), file=sys.stderr)
+
 def cmd_clear_pending(a):
     xs = xstate()
     n = len(xs["pending"]); xs["pending"] = {}
@@ -355,6 +362,7 @@ if __name__ == "__main__":
     p = sub.add_parser("inbox"); p.add_argument("--source", choices=["gmail", "zoho"], required=True); p.add_argument("--file", required=True); p.set_defaults(f=cmd_inbox)
     p = sub.add_parser("plan"); p.add_argument("--out", required=True); p.set_defaults(f=cmd_plan)
     p = sub.add_parser("record"); p.add_argument("--plan", required=True); p.add_argument("--results", required=True); p.set_defaults(f=cmd_record)
+    p = sub.add_parser("batch"); p.add_argument("--plan", required=True); p.add_argument("--start", type=int, default=0); p.add_argument("--n", type=int, default=10); p.set_defaults(f=cmd_batch)
     p = sub.add_parser("clear-pending"); p.set_defaults(f=cmd_clear_pending)
     p = sub.add_parser("status"); p.set_defaults(f=cmd_status)
     p = sub.add_parser("test"); p.add_argument("--to", required=True); p.add_argument("--sender", choices=["gmail", "zoho"], required=True)
