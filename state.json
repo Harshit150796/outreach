@@ -479,9 +479,192 @@
 "date": "2026-10-26",
 "resend_id": "01a17863-06ed-7733-92ca-0f7e08d2c2a5",
 "subject": "Center Of Hope: free help for families in Inglewood"
+},
+"d797ef5f03f2": {
+"email": "info@stgg.org",
+"name": "St. Gregory the Great Catholic Church",
+"county": "San Diego",
+"date": "2026-10-27",
+"resend_id": "01a17e81-e232-7934-b505-227a1fff1156",
+"subject": "St. Gregory the Great Catholic Church: help for families in need"
+},
+"68bbcc1b8264": {
+"email": "info@stmary-wc.org",
+"name": "St Mary's Church",
+"county": "Contra Costa",
+"date": "2026-10-27",
+"resend_id": "01a17e81-e55c-75b4-a46a-7596e2f199ec",
+"subject": "St Mary's Church: help for families in need"
+},
+"46e1b0ec25dd": {
+"email": "info@bmuc.org",
+"name": "Berkeley Methodist United Church",
+"county": "Alameda",
+"date": "2026-10-27",
+"resend_id": "01a17e81-e8d1-717e-8002-bbfef6283491",
+"subject": "Free help for families at Berkeley Methodist United Church"
+},
+"8e8d1175e5ef": {
+"email": "office@carmsda.org",
+"name": "Carmichael Seventh-day Adventist Church",
+"county": "Sacramento",
+"date": "2026-10-27",
+"resend_id": "01a17e81-ebf8-7385-a6f7-25f09053538d",
+"subject": "A free link for Sacramento families"
+},
+"c17042365c46": {
+"email": "fresnocrosschurch@yahoo.com",
+"name": "Cross Church Fresno",
+"county": "Fresno",
+"date": "2026-10-27",
+"resend_id": "01a17e81-ef19-7628-828f-f6200759fa00",
+"subject": "Cross Church Fresno: help for families in need"
+},
+"745a5c2a1e7e": {
+"email": "covenantchurchfamily@gmail.com",
+"name": "Christian Covenant Church",
+"county": "San Bernardino",
+"date": "2026-10-27",
+"resend_id": "01a17e81-f236-749c-8868-254b54fd56f2",
+"subject": "Christian Covenant Church: help for families in need"
+},
+"b82d7de22260": {
+"email": "ariseladiesministry@gmail.com",
+"name": "CWC Bay Area",
+"county": "Santa Clara",
+"date": "2026-10-27",
+"resend_id": "01a17e81-f547-7ef2-a355-ccab3569d438",
+"subject": "CWC Bay Area: help for families in need"
+},
+"8cb8800e93f8": {
+"email": "info@fpcpaloalto.org",
+"name": "First Presbyterian Church of Palo Alto",
+"county": "Santa Clara",
+"date": "2026-10-27",
+"resend_id": "01a17e81-f85d-7b07-b1f0-2f16aeb9e92f",
+"subject": "Free help for families at First Presbyterian Church of Palo Alto"
+},
+"0bfe4ab0a8e7": {
+"email": "calvaryanaheim@gmail.com",
+"name": "Calvary Chapel Anaheim",
+"county": "Orange",
+"date": "2026-10-27",
+"resend_id": "01a17e81-fb78-7509-9cf5-b321522b6031",
+"subject": "Free help for families at Calvary Chapel Anaheim"
+},
+"9e276b81e1b3": {
+"email": "olivetventura@yahoo.com",
+"name": "Olivet Baptist Church",
+"county": "Ventura",
+"date": "2026-10-27",
+"resend_id": "01a17e81-fe95-7b66-9280-a740a5992953",
+"subject": "A free link for Ventura families"
+},
+"81653700471c": {
+"email": "facetofacechurch@yahoo.com",
+"name": "Face to Face Church Inc.",
+"county": "Orange",
+"date": "2026-10-27",
+"resend_id": "01a17e82-01b6-7215-a6de-1508944ab374",
+"subject": "A free link for Anaheim families"
+},
+"9eef4e251af3": {
+"email": "greg@bridge2u.com",
+"name": "The Bridge Church",
+"county": "San Diego",
+"date": "2026-10-27",
+"resend_id": "01a17e82-04c3-761c-8830-cadd75f5a4dd",
+"subject": "Free help for families at The Bridge Church"
+},
+"7fbff3292326": {
+"email": "estudiaescrituras@gmail.com",
+"name": "Iglesia Bautista Emmanuel",
+"county": "Los Angeles",
+"date": "2026-10-27",
+"resend_id": "01a17e82-07e2-7e7a-b1de-670f850c1edf",
+"subject": "Ayuda gratuita para las familias de Iglesia Bautista Emmanuel"
+},
+"f54f05b453f8": {
+"email": "lwcfcambria@gmail.com",
+"name": "Living Waters Christian Church",
+"county": "San Luis Obispo",
+"date": "2026-10-27",
+"resend_id": "01a17e82-0af7-731c-9d54-96f10d27e795",
+"subject": "A free link for Cambria families"
+},
+"9d713b4a8da3": {
+"email": "mpospichal@olg-church.org",
+"name": "Our Lady Of Grace Catholic Church",
+"county": "San Diego",
+"date": "2026-10-27",
+"resend_id": "01a17e82-0e10-7ce0-8d11-794bca5a03d3",
+"subject": "Our Lady Of Grace Catholic Church: help for families in need"
+},
+"da710d7ad17b": {
+"email": "office@cloviscc.com",
+"name": "Clovis Christian Church",
+"county": "Fresno",
+"date": "2026-10-27",
+"resend_id": "01a17e82-1160-7950-9d0c-e9373c28cac6",
+"subject": "Free help for families at Clovis Christian Church"
+},
+"cd2779f94ea4": {
+"email": "vbf38@yahoo.com",
+"name": "El Centro Apostolic Assembly- Fuente de Misericordia",
+"county": "Imperial",
+"date": "2026-10-27",
+"resend_id": "01a17e82-1472-703e-8f37-4ac501d3389e",
+"subject": "A free link for El Centro families"
+},
+"63eb819164fc": {
+"email": "holynameofjesus@gmail.com",
+"name": "Holy Name of Jesus Catholic Church - Los Angeles",
+"county": "Los Angeles",
+"date": "2026-10-27",
+"resend_id": "01a17e82-1780-7a74-91f1-a4f6cb4e0823",
+"subject": "A free link for Los Angeles families"
+},
+"f3a2d83e3734": {
+"email": "oaklandbiblechurch@yahoo.com",
+"name": "Oakland Bible Church",
+"county": "Alameda",
+"date": "2026-10-27",
+"resend_id": "01a17e82-1ad3-7a49-8c58-2e349ecd124e",
+"subject": "A free link for Oakland families"
+},
+"254ffac77a00": {
+"email": "sacchurchofthecross@gmail.com",
+"name": "Lutheran Church of the Cross",
+"county": "Sacramento",
+"date": "2026-10-27",
+"resend_id": "01a17e82-1e08-7204-b3f2-123313a318ed",
+"subject": "A free link for Sacramento families"
 }
 },
-"suppressed": [],
+"suppressed": [
+"cheryl@sbcministries.org",
+"info@gnwchurch.org",
+"bob.rankin@standrewelsegundo.org",
+"city_church@icloud.com",
+"espanol@thegrove.cc",
+"info@calvaryitl.org",
+"info@jesushouseantioch.org",
+"info@lathirdcfsl.com",
+"info@mtsinaisanpedro.org",
+"info@sjf.org",
+"info@stagnes-la.org",
+"info@truefellowshiprichmond.org",
+"jesushouseoc@gmail.com",
+"litaracz@hotmail.com",
+"macedo12@pacbell.net",
+"office@npfcc.org",
+"olvhemet@sbdiocese.org",
+"oslchurch@oslchurch.org",
+"pastor@alclathrop.com",
+"staugustinessf@aol.com",
+"stkevin100@gmail.com",
+"zion_church3723@att.net"
+],
 "runs": [
 {
 "date": "2026-10-23",
@@ -497,6 +680,12 @@
 },
 {
 "date": "2026-10-26",
+"sent": 20,
+"failed": 0,
+"requested": 20
+},
+{
+"date": "2026-10-27",
 "sent": 20,
 "failed": 0,
 "requested": 20
