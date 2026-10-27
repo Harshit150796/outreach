@@ -28,6 +28,10 @@ def finish(code=0):
 def load(name):
     return json.load(open(os.path.join(HERE, name), encoding="utf-8"))
 
+def load_opt(name):
+    p = os.path.join(HERE, name)
+    return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+
 def get(path, key):
     for attempt in range(4):
         req = urllib.request.Request(API + path, headers={"Authorization": f"Bearer {key}",
@@ -112,6 +116,12 @@ def main():
     br = 100.0 * bounced / n if n else 0.0
     cr = 100.0 * complained / n if n else 0.0
     log(f"Last 7 days on {OUTREACH_DOMAIN}: {n} sent, {bounced} bounced ({br:.2f}%), {complained} complaints ({cr:.2f}%).")
+    # Never write to (or follow up with) an address that bounced or complained.
+    bad = sorted({a for e in outreach7 if (e.get("last_event") or "") in ("bounced", "complained")
+                  for a in addrs(e.get("to")) if not is_own(a)})
+    if bad:
+        run_py("suppress", "--emails", ",".join(bad))
+        log(f"Bounced/complained addresses suppressed: {len(bad)}.")
     if n >= 40 and (br > 4.0 or cr > 0.1):
         cfg["paused"] = True
         json.dump(cfg, open(os.path.join(HERE, "config.json"), "w", encoding="utf-8"), indent=1)
@@ -147,10 +157,12 @@ def main():
         if parse_ts(e.get("created_at")) >= now - dt.timedelta(days=3) and "test" not in (e.get("subject") or "").lower():
             recent.update(addrs(e.get("to")))
     state = load("state.json")
-    sup = set(x.lower() for x in state["suppressed"])
+    extra = load_opt("extra_state.json")
+    xids = set(extra.get("sent", {})) | {k.split(":", 1)[1] for k in extra.get("pending", {}) if k.startswith("gmail_first:")}
+    sup = set(x.lower() for x in state["suppressed"]) | set(x.lower() for x in extra.get("suppressed", [])) | set(extra.get("bounced", {}))
     upcoming = []
     for q in load("queue.json"):
-        if q["id"] in state["sent"] or q["email"].lower() in sup:
+        if q["id"] in state["sent"] or q["id"] in xids or q["email"].lower() in sup:
             continue
         upcoming.append(q["email"].lower())
         if len(upcoming) >= 80:

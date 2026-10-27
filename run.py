@@ -243,12 +243,20 @@ def save_state(s):
     json.dump(s, open(tmp, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     os.replace(tmp, os.path.join(HERE, "state.json"))
 
+def extra_taken():
+    """Churches already emailed (or reserved) by the Gmail/Zoho sender, and its suppressions."""
+    x = load("extra_state.json", {}) or {}
+    ids = set(x.get("sent", {})) | {k.split(":", 1)[1] for k in x.get("pending", {}) if k.startswith("gmail_first:")}
+    sup = set(e.lower() for e in x.get("suppressed", [])) | set(x.get("bounced", {}))
+    return ids, sup
+
 def next_batch(n):
     s = state()
-    sup = set(e.lower() for e in s["suppressed"])
+    xids, xsup = extra_taken()
+    sup = set(e.lower() for e in s["suppressed"]) | xsup
     out = []
     for q in load("queue.json"):
-        if q["id"] in s["sent"] or q["email"] in sup:
+        if q["id"] in s["sent"] or q["id"] in xids or q["email"].lower() in sup:
             continue
         out.append(q)
         if len(out) >= n:
@@ -325,10 +333,11 @@ def cmd_plan(a):
     n = max(0, min(target, a.daily_left - CFG["reserve_daily"], a.monthly_left - CFG["reserve_monthly"]))
     print(json.dumps({"sending_day": days + 1, "ramp_target": target, "send_today": n}))
 
-ap = argparse.ArgumentParser()
-sub = ap.add_subparsers(dest="cmd", required=True)
-p = sub.add_parser("preview"); p.add_argument("--n", type=int, default=10); p.set_defaults(f=cmd_preview)
-p = sub.add_parser("send"); p.add_argument("--n", type=int, required=True); p.add_argument("--key", required=True); p.set_defaults(f=cmd_send)
-p = sub.add_parser("suppress"); p.add_argument("--emails", required=True); p.set_defaults(f=cmd_suppress)
-p = sub.add_parser("plan"); p.add_argument("--daily-left", type=int, required=True); p.add_argument("--monthly-left", type=int, required=True); p.set_defaults(f=cmd_plan)
-a = ap.parse_args(); a.f(a)
+if __name__ == "__main__":
+  ap = argparse.ArgumentParser()
+  sub = ap.add_subparsers(dest="cmd", required=True)
+  p = sub.add_parser("preview"); p.add_argument("--n", type=int, default=10); p.set_defaults(f=cmd_preview)
+  p = sub.add_parser("send"); p.add_argument("--n", type=int, required=True); p.add_argument("--key", required=True); p.set_defaults(f=cmd_send)
+  p = sub.add_parser("suppress"); p.add_argument("--emails", required=True); p.set_defaults(f=cmd_suppress)
+  p = sub.add_parser("plan"); p.add_argument("--daily-left", type=int, required=True); p.add_argument("--monthly-left", type=int, required=True); p.set_defaults(f=cmd_plan)
+  a = ap.parse_args(); a.f(a)
