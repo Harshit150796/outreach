@@ -1,3 +1,5 @@
 previews/
 __pycache__/
 *.tmp
+call_list.html
+call_list.txt

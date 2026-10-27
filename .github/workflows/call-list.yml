@@ -1,0 +1,62 @@
+name: Call list email
+
+# Emails connect.coupondonation@gmail.com every church that was just emailed (phone, pastor, city, map link).
+# Weekdays: right after the Gmail/Zoho run records its sends (it pushes extra_state.json).
+# Weekends (Resend only): right after the daily Resend run. Evening run catches anything missed.
+on:
+  push:
+    branches: [main]
+    paths: [extra_state.json]
+  workflow_run:
+    workflows: ["Daily church outreach"]
+    types: [completed]
+  schedule:
+    - cron: "17 23 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: call-list
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Send call list
+        env:
+          RESEND_SEND_KEY: ${{ secrets.RESEND_SEND_KEY }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          dow=$(TZ=America/New_York date +%u)
+          if [ "$EVENT" = "workflow_run" ] && [ "$dow" -le 5 ]; then
+            echo "Weekday: the call list goes out after the Gmail/Zoho run instead."; exit 0
+          fi
+          python3 digest.py send --key "$RESEND_SEND_KEY"
+
+      - name: Save digest_state.json
+        run: |
+          git config user.name "outreach-bot"
+          git config user.email "outreach-bot@users.noreply.github.com"
+          git add digest_state.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes to save."
+          else
+            git commit -m "Call list $(date -u +%F)"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              sleep 5
+            done
+            exit 1
+          fi

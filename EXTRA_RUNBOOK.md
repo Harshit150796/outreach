@@ -52,6 +52,9 @@ for every key you attempted (leave out keys you never sent, they stay pending an
 `python3 extra.py record --plan /tmp/plan.json --results /tmp/results.json`, then
 `python3 extra.py status`, then commit and push extra_state.json (pull --rebase before push, retry 3 times).
 
+Pushing the recorded extra_state.json starts the **Call list email** GitHub workflow, which emails
+connect.coupondonation@gmail.com every church just emailed (phone, pastor, city, map link). Don't send it yourself.
+
 ## 5. Report
 One short message: sent counts per sender, failures, new replies (who, subject) and opt-outs, any pause.
 Replies are real people: list them so the founder can answer from the Gmail / Zoho inbox.
