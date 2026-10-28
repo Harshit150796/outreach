@@ -164,9 +164,95 @@
 }
 },
 "replied": {},
-"bounced": {},
+"bounced": {
+"escalonfbc@att.net": {
+"date": "2026-10-28",
+"sender": "gmail"
+}
+},
 "suppressed": [],
-"pending": {},
+"pending": {
+"gmail_first:488f9253ad2c": {
+"date": "2026-10-28",
+"to": "destinylandcc@gmail.com"
+},
+"gmail_first:d4e14a4eb6ec": {
+"date": "2026-10-28",
+"to": "joychristiancenterinfo@gmail.com"
+},
+"gmail_first:e66a28be8cf2": {
+"date": "2026-10-28",
+"to": "office@yourliberty.org"
+},
+"gmail_first:f4e65f3def34": {
+"date": "2026-10-28",
+"to": "office@straymondmp.org"
+},
+"gmail_first:639c87ef581a": {
+"date": "2026-10-28",
+"to": "info@zcfla.org"
+},
+"gmail_first:6c56fa417690": {
+"date": "2026-10-28",
+"to": "info@assumptionsanleandro.org"
+},
+"gmail_first:d62dc10234eb": {
+"date": "2026-10-28",
+"to": "info@hillsidechurches.com"
+},
+"gmail_first:969e6d589b20": {
+"date": "2026-10-28",
+"to": "office@holyspiritfv.org"
+},
+"gmail_first:e7e9fca45130": {
+"date": "2026-10-28",
+"to": "stfrancesofrome@sbdiocese.org"
+},
+"gmail_first:33bb7cb7f047": {
+"date": "2026-10-28",
+"to": "sjknanayachurch@gmail.com"
+},
+"zoho_fu:65a88f00b740": {
+"date": "2026-10-28",
+"to": "oursavior95971@yahoo.com"
+},
+"zoho_fu:79f219305d83": {
+"date": "2026-10-28",
+"to": "fb@sfcabrini.org"
+},
+"zoho_fu:4bff6cc05e2a": {
+"date": "2026-10-28",
+"to": "newman@tritoncatholic.org"
+},
+"zoho_fu:95e023584fd7": {
+"date": "2026-10-28",
+"to": "hello@thekingschurch.net"
+},
+"zoho_fu:0a76a85da606": {
+"date": "2026-10-28",
+"to": "olmtcarmelrc@sbdiocese.org"
+},
+"zoho_fu:87b75a194a51": {
+"date": "2026-10-28",
+"to": "admin@lifecity209.com"
+},
+"zoho_fu:9c9f3348ba22": {
+"date": "2026-10-28",
+"to": "contact@twocitieschurch.net"
+},
+"zoho_fu:7588189d2c49": {
+"date": "2026-10-28",
+"to": "office@sjapostle.net"
+},
+"zoho_fu:f0aa6fd0ff97": {
+"date": "2026-10-28",
+"to": "office@bethelencino.org"
+},
+"zoho_fu:da3ea2a4d136": {
+"date": "2026-10-28",
+"to": "szamarripa@sbdiocese.org"
+}
+},
 "paused": {},
 "runs": [
 {
@@ -179,6 +265,6 @@
 "zoho_fu": 10
 }
 ],
-"last_inbox_gmail": "2026-10-27",
-"last_inbox_zoho": "2026-10-27"
+"last_inbox_gmail": "2026-10-28",
+"last_inbox_zoho": "2026-10-28"
 }
