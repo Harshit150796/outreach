@@ -52,7 +52,11 @@ T = {
         lang="en",
         preheader="Free help with groceries, medicine, rides and bills, for the families your church serves.",
         eyebrow="For churches in California",
-        headline="Give what<br>people need.",
+        headline="A new way to give:<br>trackable, transparent, real.",
+        headline_txt="A new way to give: trackable, transparent, real.",
+        points=["No guessing where your money went. Each gift becomes coupons for groceries and essentials, and you can see it reach someone in need.",
+                "Make someone happy today. Donate to a family near you, or apply if your family needs help.",
+                "Give or get help, both in one place: donate a gift you can track, or apply for groceries and essentials."],
         intro="CouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free, and every donated dollar covers their need.",
         ask="Could {church} share our link with families who need help?",
         cta="Apply for help",
@@ -74,7 +78,11 @@ T = {
         lang="es",
         preheader="Ayuda gratuita con comida, medicinas, transporte y recibos para las familias de su iglesia.",
         eyebrow="Para iglesias de California",
-        headline="Dar lo que<br>la gente necesita.",
+        headline="Una nueva forma de dar:<br>rastreable, transparente, real.",
+        headline_txt="Una nueva forma de dar: rastreable, transparente, real.",
+        points=["Sin dudas sobre adónde fue su dinero. Cada donación se convierte en cupones para comida y artículos esenciales, y puede ver cómo llega a alguien que lo necesita.",
+                "Haga feliz a alguien hoy. Done a una familia cerca de usted, o solicite ayuda si su familia la necesita.",
+                "Dar o recibir ayuda, todo en un solo lugar: done un regalo que puede rastrear, o solicite ayuda con comida y artículos esenciales."],
         intro="CouponDonation convierte donaciones en tarjetas de regalo para comida, medicinas, transporte y recibos. Las familias solicitan gratis y cada dólar donado cubre su necesidad.",
         ask="¿Podría {church} compartir nuestro enlace con las familias que necesitan ayuda?",
         cta="Solicitar ayuda",
@@ -131,7 +139,7 @@ def compose(q):
     short_apply = APPLY.replace("https://www.", "")
 
     # ---------- plain text ----------
-    txt = [hello, "", t["intro"], "", ask, "", f"{t['cta']}: {APPLY}", "",
+    txt = [hello, "", t["headline_txt"], "", t["intro"], ""] + [f"• {x}" for x in t["points"]] + ["", ask, "", f"{t['cta']}: {APPLY}", ("Donar" if lang == "es" else "Donate") + ": https://www.coupondonation.com/donate", "",
            " → ".join(f"{a} ({b})" for a, b in t["steps"]), t["fine"], ""]
     if t["partner_txt"]:
         txt += [t["partner_txt"].format(partners=PARTNERS), ""]
@@ -194,6 +202,7 @@ def compose(q):
   <tr><td class="px" style="padding:28px 44px 0;{SANS}font-size:16px;line-height:26px;color:#46524a;">
     <p style="margin:0 0 14px;color:{INK};">{esc(hello)}</p>
     <p style="margin:0 0 14px;">{esc(t['intro'])}</p>
+    <ul style="margin:0 0 14px;padding-left:20px;">{''.join(f'<li style="margin:0 0 8px;">{esc(x)}</li>' for x in t['points'])}</ul>
     <p style="margin:0;color:{INK};font-weight:600;">{esc(ask)}</p>
   </td></tr>
 
@@ -203,7 +212,7 @@ def compose(q):
       <td align="center" bgcolor="{GREEN}" style="border-radius:999px;">
         <a href="{APPLY}" style="{SANS}display:inline-block;padding:16px 34px;font-size:16px;line-height:20px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:999px;letter-spacing:.2px;">{esc(t['cta'])}&nbsp;&nbsp;&rarr;</a>
       </td></tr></table>
-    <div style="{SANS}font-size:13px;line-height:20px;color:#7a857d;padding-top:14px;">{esc(t['share_label'])}: <a href="{APPLY}" style="color:{BLUE};font-weight:600;text-decoration:none;">{esc(short_apply)}</a></div>
+    <div style="{SANS}font-size:13px;line-height:20px;color:#7a857d;padding-top:14px;"><a href="https://www.coupondonation.com/donate" style="color:{GREEN};font-weight:600;text-decoration:none;">{"Donar" if lang == "es" else "Donate to a family"}</a> &middot; {esc(t['share_label'])}: <a href="{APPLY}" style="color:{BLUE};font-weight:600;text-decoration:none;">{esc(short_apply)}</a></div>
   </td></tr>
 
   <!-- steps -->
