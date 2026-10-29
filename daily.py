@@ -122,7 +122,7 @@ def main():
     if bad:
         run_py("suppress", "--emails", ",".join(bad))
         log(f"Bounced/complained addresses suppressed: {len(bad)}.")
-    if n >= 40 and (br > 4.0 or cr > 0.1):
+    if n >= 40 and (br > 6.0 or cr > 0.1):  # founder raised the bounce limit to 6% (Oct 29)
         cfg["paused"] = True
         json.dump(cfg, open(os.path.join(HERE, "config.json"), "w", encoding="utf-8"), indent=1)
         log("PAUSED: bounce or complaint rate over the limit. Set paused=false in config.json after reviewing.")
