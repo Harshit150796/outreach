@@ -99,6 +99,106 @@
 "subject": "Shrine of St Jude Thaddeus: help for families in need",
 "thread_id": "1a17e64efa3a95dd",
 "message_id": "1a17e64efa3a95dd"
+},
+"3a72f2f23427": {
+"email": "pcadventist.org@gmail.com",
+"name": "Palo Cedro Seventh-day Adventist Church",
+"county": "Shasta",
+"date": "2026-10-29",
+"sender": "gmail",
+"subject": "Palo Cedro Seventh-day Adventist Church: help for families in need",
+"thread_id": "1a188b2a5acf12d2",
+"message_id": "1a188b2a5acf12d2"
+},
+"bb8a6f6f7389": {
+"email": "barbaradow@roadrunner.com",
+"name": "Calvary Chapel San Bernardino",
+"county": "San Bernardino",
+"date": "2026-10-29",
+"sender": "gmail",
+"subject": "Calvary Chapel San Bernardino: help for families in need",
+"thread_id": "1a188b2a3656a599",
+"message_id": "1a188b2a3656a599"
+},
+"a248be7344e9": {
+"email": "info@blessedsacrament-sandiego.org",
+"name": "Blessed Sacrament Catholic Church",
+"county": "San Diego",
+"date": "2026-10-29",
+"sender": "gmail",
+"subject": "Blessed Sacrament Catholic Church: help for families in need",
+"thread_id": "1a188b2a44d4e34b",
+"message_id": "1a188b2a44d4e34b"
+},
+"505d9385c31b": {
+"email": "contact@agapeoc.com",
+"name": "Agape Church",
+"county": "Orange",
+"date": "2026-10-29",
+"sender": "gmail",
+"subject": "Agape Church: help for families in need",
+"thread_id": "1a188b2a2e3e36bd",
+"message_id": "1a188b2a2e3e36bd"
+},
+"865145be482a": {
+"email": "contactus@calvaryonthehill.com",
+"name": "Calvary Chapel Frazier Park",
+"county": "Kern",
+"date": "2026-10-29",
+"sender": "gmail",
+"subject": "Free help for families at Calvary Chapel Frazier Park",
+"thread_id": "1a188b2a88e25409",
+"message_id": "1a188b2a88e25409"
+},
+"9f9828fa46bf": {
+"email": "bktparish@aol.com",
+"name": "Tekakwitha Parish",
+"county": "San Diego",
+"date": "2026-10-29",
+"sender": "gmail",
+"subject": "Tekakwitha Parish: help for families in need",
+"thread_id": "1a188b2a9f070d93",
+"message_id": "1a188b2a9f070d93"
+},
+"032eee2baa63": {
+"email": "sacredheart1merced@sbcglobal.net",
+"name": "Sacred Heart Church",
+"county": "Merced",
+"date": "2026-10-29",
+"sender": "gmail",
+"subject": "A free link for Merced families",
+"thread_id": "1a188b2a83afab0c",
+"message_id": "1a188b2a83afab0c"
+},
+"181ea9a7b0a2": {
+"email": "info@slo5c.org",
+"name": "Central Coast Chinese Christian Church",
+"county": "San Luis Obispo",
+"date": "2026-10-29",
+"sender": "gmail",
+"subject": "Free help for families at Central Coast Chinese Christian Church",
+"thread_id": "1a188b2a97d2e3eb",
+"message_id": "1a188b2a97d2e3eb"
+},
+"5cc2d6678d93": {
+"email": "info@fbclb.org",
+"name": "First Baptist Church",
+"county": "Los Angeles",
+"date": "2026-10-29",
+"sender": "gmail",
+"subject": "First Baptist Church: help for families in need",
+"thread_id": "1a188b2ae88a5e8a",
+"message_id": "1a188b2ae88a5e8a"
+},
+"92383325d893": {
+"email": "sbcthecornerstone@gmail.com",
+"name": "Cornerstone Faith Church",
+"county": "Sacramento",
+"date": "2026-10-29",
+"sender": "gmail",
+"subject": "Free help for families at Cornerstone Faith Church",
+"thread_id": "1a188b2aa7874c54",
+"message_id": "1a188b2aa7874c54"
 }
 },
 "followups": {
@@ -161,6 +261,66 @@
 "date": "2026-10-27",
 "sender": "zoho",
 "message_id": "1793121951533130200"
+},
+"65a88f00b740": {
+"email": "oursavior95971@yahoo.com",
+"date": "2026-10-29",
+"sender": "zoho",
+"message_id": "1793294813736130200"
+},
+"79f219305d83": {
+"email": "fb@sfcabrini.org",
+"date": "2026-10-29",
+"sender": "zoho",
+"message_id": "1793294813737130300"
+},
+"4bff6cc05e2a": {
+"email": "newman@tritoncatholic.org",
+"date": "2026-10-29",
+"sender": "zoho",
+"message_id": "1793294813736130201"
+},
+"95e023584fd7": {
+"email": "hello@thekingschurch.net",
+"date": "2026-10-29",
+"sender": "zoho",
+"message_id": "1793294813736130202"
+},
+"0a76a85da606": {
+"email": "olmtcarmelrc@sbdiocese.org",
+"date": "2026-10-29",
+"sender": "zoho",
+"message_id": "1793294816098130300"
+},
+"87b75a194a51": {
+"email": "admin@lifecity209.com",
+"date": "2026-10-29",
+"sender": "zoho",
+"message_id": "1793294816022130300"
+},
+"9c9f3348ba22": {
+"email": "contact@twocitieschurch.net",
+"date": "2026-10-29",
+"sender": "zoho",
+"message_id": "1793294816078119300"
+},
+"7588189d2c49": {
+"email": "office@sjapostle.net",
+"date": "2026-10-29",
+"sender": "zoho",
+"message_id": "1793294816222108000"
+},
+"f0aa6fd0ff97": {
+"email": "office@bethelencino.org",
+"date": "2026-10-29",
+"sender": "zoho",
+"message_id": "1793294818097119300"
+},
+"da3ea2a4d136": {
+"email": "szamarripa@sbdiocese.org",
+"date": "2026-10-29",
+"sender": "zoho",
+"message_id": "1793294817732130300"
 }
 },
 "replied": {},
@@ -171,92 +331,20 @@
 }
 },
 "suppressed": [],
-"pending": {
-"gmail_first:3a72f2f23427": {
-"date": "2026-10-29",
-"to": "pcadventist.org@gmail.com"
-},
-"gmail_first:bb8a6f6f7389": {
-"date": "2026-10-29",
-"to": "barbaradow@roadrunner.com"
-},
-"gmail_first:a248be7344e9": {
-"date": "2026-10-29",
-"to": "info@blessedsacrament-sandiego.org"
-},
-"gmail_first:505d9385c31b": {
-"date": "2026-10-29",
-"to": "contact@agapeoc.com"
-},
-"gmail_first:865145be482a": {
-"date": "2026-10-29",
-"to": "contactus@calvaryonthehill.com"
-},
-"gmail_first:9f9828fa46bf": {
-"date": "2026-10-29",
-"to": "bktparish@aol.com"
-},
-"gmail_first:032eee2baa63": {
-"date": "2026-10-29",
-"to": "sacredheart1merced@sbcglobal.net"
-},
-"gmail_first:181ea9a7b0a2": {
-"date": "2026-10-29",
-"to": "info@slo5c.org"
-},
-"gmail_first:5cc2d6678d93": {
-"date": "2026-10-29",
-"to": "info@fbclb.org"
-},
-"gmail_first:92383325d893": {
-"date": "2026-10-29",
-"to": "sbcthecornerstone@gmail.com"
-},
-"zoho_fu:65a88f00b740": {
-"date": "2026-10-29",
-"to": "oursavior95971@yahoo.com"
-},
-"zoho_fu:79f219305d83": {
-"date": "2026-10-29",
-"to": "fb@sfcabrini.org"
-},
-"zoho_fu:4bff6cc05e2a": {
-"date": "2026-10-29",
-"to": "newman@tritoncatholic.org"
-},
-"zoho_fu:95e023584fd7": {
-"date": "2026-10-29",
-"to": "hello@thekingschurch.net"
-},
-"zoho_fu:0a76a85da606": {
-"date": "2026-10-29",
-"to": "olmtcarmelrc@sbdiocese.org"
-},
-"zoho_fu:87b75a194a51": {
-"date": "2026-10-29",
-"to": "admin@lifecity209.com"
-},
-"zoho_fu:9c9f3348ba22": {
-"date": "2026-10-29",
-"to": "contact@twocitieschurch.net"
-},
-"zoho_fu:7588189d2c49": {
-"date": "2026-10-29",
-"to": "office@sjapostle.net"
-},
-"zoho_fu:f0aa6fd0ff97": {
-"date": "2026-10-29",
-"to": "office@bethelencino.org"
-},
-"zoho_fu:da3ea2a4d136": {
-"date": "2026-10-29",
-"to": "szamarripa@sbdiocese.org"
-}
-},
+"pending": {},
 "paused": {},
 "runs": [
 {
 "date": "2026-10-27",
+"sent": 20,
+"failed": 0,
+"unknown": 0,
+"gmail_first": 10,
+"gmail_fu": 0,
+"zoho_fu": 10
+},
+{
+"date": "2026-10-29",
 "sent": 20,
 "failed": 0,
 "unknown": 0,
