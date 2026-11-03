@@ -278,7 +278,8 @@ def cmd_plan(a):
 
     res["items"] = g_items + z_items
     for it in res["items"]:
-        xs["pending"][it["key"]] = {"date": tds, "to": it["to"]}
+        xs["pending"][it["key"]] = {"date": tds, "to": it["to"],
+                                    "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
     save(xs)
     json.dump(res, open(a.out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # keep a copy in the repo, so a later session can reconcile it if this one never records

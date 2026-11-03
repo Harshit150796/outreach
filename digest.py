@@ -106,8 +106,14 @@ def main():
     ap.add_argument("--key")
     a = ap.parse_args()
     xs = load("extra_state.json", {}) or {}
-    if xs.get("pending"):
-        print("Gmail/Zoho send in progress (pending emails). Call list waits for the next push."); return
+    # Wait for a Gmail/Zoho send only while it is actually running (planned in the last 90 minutes), so its rows
+    # land in the same email. A blocked or crashed run leaves old pending entries: never let those hold back
+    # the call list for emails already sent (that's what stalled the Nov 3 list).
+    now = dt.datetime.now(dt.timezone.utc)
+    fresh = [v for v in xs.get("pending", {}).values()
+             if v.get("at") and now - dt.datetime.fromisoformat(v["at"]) < dt.timedelta(minutes=90)]
+    if fresh and a.cmd == "send":
+        print("Gmail/Zoho send in progress (planned in the last 90 min). Call list waits for its push."); return
     b = build()
     if not b:
         print("Nothing new to list."); return
