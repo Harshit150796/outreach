@@ -86,16 +86,55 @@ def weekday_name(iso, lang):
     es = ["el lunes", "el martes", "el miércoles", "el jueves", "el viernes", "el sábado", "el domingo"]
     return (es if lang == "es" else en)[d.weekday()]
 
+# Gmail and Zoho send short, personal plain-text notes. They carry the same message, link, sign-off and
+# footer as the Resend email, without its headline, bullet list, steps and extra links (a long text email
+# from a personal mailbox reads like a mass mailing and lands in spam more often).
+FIRST = {
+    "en": """{hello}
+
+CouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes, and requests are reviewed in 2–3 days.
+
+Could {church} share this link with families who need help?
+{apply}
+
+Questions? Just reply. A real person will answer.
+
+With gratitude,
+The CouponDonation team
+coupondonation.com
+
+--
+CouponDonation Inc., {addr}
+{why}
+{unsub}""",
+    "es": """{hello}
+
+CouponDonation convierte donaciones en tarjetas de regalo para comida, medicinas, transporte y recibos. Las familias solicitan gratis en unos 3 minutos y las solicitudes se revisan en 2–3 días.
+
+¿Podría {church} compartir este enlace con las familias que necesitan ayuda?
+{apply}
+
+¿Preguntas? Responda a este correo; le contesta una persona real.
+
+Con gratitud,
+El equipo de CouponDonation
+coupondonation.com
+
+--
+CouponDonation Inc., {addr}
+{why}
+{unsub}""",
+}
+
 FU = {
     "en": dict(
         subj="Following up: {subject}",
         body="""{hello}
 
-A quick follow-up to our note from {day}. Families can apply for free help with groceries, medicine, rides and bills at {apply}. It takes about 3 minutes, and requests are reviewed in 2–3 days.
+A quick follow-up to our email {day} about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:
+{apply}
 
-Would {church} be willing to share the link in a bulletin, on your website, or with whoever helps families in need?
-
-If now isn't the right time, no reply is needed. This is our only follow-up.
+Could {church} share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.
 
 With gratitude,
 The CouponDonation team
@@ -108,11 +147,10 @@ CouponDonation Inc., {addr}
         subj="Seguimiento: {subject}",
         body="""{hello}
 
-Le escribimos de nuevo sobre nuestro correo del {day}. Las familias pueden solicitar ayuda gratuita con comida, medicinas, transporte y recibos en {apply}. Toma unos 3 minutos y las solicitudes se revisan en 2–3 días.
+Le escribimos de nuevo sobre nuestro correo {day} acerca de ayuda gratuita para familias. Las familias pueden solicitar tarjetas de regalo para comida, medicinas, transporte y recibos aquí:
+{apply}
 
-¿Podría {church} compartir el enlace en su boletín, en su sitio web o con quien ayuda a las familias necesitadas?
-
-Si no es buen momento, no hace falta responder. Este es nuestro único seguimiento.
+¿Podría {church} compartirlo en su boletín o con quien ayuda a las familias necesitadas? Si no es buen momento, no hace falta responder. Este es nuestro único seguimiento.
 
 Con gratitud,
 El equipo de CouponDonation
@@ -123,20 +161,37 @@ CouponDonation Inc., {addr}
 {unsub}"""),
 }
 
+MONTHS_ES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre",
+             "noviembre", "diciembre"]
+
+def when(orig_date, lang):
+    """'on Thursday' if within the last 6 days, else 'on Oct 24' (es: 'del jueves' / 'del 24 de octubre')."""
+    d = dt.date.fromisoformat(orig_date)
+    recent = (today() - d).days <= 6
+    if lang == "es":
+        return "del " + (weekday_name(orig_date, "es").replace("el ", "", 1) if recent else f"{d.day} de {MONTHS_ES[d.month - 1]}")
+    return "on " + (weekday_name(orig_date, "en") if recent else d.strftime("%b ") + str(d.day))
+
 def followup(q, orig_date, orig_subject):
     lang = "es" if run.SPANISH(q) else "en"
     church = run.clean_name(q["name"])
     t = run.T[lang]
-    day = weekday_name(orig_date, lang)
-    if lang == "es":
-        day = day.replace("el ", "", 1)
-    body = FU[lang]["body"].format(hello=run.greeting(q, church, lang), day=day, apply=run.APPLY, church=church,
-                                   addr=run.CFG["postal_address"], unsub=t["unsub_txt"].format(u=run.CFG["unsubscribe_address"]))
+    body = FU[lang]["body"].format(hello=run.greeting(q, church, lang), day=when(orig_date, lang), apply=run.APPLY,
+                                   church=church, addr=run.CFG["postal_address"],
+                                   unsub=t["unsub_txt"].format(u=run.CFG["unsubscribe_address"]))
     return FU[lang]["subj"].format(subject=orig_subject), body
 
 def first_text(q):
-    subj, text, _html = run.compose(q)
-    return subj, text
+    """Same subject as the Resend email; short plain-text body."""
+    lang = "es" if run.SPANISH(q) else "en"
+    church = run.clean_name(q["name"])
+    t = run.T[lang]
+    city = q["city"] or ("su comunidad" if lang == "es" else "your area")
+    subj = run.subject(q, church, city, lang)
+    body = FIRST[lang].format(hello=run.greeting(q, church, lang), church=church, apply=run.APPLY,
+                              addr=run.CFG["postal_address"], why=t["why"].format(church=church),
+                              unsub=t["unsub_txt"].format(u=run.CFG["unsubscribe_address"]))
+    return subj, body
 
 def sender_stats(xs, sender, since):
     sent = [v for v in xs["sent"].values() if v["sender"] == sender and v["date"] >= since]
