@@ -259,13 +259,25 @@ def extra_taken():
     sup = set(e.lower() for e in x.get("suppressed", [])) | set(x.get("bounced", {}))
     return ids, sup
 
+# Old ISP mailboxes (att.net, sbcglobal, roadrunner, msn, aol...) are often abandoned: in October 3 of 12 bounced
+# (25%) vs about 6% for everything else. No first emails go to them (founder's call, Nov 3).
+LEGACY_ISP = {"att.net", "sbcglobal.net", "pacbell.net", "prodigy.net", "flash.net", "swbell.net", "bellsouth.net",
+              "roadrunner.com", "rr.com", "twc.com", "earthlink.net", "msn.com", "aol.com", "aim.com", "verizon.net",
+              "comcast.net", "cox.net", "charter.net", "juno.com", "netzero.net", "netzero.com", "frontier.com",
+              "frontiernet.net", "ymail.com", "rocketmail.com", "mindspring.com", "peoplepc.com", "q.com", "centurytel.net",
+              "embarqmail.com", "windstream.net", "suddenlink.net", "optonline.net", "lycos.com", "excite.com"}
+
+def risky(email):
+    """True for addresses we skip for first emails (abandoned-ISP domains)."""
+    return email.rsplit("@", 1)[-1].lower() in LEGACY_ISP
+
 def next_batch(n):
     s = state()
     xids, xsup = extra_taken()
     sup = set(e.lower() for e in s["suppressed"]) | xsup
     out = []
     for q in load("queue.json"):
-        if q["id"] in s["sent"] or q["id"] in xids or q["email"].lower() in sup:
+        if q["id"] in s["sent"] or q["id"] in xids or q["email"].lower() in sup or risky(q["email"]):
             continue
         out.append(q)
         if len(out) >= n:
@@ -339,6 +351,8 @@ def cmd_plan(a):
     for step in ramp:
         if days < step["until_day"]:
             target = step["per_day"]; break
+    if CFG.get("max_per_day"):
+        target = min(target, int(CFG["max_per_day"]))  # hold the volume down after a resume
     n = max(0, min(target, a.daily_left - CFG["reserve_daily"], a.monthly_left - CFG["reserve_monthly"]))
     print(json.dumps({"sending_day": days + 1, "ramp_target": target, "send_today": n}))
 

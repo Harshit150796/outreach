@@ -78,6 +78,24 @@ def addrs(v):
         out += [a.lower() for a in m]
     return out
 
+FOUNDER = "connect.coupondonation@gmail.com"
+
+def is_us(a):
+    """Our own inboxes (call lists, tests): never counted as outreach."""
+    return a == FOUNDER or is_own(a)
+
+def alert(send_key, subject, text):
+    """Email the founder. Best effort: never stops the run."""
+    payload = {"from": "CouponDonation outreach <hello@" + OUTREACH_DOMAIN + ">", "to": [FOUNDER],
+               "subject": subject, "text": text}
+    req = urllib.request.Request(API + "/emails", data=json.dumps(payload).encode(), method="POST",
+                                 headers={"Authorization": f"Bearer {send_key}", "Content-Type": "application/json",
+                                          "User-Agent": "coupondonation-outreach/1.0"})
+    try:
+        urllib.request.urlopen(req, timeout=60).read()
+    except Exception as e:  # noqa: BLE001
+        log(f"(alert email failed: {e})")
+
 def is_own(a):
     return a.endswith("@" + OWN_DOMAIN) or a.endswith("." + OWN_DOMAIN)
 
@@ -97,7 +115,8 @@ def main():
     # 1. Gate
     cfg = load("config.json")
     if cfg.get("paused"):
-        log("Outreach waiting: config.json has paused=true. Nothing sent."); finish(0)
+        log("Outreach waiting: config.json has paused=true" + (f" ({cfg['paused_reason']})" if cfg.get("paused_reason") else "")
+            + ". Nothing sent."); finish(0)
     if not cfg.get("postal_address") or "TODO" in cfg["postal_address"]:
         log("Outreach waiting: postal_address not set in config.json. Nothing sent."); finish(0)
 
@@ -106,13 +125,20 @@ def main():
     # Sent emails (last 7 days) - used for deliverability, duplicate guard and today's quota.
     sent7 = list(paged("/emails", full_key, stop_before=now - dt.timedelta(days=7)))
     known = {v["email"].lower() for v in load("state.json")["sent"].values()}
-    outreach7 = [e for e in sent7 if OUTREACH_DOMAIN in (e.get("from") or "").lower()
-                 or set(addrs(e.get("to"))) & known]
+    outreach7 = [e for e in sent7 if (OUTREACH_DOMAIN in (e.get("from") or "").lower()
+                 or set(addrs(e.get("to"))) & known) and not all(is_us(a) for a in addrs(e.get("to")))]
+    # After the founder resumes (config resumed_at), only count mail sent since then, so old bounces
+    # that caused the last pause don't re-pause it right away.
+    resumed = cfg.get("resumed_at")
+    window = outreach7
+    if resumed:
+        rt = parse_ts(resumed)
+        window = [e for e in outreach7 if parse_ts(e.get("created_at")) >= rt]
 
-    # 2. Deliverability check
-    n = len(outreach7)
-    bounced = sum(1 for e in outreach7 if (e.get("last_event") or "") == "bounced")
-    complained = sum(1 for e in outreach7 if (e.get("last_event") or "") == "complained")
+    # 2. Deliverability check (on mail since the last resume, at most 7 days)
+    n = len(window)
+    bounced = sum(1 for e in window if (e.get("last_event") or "") == "bounced")
+    complained = sum(1 for e in window if (e.get("last_event") or "") == "complained")
     br = 100.0 * bounced / n if n else 0.0
     cr = 100.0 * complained / n if n else 0.0
     log(f"Last 7 days on {OUTREACH_DOMAIN}: {n} sent, {bounced} bounced ({br:.2f}%), {complained} complaints ({cr:.2f}%).")
@@ -122,11 +148,17 @@ def main():
     if bad:
         run_py("suppress", "--emails", ",".join(bad))
         log(f"Bounced/complained addresses suppressed: {len(bad)}.")
-    if n >= 40 and (br > 6.0 or cr > 0.1):  # founder raised the bounce limit to 6% (Oct 29)
+    min_n = 20 if resumed else 40
+    if n >= min_n and (br > 6.0 or cr > 0.1):  # founder raised the bounce limit to 6% (Oct 29)
         cfg["paused"] = True
+        cfg["paused_reason"] = f"{now:%Y-%m-%d}: {bounced} bounced of {n} ({br:.1f}%), {complained} complaints"
         json.dump(cfg, open(os.path.join(HERE, "config.json"), "w", encoding="utf-8"), indent=1)
         log("PAUSED: bounce or complaint rate over the limit. Set paused=false in config.json after reviewing.")
-        finish(1)  # failing the job makes GitHub email you
+        alert(send_key, "Resend outreach PAUSED: " + cfg["paused_reason"],
+              "The daily Resend church outreach paused itself because the bounce/complaint rate went over the limit.\n\n"
+              + "\n".join(SUMMARY) + "\n\nTo resume after reviewing: in config.json set \"paused\": false and "
+              "\"resumed_at\" to the current UTC time (e.g. 2026-11-03T15:00:00Z).")
+        finish(1)  # failing the job makes GitHub email you too
 
     # 3. Opt-outs
     optouts = set()

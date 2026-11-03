@@ -10,6 +10,7 @@ A daily scheduled Claude session sends the planned emails through the Composio G
   python3 extra.py inbox --source gmail --file msgs.json   # replies, opt-outs, bounces seen in an inbox
   python3 extra.py plan --out plan.json                    # today's emails (and reserves them)
   python3 extra.py record --plan plan.json --results res.json
+  python3 extra.py reconcile --found found.json            # settle an earlier run that never recorded
   python3 extra.py status
   python3 extra.py test --to you@example.com --sender gmail|zoho [--kind first|followup]
 
@@ -196,7 +197,7 @@ def cmd_plan(a):
         res["notes"].append("Weekend: Gmail/Zoho send on weekdays only. Nothing planned.")
     elif xs["pending"]:
         res["notes"].append(f"STOP: {len(xs['pending'])} emails from an earlier plan were never recorded. "
-                            "Check the Gmail/Zoho Sent folders, then run `record` (or `clear-pending`). Nothing planned.")
+                            "Search the Gmail/Zoho Sent folders for each pending address, then run `reconcile` (runbook step 1b). Nothing planned.")
     elif not cfg.get("postal_address") or "TODO" in cfg["postal_address"]:
         res["notes"].append("STOP: postal_address missing. Nothing planned.")
     if res["notes"]:
@@ -205,7 +206,8 @@ def cmd_plan(a):
 
     since14 = (td - dt.timedelta(days=14)).isoformat()
     for sender in ("gmail", "zoho"):
-        n, b = sender_stats(xs, sender, since14)
+        # after a resume ("resumed": {"gmail": "YYYY-MM-DD"}), only count sends from that day on
+        n, b = sender_stats(xs, sender, max(since14, xs.get("resumed", {}).get(sender, "")))
         if n >= 20 and 100.0 * b / n > BOUNCE_PAUSE and not xs["paused"].get(sender):
             xs["paused"][sender] = f"{tds}: {b} bounces of {n} sent in 14 days"
     queue = run.load("queue.json")
@@ -236,7 +238,7 @@ def cmd_plan(a):
         emailed = {v["email"].lower() for v in rs["sent"].values()} | {v["email"].lower() for v in xs["sent"].values()}
         skipped, firsts = 0, []
         for q in queue:
-            if q["id"] in sent_ids or q["email"].lower() in emailed or blocked(q["email"], rs, xs):
+            if q["id"] in sent_ids or q["email"].lower() in emailed or blocked(q["email"], rs, xs) or run.risky(q["email"]):
                 continue
             if skipped < SKIP_AHEAD:
                 skipped += 1; continue
@@ -279,6 +281,8 @@ def cmd_plan(a):
         xs["pending"][it["key"]] = {"date": tds, "to": it["to"]}
     save(xs)
     json.dump(res, open(a.out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    # keep a copy in the repo, so a later session can reconcile it if this one never records
+    json.dump(res, open(os.path.join(HERE, "extra_last_plan.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     print(json.dumps({"items": len(res["items"]), "notes": res["notes"]}, indent=1))
 
 # ---------------------------------------------------------------- record
@@ -308,6 +312,8 @@ def cmd_record(a):
         else:
             xs["followups"][qid] = {"email": it["to"], "date": plan["date"], "sender": "gmail" if kind == "gmail_fu" else "zoho",
                                     "message_id": r.get("message_id")}
+    if getattr(a, "reconcile", False):
+        save(xs); return
     xs["runs"].append({"date": plan["date"], **counts,
                        "gmail_first": sum(1 for it in plan["items"] if it["key"].startswith("gmail_first:")),
                        "gmail_fu": sum(1 for it in plan["items"] if it["key"].startswith("gmail_fu:")),
@@ -321,6 +327,35 @@ def cmd_batch(a):
     part = plan["items"][a.start:a.start + a.n]
     print(json.dumps([{"tool_slug": it["tool"], "account": it["account"], "arguments": it["args"]} for it in part], ensure_ascii=False))
     print("KEYS (same order): " + json.dumps([it["key"] for it in part]), file=sys.stderr)
+
+def cmd_reconcile(a):
+    """Settle pending emails from an earlier run that never recorded.
+    found.json: {"<recipient email>": {"message_id": "...", "thread_id": "..."}} for every pending recipient that
+    IS in the Gmail/Zoho Sent folder (search each one). Found ones are recorded as sent; the rest are released
+    so the next plan can send them. Use only after searching the Sent folders for every pending address."""
+    xs = xstate()
+    if not xs["pending"]:
+        print(json.dumps({"pending": 0})); return
+    plan = run.load("extra_last_plan.json", None)
+    if not plan:
+        sys.exit("extra_last_plan.json missing: check the Sent folders by hand, record, then clear-pending.")
+    found = {k.lower(): v for k, v in json.load(open(a.found, encoding="utf-8")).items()}
+    keys = set(xs["pending"])
+    items = [it for it in plan["items"] if it["key"] in keys]
+    if len(items) != len(keys):
+        sys.exit(f"{len(keys) - len(items)} pending emails are not in extra_last_plan.json: settle them by hand.")
+    results = {}
+    for it in items:
+        f = found.get(it["to"].lower())
+        results[it["key"]] = {"ok": True, **f} if f is not None else {"ok": False, "error": "not in Sent folder: never sent"}
+    tmp_plan = os.path.join(HERE, ".reconcile_plan.json"); tmp_res = os.path.join(HERE, ".reconcile_res.json")
+    json.dump({**plan, "items": items}, open(tmp_plan, "w", encoding="utf-8")); json.dump(results, open(tmp_res, "w"))
+    try:
+        cmd_record(argparse.Namespace(plan=tmp_plan, results=tmp_res, reconcile=True))
+    finally:
+        os.remove(tmp_plan); os.remove(tmp_res)
+    print(json.dumps({"recorded_as_sent": sum(1 for r in results.values() if r["ok"]),
+                      "released_never_sent": sum(1 for r in results.values() if not r["ok"])}))
 
 def cmd_clear_pending(a):
     xs = xstate()
@@ -363,6 +398,7 @@ if __name__ == "__main__":
     p = sub.add_parser("plan"); p.add_argument("--out", required=True); p.set_defaults(f=cmd_plan)
     p = sub.add_parser("record"); p.add_argument("--plan", required=True); p.add_argument("--results", required=True); p.set_defaults(f=cmd_record)
     p = sub.add_parser("batch"); p.add_argument("--plan", required=True); p.add_argument("--start", type=int, default=0); p.add_argument("--n", type=int, default=10); p.set_defaults(f=cmd_batch)
+    p = sub.add_parser("reconcile"); p.add_argument("--found", required=True); p.set_defaults(f=cmd_reconcile)
     p = sub.add_parser("clear-pending"); p.set_defaults(f=cmd_clear_pending)
     p = sub.add_parser("status"); p.set_defaults(f=cmd_status)
     p = sub.add_parser("test"); p.add_argument("--to", required=True); p.add_argument("--sender", choices=["gmail", "zoho"], required=True)

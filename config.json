@@ -20,5 +20,7 @@
  "reserve_daily": 30,
  "reserve_monthly": 400,
  "queue_total": 17043,
- "paused": true
+ "paused": false,
+ "resumed_at": "2026-11-03T00:00:00Z",
+ "max_per_day": 20
 }

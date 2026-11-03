@@ -37,6 +37,17 @@ and say so in the report. Don't start it if a run already exists today, whatever
 Copy the fields exactly; empty list `[]` is fine. Replies stop follow-ups; "unsubscribe" wording suppresses the address;
 bounces suppress it and count toward that sender's bounce limit (over 5% in 14 days pauses that sender).
 
+## 1b. Settle an earlier run that never recorded (only if `python3 extra.py status` shows pending > 0)
+A blocked or crashed run leaves its emails *pending*, and plan refuses to run until they're settled.
+For **every** pending address (`python3 -c "import json;print([v['to'] for v in json.load(open('extra_state.json'))['pending'].values()])"`)
+search the Sent folder of the sender in its key (`zoho_fu:` → Zoho, `gmail_*` → Gmail):
+- Zoho: `ZOHO_MAIL_SEARCH_MESSAGES` on `zoho_mail_ungot-snail`, `account_id 5347274000000002002`, `region in`,
+  `search_key "to:<address>"`; a hit is a message whose subject starts with "Following up" and whose date is on/after the pending date.
+- Gmail: `GMAIL_FETCH_EMAILS` on `gmail_spitz-fixed`, `query "in:sent to:<address>"`, `max_results 5`.
+Write the hits as `{"<address>": {"message_id": "...", "thread_id": "..."}}` (only addresses actually found) to
+`/tmp/found.json`, then `python3 extra.py reconcile --found /tmp/found.json`. Found ones are recorded as sent, the
+rest are released and planned again today. If a search errors, don't reconcile: report it.
+
 ## 2. Plan
 `python3 extra.py plan --out /tmp/plan.json`. If it prints `"items": 0`, report its notes and stop
 (commit + push extra_state.json first if step 1 changed it).
@@ -61,11 +72,21 @@ for every key you attempted (leave out keys you never sent, they stay pending an
 Pushing the recorded extra_state.json starts the **Call list email** GitHub workflow, which emails
 connect.coupondonation@gmail.com every church just emailed (phone, pastor, city, map link). Don't send it yourself.
 
+If the send call itself is refused (a permission/safety block rather than a Gmail/Zoho error), don't retry or reword
+it: leave the emails pending, commit + push extra_state.json, and report the block as the first line. Step 1b settles
+them on the next run.
+
 ## 5. Report
 One short message: sent counts per sender, failures, new replies (who, subject) and opt-outs, any pause.
+Always include the Resend state: if config.json has `"paused": true`, say so with its `paused_reason` (Resend sends
+nothing until the founder resumes it, so this must never go unmentioned).
 Replies are real people: list them so the founder can answer from the Gmail / Zoho inbox.
 
 ## Pause / resume
 - Everything: set `"extra_paused": true` in config.json.
-- One sender: `extra_state.json` → `"paused": {"gmail": "reason"}`; delete the entry to resume.
-- Stuck pending after a crash: look in the Gmail/Zoho Sent folder; record what was sent, then `python3 extra.py clear-pending`.
+- One sender: `extra_state.json` → `"paused": {"gmail": "reason"}`; delete the entry and set
+  `"resumed": {"gmail": "YYYY-MM-DD"}` to resume (bounces are then counted only from that day, so old ones don't re-pause it).
+- Resend: set `"paused": false` and `"resumed_at": "<UTC time>"` in config.json. It emails the founder when it pauses itself.
+  `"max_per_day"` in config.json caps Resend's daily volume (20 after the Nov 3 resume).
+- First emails skip old-ISP mailboxes (att.net, sbcglobal, roadrunner, msn, aol, …): `LEGACY_ISP` in run.py.
+- Stuck pending after a crash: step 1b (`reconcile`). `clear-pending` only as a last resort after checking Sent folders.
