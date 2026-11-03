@@ -92,10 +92,12 @@ def weekday_name(iso, lang):
 FIRST = {
     "en": """{hello}
 
-CouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes, and requests are reviewed in 2–3 days.
+CouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes.
 
 Could {church} share this link with families who need help?
 {apply}
+
+And if you'd like to see how it works yourself, feel free to donate even a small amount at {donate}. You'll get tracking updates when it reaches the person in need, and you'll bring a small smile to someone's face.
 
 Questions? Just reply. A real person will answer.
 
@@ -109,10 +111,12 @@ CouponDonation Inc., {addr}
 {unsub}""",
     "es": """{hello}
 
-CouponDonation convierte donaciones en tarjetas de regalo para comida, medicinas, transporte y recibos. Las familias solicitan gratis en unos 3 minutos y las solicitudes se revisan en 2–3 días.
+CouponDonation convierte donaciones en tarjetas de regalo para comida, medicinas, transporte y recibos. Las familias solicitan gratis en unos 3 minutos.
 
 ¿Podría {church} compartir este enlace con las familias que necesitan ayuda?
 {apply}
+
+Y si desea ver cómo funciona, puede donar aunque sea una cantidad pequeña en {donate}. Recibirá avisos cuando llegue a la persona que lo necesita, y le sacará una sonrisa a alguien.
 
 ¿Preguntas? Responda a este correo; le contesta una persona real.
 
@@ -161,6 +165,8 @@ CouponDonation Inc., {addr}
 {unsub}"""),
 }
 
+DONATE = "https://www.coupondonation.com/donate"
+
 MONTHS_ES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre",
              "noviembre", "diciembre"]
 
@@ -188,7 +194,7 @@ def first_text(q):
     t = run.T[lang]
     city = q["city"] or ("su comunidad" if lang == "es" else "your area")
     subj = run.subject(q, church, city, lang)
-    body = FIRST[lang].format(hello=run.greeting(q, church, lang), church=church, apply=run.APPLY,
+    body = FIRST[lang].format(hello=run.greeting(q, church, lang), church=church, apply=run.APPLY, donate=DONATE,
                               addr=run.CFG["postal_address"], why=t["why"].format(church=church),
                               unsub=t["unsub_txt"].format(u=run.CFG["unsubscribe_address"]))
     return subj, body
