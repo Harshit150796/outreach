@@ -336,14 +336,19 @@ def cmd_reconcile(a):
     xs = xstate()
     if not xs["pending"]:
         print(json.dumps({"pending": 0})); return
-    plan = run.load("extra_last_plan.json", None)
-    if not plan:
-        sys.exit("extra_last_plan.json missing: check the Sent folders by hand, record, then clear-pending.")
     found = {k.lower(): v for k, v in json.load(open(a.found, encoding="utf-8")).items()}
     keys = set(xs["pending"])
+    plan = run.load("extra_last_plan.json", None) or {"items": []}
     items = [it for it in plan["items"] if it["key"] in keys]
-    if len(items) != len(keys):
-        sys.exit(f"{len(keys) - len(items)} pending emails are not in extra_last_plan.json: settle them by hand.")
+    if len(items) != len(keys):  # no saved plan (older run): rebuild what record needs from the pending entries
+        qmap = {q["id"]: q for q in run.load("queue.json")}
+        items = []
+        for k, v in xs["pending"].items():
+            it = {"key": k, "to": v["to"]}
+            if k.startswith("gmail_first:"):
+                it["subject"] = first_text(qmap[k.split(":", 1)[1]])[0]
+            items.append(it)
+        plan = {"date": next(iter(xs["pending"].values()))["date"], "items": items}
     results = {}
     for it in items:
         f = found.get(it["to"].lower())
