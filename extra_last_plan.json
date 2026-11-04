@@ -1,0 +1,530 @@
+{
+"date": "2026-11-04",
+"items": [
+{
+"key": "gmail_fu:41543f35208c",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "church@stmarkshh.com",
+"args": {
+"thread_id": "1a17e64d52743782",
+"recipient_email": "church@stmarkshh.com",
+"message_body": "Dear Pastor Miller,\n\nA quick follow-up to our email on Oct 27 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould St Mark's Lutheran Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:6db308a726b7",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "info@immanuelfirst.org",
+"args": {
+"thread_id": "1a17e64d436687b0",
+"recipient_email": "info@immanuelfirst.org",
+"message_body": "Dear Pastor Okubo,\n\nA quick follow-up to our email on Oct 27 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Immanuel First Lutheran Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:3c1d21eb0d6a",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "info@olhcchurch.org",
+"args": {
+"thread_id": "1a17e64d578e8ded",
+"recipient_email": "info@olhcchurch.org",
+"message_body": "Dear Father Saiz,\n\nA quick follow-up to our email on Oct 27 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Our Lady Help of Christians Valley Catholic Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:007c0e852193",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "media@lemoorepres.com",
+"args": {
+"thread_id": "1a17e64d4e55acbb",
+"recipient_email": "media@lemoorepres.com",
+"message_body": "Dear Pastor Dack,\n\nA quick follow-up to our email on Oct 27 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Lemoore Presbyterian Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:ec14d79d9835",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "cosecha@harvest.org",
+"args": {
+"thread_id": "1a17e64dbd784b08",
+"recipient_email": "cosecha@harvest.org",
+"message_body": "Dear Pastor Madrigal,\n\nA quick follow-up to our email on Oct 27 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Cosecha Compañerismo Cristiano share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:a8c23fdc1577",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "stjohnofgod-sf@sbcglobal.net",
+"args": {
+"thread_id": "1a17e64dc8e1e638",
+"recipient_email": "stjohnofgod-sf@sbcglobal.net",
+"message_body": "Dear Father Kabipi,\n\nA quick follow-up to our email on Oct 27 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould St John of God Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:b56e292712c5",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "documents@ihmhanford.org",
+"args": {
+"thread_id": "1a17e64da408bc51",
+"recipient_email": "documents@ihmhanford.org",
+"message_body": "Dear Father Martinez,\n\nA quick follow-up to our email on Oct 27 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Immaculate Heart of Mary Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:93c32915c4ec",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "info@revival.tv",
+"args": {
+"thread_id": "1a17e64e8f28d05b",
+"recipient_email": "info@revival.tv",
+"message_body": "Dear Pastor Plaza,\n\nA quick follow-up to our email on Oct 27 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Revival Christian Fellowship share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:5e3320494b99",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "info@stjude-shrine.org",
+"args": {
+"thread_id": "1a17e64efa3a95dd",
+"recipient_email": "info@stjude-shrine.org",
+"message_body": "Dear Father Padrez,\n\nA quick follow-up to our email on Oct 27 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Shrine of St Jude Thaddeus share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:a248be7344e9",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "info@blessedsacrament-sandiego.org",
+"args": {
+"thread_id": "1a188b2a44d4e34b",
+"recipient_email": "info@blessedsacrament-sandiego.org",
+"message_body": "Dear Father Nguyen,\n\nA quick follow-up to our email on Thursday about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Blessed Sacrament Catholic Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:505d9385c31b",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "contact@agapeoc.com",
+"args": {
+"thread_id": "1a188b2a2e3e36bd",
+"recipient_email": "contact@agapeoc.com",
+"message_body": "Dear Pastor Stefan,\n\nA quick follow-up to our email on Thursday about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Agape Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:865145be482a",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "contactus@calvaryonthehill.com",
+"args": {
+"thread_id": "1a188b2a88e25409",
+"recipient_email": "contactus@calvaryonthehill.com",
+"message_body": "Dear Pastor Smith,\n\nA quick follow-up to our email on Thursday about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Calvary Chapel Frazier Park share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:9f9828fa46bf",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "bktparish@aol.com",
+"args": {
+"thread_id": "1a188b2a9f070d93",
+"recipient_email": "bktparish@aol.com",
+"message_body": "Dear Father Manuel,\n\nA quick follow-up to our email on Thursday about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Tekakwitha Parish share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:032eee2baa63",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "sacredheart1merced@sbcglobal.net",
+"args": {
+"thread_id": "1a188b2a83afab0c",
+"recipient_email": "sacredheart1merced@sbcglobal.net",
+"message_body": "Dear Father Mancia,\n\nA quick follow-up to our email on Thursday about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Sacred Heart Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:181ea9a7b0a2",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "info@slo5c.org",
+"args": {
+"thread_id": "1a188b2a97d2e3eb",
+"recipient_email": "info@slo5c.org",
+"message_body": "Dear Pastor Hou,\n\nA quick follow-up to our email on Thursday about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Central Coast Chinese Christian Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:5cc2d6678d93",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "info@fbclb.org",
+"args": {
+"thread_id": "1a188b2ae88a5e8a",
+"recipient_email": "info@fbclb.org",
+"message_body": "Dear Pastor Delaney,\n\nA quick follow-up to our email on Thursday about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould First Baptist Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_fu:92383325d893",
+"tool": "GMAIL_REPLY_TO_THREAD",
+"account": "gmail_spitz-fixed",
+"to": "sbcthecornerstone@gmail.com",
+"args": {
+"thread_id": "1a188b2aa7874c54",
+"recipient_email": "sbcthecornerstone@gmail.com",
+"message_body": "Dear Pastor Kostyuk,\n\nA quick follow-up to our email on Thursday about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Cornerstone Faith Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_first:f64e11d87039",
+"tool": "GMAIL_SEND_EMAIL",
+"account": "gmail_spitz-fixed",
+"to": "office@lakesidechapel.com",
+"subject": "Free help for families at Lakeside Chapel",
+"args": {
+"recipient_email": "office@lakesidechapel.com",
+"subject": "Free help for families at Lakeside Chapel",
+"body": "Dear Pastor Kreloff,\n\nCouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes.\n\nCould Lakeside Chapel share this link with families who need help?\nhttps://www.coupondonation.com/apply\n\nAnd if you'd like to see how it works yourself, feel free to donate even a small amount at https://www.coupondonation.com/donate. You'll get tracking updates when it reaches the person in need, and you'll bring a small smile to someone's face.\n\nQuestions? Just reply. A real person will answer.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Lakeside Chapel's email is on its public listing.\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_first:d3befe7d4024",
+"tool": "GMAIL_SEND_EMAIL",
+"account": "gmail_spitz-fixed",
+"to": "frontdesk@stbonaventure.org",
+"subject": "St. Bonaventure Church: help for families in need",
+"args": {
+"recipient_email": "frontdesk@stbonaventure.org",
+"subject": "St. Bonaventure Church: help for families in need",
+"body": "Dear Father Pham,\n\nCouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes.\n\nCould St. Bonaventure Church share this link with families who need help?\nhttps://www.coupondonation.com/apply\n\nAnd if you'd like to see how it works yourself, feel free to donate even a small amount at https://www.coupondonation.com/donate. You'll get tracking updates when it reaches the person in need, and you'll bring a small smile to someone's face.\n\nQuestions? Just reply. A real person will answer.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because St. Bonaventure Church's email is on its public listing.\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_first:77ab63705702",
+"tool": "GMAIL_SEND_EMAIL",
+"account": "gmail_spitz-fixed",
+"to": "office@palmdesertoasis.com",
+"subject": "Palm Desert Oasis Church: help for families in need",
+"args": {
+"recipient_email": "office@palmdesertoasis.com",
+"subject": "Palm Desert Oasis Church: help for families in need",
+"body": "Dear Pastor Iordan,\n\nCouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes.\n\nCould Palm Desert Oasis Church share this link with families who need help?\nhttps://www.coupondonation.com/apply\n\nAnd if you'd like to see how it works yourself, feel free to donate even a small amount at https://www.coupondonation.com/donate. You'll get tracking updates when it reaches the person in need, and you'll bring a small smile to someone's face.\n\nQuestions? Just reply. A real person will answer.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Palm Desert Oasis Church's email is on its public listing.\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_first:e5f35712f2a0",
+"tool": "GMAIL_SEND_EMAIL",
+"account": "gmail_spitz-fixed",
+"to": "friendshipseaside@gmail.com",
+"subject": "Friendship Baptist Church: help for families in need",
+"args": {
+"recipient_email": "friendshipseaside@gmail.com",
+"subject": "Friendship Baptist Church: help for families in need",
+"body": "Dear Pastor Dunham,\n\nCouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes.\n\nCould Friendship Baptist Church share this link with families who need help?\nhttps://www.coupondonation.com/apply\n\nAnd if you'd like to see how it works yourself, feel free to donate even a small amount at https://www.coupondonation.com/donate. You'll get tracking updates when it reaches the person in need, and you'll bring a small smile to someone's face.\n\nQuestions? Just reply. A real person will answer.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Friendship Baptist Church's email is on its public listing.\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_first:745455c2dda9",
+"tool": "GMAIL_SEND_EMAIL",
+"account": "gmail_spitz-fixed",
+"to": "bramirez@stedward.com",
+"subject": "Free help for families at St. Edward the Confessor Catholic Church",
+"args": {
+"recipient_email": "bramirez@stedward.com",
+"subject": "Free help for families at St. Edward the Confessor Catholic Church",
+"body": "Dear Father Rizzo,\n\nCouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes.\n\nCould St. Edward the Confessor Catholic Church share this link with families who need help?\nhttps://www.coupondonation.com/apply\n\nAnd if you'd like to see how it works yourself, feel free to donate even a small amount at https://www.coupondonation.com/donate. You'll get tracking updates when it reaches the person in need, and you'll bring a small smile to someone's face.\n\nQuestions? Just reply. A real person will answer.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because St. Edward the Confessor Catholic Church's email is on its public listing.\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_first:7232c10575ef",
+"tool": "GMAIL_SEND_EMAIL",
+"account": "gmail_spitz-fixed",
+"to": "info@shadowhillschurch.org",
+"subject": "Shadow Hills Presbyterian Church: help for families in need",
+"args": {
+"recipient_email": "info@shadowhillschurch.org",
+"subject": "Shadow Hills Presbyterian Church: help for families in need",
+"body": "Dear Pastor Nason,\n\nCouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes.\n\nCould Shadow Hills Presbyterian Church share this link with families who need help?\nhttps://www.coupondonation.com/apply\n\nAnd if you'd like to see how it works yourself, feel free to donate even a small amount at https://www.coupondonation.com/donate. You'll get tracking updates when it reaches the person in need, and you'll bring a small smile to someone's face.\n\nQuestions? Just reply. A real person will answer.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Shadow Hills Presbyterian Church's email is on its public listing.\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_first:1c6d3f5e8571",
+"tool": "GMAIL_SEND_EMAIL",
+"account": "gmail_spitz-fixed",
+"to": "ryan.mccarthy@sdrock.com",
+"subject": "Free help for families at Rock Church City Heights",
+"args": {
+"recipient_email": "ryan.mccarthy@sdrock.com",
+"subject": "Free help for families at Rock Church City Heights",
+"body": "Dear Pastor McPherson,\n\nCouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes.\n\nCould Rock Church City Heights share this link with families who need help?\nhttps://www.coupondonation.com/apply\n\nAnd if you'd like to see how it works yourself, feel free to donate even a small amount at https://www.coupondonation.com/donate. You'll get tracking updates when it reaches the person in need, and you'll bring a small smile to someone's face.\n\nQuestions? Just reply. A real person will answer.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Rock Church City Heights's email is on its public listing.\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_first:f4f1ec9e294c",
+"tool": "GMAIL_SEND_EMAIL",
+"account": "gmail_spitz-fixed",
+"to": "info@olmstpatrick.org",
+"subject": "St. Patrick's Parish: help for families in need",
+"args": {
+"recipient_email": "info@olmstpatrick.org",
+"subject": "St. Patrick's Parish: help for families in need",
+"body": "Dear Father Borges,\n\nCouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes.\n\nCould St. Patrick's Parish share this link with families who need help?\nhttps://www.coupondonation.com/apply\n\nAnd if you'd like to see how it works yourself, feel free to donate even a small amount at https://www.coupondonation.com/donate. You'll get tracking updates when it reaches the person in need, and you'll bring a small smile to someone's face.\n\nQuestions? Just reply. A real person will answer.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because St. Patrick's Parish's email is on its public listing.\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_first:31415ac13373",
+"tool": "GMAIL_SEND_EMAIL",
+"account": "gmail_spitz-fixed",
+"to": "princetonfwbchurch@gmail.com",
+"subject": "A free link for Ontario families",
+"args": {
+"recipient_email": "princetonfwbchurch@gmail.com",
+"subject": "A free link for Ontario families",
+"body": "Dear Pastor Taylor,\n\nCouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes.\n\nCould Princeton Free Will Baptist Church share this link with families who need help?\nhttps://www.coupondonation.com/apply\n\nAnd if you'd like to see how it works yourself, feel free to donate even a small amount at https://www.coupondonation.com/donate. You'll get tracking updates when it reaches the person in need, and you'll bring a small smile to someone's face.\n\nQuestions? Just reply. A real person will answer.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Princeton Free Will Baptist Church's email is on its public listing.\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "gmail_first:f1f484107158",
+"tool": "GMAIL_SEND_EMAIL",
+"account": "gmail_spitz-fixed",
+"to": "dave@renewlife.church",
+"subject": "RenewLife Fellowship: help for families in need",
+"args": {
+"recipient_email": "dave@renewlife.church",
+"subject": "RenewLife Fellowship: help for families in need",
+"body": "Dear Pastor Reyna,\n\nCouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes.\n\nCould RenewLife Fellowship share this link with families who need help?\nhttps://www.coupondonation.com/apply\n\nAnd if you'd like to see how it works yourself, feel free to donate even a small amount at https://www.coupondonation.com/donate. You'll get tracking updates when it reaches the person in need, and you'll bring a small smile to someone's face.\n\nQuestions? Just reply. A real person will answer.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because RenewLife Fellowship's email is on its public listing.\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"is_html": false,
+"include_signature": false
+}
+},
+{
+"key": "zoho_fu:6170779e045f",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "pastor@holyfamily-amcan.church",
+"subject": "Following up: A free resource for families at Holy Family Catholic Church",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "pastor@holyfamily-amcan.church",
+"subject": "Following up: A free resource for families at Holy Family Catholic Church",
+"content": "Dear Father Kutubebi,\n\nA quick follow-up to our email on Oct 24 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Holy Family Catholic Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:727ec4ff0d46",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "tcarlson1067@gmail.com",
+"subject": "Following up: Saddleback Church San Clemente: free help for families in San Clemente",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "tcarlson1067@gmail.com",
+"subject": "Following up: Saddleback Church San Clemente: free help for families in San Clemente",
+"content": "Dear Pastor Wood,\n\nA quick follow-up to our email on Oct 24 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Saddleback Church San Clemente share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:8649366d732e",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "cityofpraiseinfo@gmail.com",
+"subject": "Following up: For the The City of Praise office: a free link to share",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "cityofpraiseinfo@gmail.com",
+"subject": "Following up: For the The City of Praise office: a free link to share",
+"content": "Dear Pastor Brunson,\n\nA quick follow-up to our email on Oct 24 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould The City of Praise share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:0fecc52174b8",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "endtimechurch2000@gmail.com",
+"subject": "Following up: Grocery and medicine help for Beaumont families",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "endtimechurch2000@gmail.com",
+"subject": "Following up: Grocery and medicine help for Beaumont families",
+"content": "Dear Pastor Adeyeye,\n\nA quick follow-up to our email on Oct 24 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould The End Time Church and World Outreach share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:3f6cd25884e9",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "st.dominicsecretary@gmail.com",
+"subject": "Following up: A free resource for families at St Dominic's Catholic Church",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "st.dominicsecretary@gmail.com",
+"subject": "Following up: A free resource for families at St Dominic's Catholic Church",
+"content": "Dear Father Bringas,\n\nA quick follow-up to our email on Oct 24 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould St Dominic's Catholic Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:69b6757e27f2",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "ctksandiego@gmail.com",
+"subject": "Following up: For the Christ the King Catholic Church office: a free link to share",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "ctksandiego@gmail.com",
+"subject": "Following up: For the Christ the King Catholic Church office: a free link to share",
+"content": "Dear Father Stanonik,\n\nA quick follow-up to our email on Oct 24 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Christ the King Catholic Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:86229be9b9e9",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "olofhopeparish@sbdiocese.org",
+"subject": "Following up: Grocery and medicine help for San Bernardino families",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "olofhopeparish@sbdiocese.org",
+"subject": "Following up: Grocery and medicine help for San Bernardino families",
+"content": "Dear Father Flores,\n\nA quick follow-up to our email on Oct 24 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Our Lady of Hope Catholic Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:1eb4e5de340f",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "glcsandiego@gmail.com",
+"subject": "Following up: A free resource for families at Generations Life Center",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "glcsandiego@gmail.com",
+"subject": "Following up: A free resource for families at Generations Life Center",
+"content": "Dear Pastor Sluyter,\n\nA quick follow-up to our email on Oct 24 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Generations Life Center share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:4ed0733efe8d",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "pastor@rbcloomis.org",
+"subject": "Following up: Regency Baptist Church: free help for families in Orangevale",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "pastor@rbcloomis.org",
+"subject": "Following up: Regency Baptist Church: free help for families in Orangevale",
+"content": "Dear Pastor Nichols,\n\nA quick follow-up to our email on Oct 24 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould Regency Baptist Church share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:a4363fadfb4c",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "peacecenter@saddleback.com",
+"subject": "Following up: A free resource for families at PEACE Community Resource Center",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "peacecenter@saddleback.com",
+"subject": "Following up: A free resource for families at PEACE Community Resource Center",
+"content": "Dear Pastor Wood,\n\nA quick follow-up to our email on Oct 24 about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:\nhttps://www.coupondonation.com/apply\n\nCould PEACE Community Resource Center share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.\n\nWith gratitude,\nThe CouponDonation team\ncoupondonation.com\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nTo stop these emails, reply \"unsubscribe\" or write to unsubscribe@outreach.coupondonation.com.",
+"mailFormat": "plaintext"
+}
+}
+],
+"notes": [
+"Gmail: sending day 3, 10 first emails, 17 follow-ups.",
+"Zoho: sending day 3, 10 follow-ups."
+]
+}
