@@ -277,7 +277,7 @@ def next_batch(n):
     sup = set(e.lower() for e in s["suppressed"]) | xsup
     out = []
     for q in load("queue.json"):
-        if q["id"] in s["sent"] or q["id"] in xids or q["email"].lower() in sup or risky(q["email"]):
+        if q["id"] in s["sent"] or q["id"] in xids or q["email"].lower() in sup or risky(q["email"]) or q.get("check") == "drop":
             continue
         out.append(q)
         if len(out) >= n:

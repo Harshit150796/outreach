@@ -73,7 +73,8 @@ def render(b):
     def row(c, hist, fu):
         maps = "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote_plus(f"{c['name']}, {c['city'] or c['county']}, CA")
         phone = (f'<a href="tel:{e("".join(ch for ch in c["phone"] if ch.isdigit() or ch == "+"))}" style="color:#1565c0;font-weight:700;text-decoration:none;font-size:16px;">{e(c["phone"])}</a>'
-                 if c.get("phone") else '<span style="color:#8a948d;">No phone listed</span>')
+                 if c.get("phone") else (f'<span style="color:#8a948d;">{e(c["phone_raw"])} (number looks invalid)</span>' if c.get("phone_raw")
+                                         else '<span style="color:#8a948d;">No phone listed</span>'))
         name = (f'<a href="{e(c["website"])}" style="color:#16231a;text-decoration:none;">{e(c["name"])}</a>' if c.get("website") else e(c["name"]))
         who = e(c["pastor_full"] or c["salutation"] or "")
         place = e(", ".join(x for x in (c["city"], f"{c['county']} County" if c["county"] else "") if x))
@@ -86,14 +87,25 @@ def render(b):
                 f'<a href="mailto:{e(c["email"])}" style="color:#2e7d32;">{e(c["email"])}</a></div>'
                 f'<div style="color:#8a948d;font-size:12px;">{e(h)}</div></td></tr>')
     body = "".join(row(*t[:2], t[3]) for t in churches)
+    # quick-dial list: every phone number at a glance, details below
+    qd = "".join(f'<tr><td style="{SANS}font-size:14px;line-height:22px;color:#16231a;padding:2px 12px 2px 0;">{e(c["name"])}'
+                 f'{" (" + e(c["city"]) + ")" if c.get("city") else ""}</td><td style="{SANS}font-size:14px;line-height:22px;white-space:nowrap;">'
+                 f'<a href="tel:{e("".join(ch for ch in c["phone"] if ch.isdigit()))}" style="color:#1565c0;font-weight:700;text-decoration:none;">{e(c["phone"])}</a></td></tr>'
+                 for c, *_ in churches if c.get("phone"))
+    quick = (f'<div style="{SANS}font-size:13px;font-weight:700;color:#2e7d32;text-transform:uppercase;letter-spacing:1px;padding:8px 0 4px;">Phone numbers</div>'
+             f'<table role="presentation" cellpadding="0" cellspacing="0" style="margin-bottom:14px;">{qd}</table>'
+             f'<div style="{SANS}font-size:13px;font-weight:700;color:#2e7d32;text-transform:uppercase;letter-spacing:1px;padding:8px 0 0;">Details</div>') if qd else ""
     html_out = f"""<!doctype html><html><body style="margin:0;background:#f6f8f5;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td align="center" style="padding:24px 12px;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:640px;background:#fff;border-radius:16px;"><tr><td style="padding:24px 26px;">
 <div style="{SANS}font-size:20px;font-weight:800;color:#16231a;">{len(churches)} churches to call</div>
 <div style="{SANS}font-size:14px;line-height:21px;color:#46524a;padding:6px 0 10px;">Emailed {span}. {len(with_phone)} have a phone number. Tap a number to call. Churches with a follow-up have now had two emails; churches that asked us to stop are left out.</div>
+{quick}
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0">{body}</table>
 </td></tr></table></td></tr></table></body></html>"""
-    lines = [f"{len(churches)} churches to call (emailed {span}). {len(with_phone)} have a phone number.", ""]
+    lines = [f"{len(churches)} churches to call (emailed {span}). {len(with_phone)} have a phone number.", "", "PHONE NUMBERS"]
+    lines += [f"  {c['phone']}  {c['name']}" + (f" ({c['city']})" if c.get('city') else "") for c, *_ in churches if c.get("phone")]
+    lines += ["", "DETAILS", ""]
     for c, hist, _, fu in churches:
         lines += [c["name"], f"  Phone: {c['phone'] or 'none listed'}" + (f"  ({c['pastor_full'] or c['salutation']})" if (c['pastor_full'] or c['salutation']) else ""),
                   f"  {c['city']}, {c['county']} County, CA", f"  {c['email']}" + (f"  {c['website']}" if c.get('website') else ""),

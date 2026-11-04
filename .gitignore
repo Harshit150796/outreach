@@ -3,3 +3,5 @@ __pycache__/
 *.tmp
 call_list.html
 call_list.txt
+.verify_cache.json
+list_checks.json

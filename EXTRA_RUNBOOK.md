@@ -90,3 +90,8 @@ Replies are real people: list them so the founder can answer from the Gmail / Zo
   Resend sends 60 a day (`ramp` in config.json; `max_per_day` can cap it). Bounce limit: `bounce_limit_pct` (10%, founder Nov 4).
 - First emails skip old-ISP mailboxes (att.net, sbcglobal, roadrunner, msn, aol, …): `LEGACY_ISP` in run.py.
 - Stuck pending after a crash: step 1b (`reconcile`). `clear-pending` only as a last resort after checking Sent folders.
+
+## List checks (verify_list.py)
+`python3 verify_list.py run` re-checks every unsent church (email syntax/domain/MX, website alive or parked, phone,
+name), then `apply` writes `check` (ok / risky / drop) and `check_why` into queue.json and puts ok first.
+Resend and Gmail never send to `check: drop`. Phone numbers in queue.json are cleaned (original in `phone_raw`).

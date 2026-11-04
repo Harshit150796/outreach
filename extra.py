@@ -300,7 +300,7 @@ def cmd_plan(a):
         emailed = {v["email"].lower() for v in rs["sent"].values()} | {v["email"].lower() for v in xs["sent"].values()}
         skipped, firsts = 0, []
         for q in queue:
-            if q["id"] in sent_ids or q["email"].lower() in emailed or blocked(q["email"], rs, xs) or run.risky(q["email"]):
+            if q["id"] in sent_ids or q["email"].lower() in emailed or blocked(q["email"], rs, xs) or run.risky(q["email"]) or q.get("check") == "drop":
                 continue
             if skipped < SKIP_AHEAD:
                 skipped += 1; continue
