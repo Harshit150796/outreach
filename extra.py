@@ -292,9 +292,10 @@ def cmd_plan(a):
             if len(g_items) >= GMAIL_FOLLOWUP_MAX:
                 break
         # Gmail first emails
-        gdays = len({v["date"] for v in xs["sent"].values() if v["sender"] == "gmail"})
+        gdays = len({v["date"] for v in xs["sent"].values() if v["sender"] == "gmail" and v["date"] < tds})  # today not counted twice
         want = ramp(GMAIL_FIRST_RAMP, gdays + 1)
-        room = max(0, min(want, GMAIL_DAILY_MAX - len(g_items) - already_today("gmail")))
+        firsts_today = sum(1 for v in xs["sent"].values() if v["sender"] == "gmail" and v["date"] == tds)
+        room = max(0, min(want - firsts_today, GMAIL_DAILY_MAX - len(g_items) - already_today("gmail")))
         sent_ids = set(rs["sent"]) | set(xs["sent"])
         emailed = {v["email"].lower() for v in rs["sent"].values()} | {v["email"].lower() for v in xs["sent"].values()}
         skipped, firsts = 0, []
@@ -319,7 +320,7 @@ def cmd_plan(a):
     # Zoho follow-ups to Resend churches
     z_items = []
     if not xs["paused"].get("zoho"):
-        zdays = len({v["date"] for v in xs["followups"].values() if v["sender"] == "zoho"})
+        zdays = len({v["date"] for v in xs["followups"].values() if v["sender"] == "zoho" and v["date"] < tds})
         room = max(0, ramp(ZOHO_RAMP, zdays + 1) - already_today("zoho"))
         for qid, v in sorted(rs["sent"].items(), key=lambda kv: kv[1]["date"]):
             if len(z_items) >= room:
