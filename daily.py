@@ -149,7 +149,8 @@ def main():
         run_py("suppress", "--emails", ",".join(bad))
         log(f"Bounced/complained addresses suppressed: {len(bad)}.")
     min_n = 20 if resumed else 40
-    if n >= min_n and (br > 6.0 or cr > 0.1):  # founder raised the bounce limit to 6% (Oct 29)
+    limit = float(cfg.get("bounce_limit_pct", 6.0))  # founder: 6% (Oct 29), 10% (Nov 4)
+    if n >= min_n and (br > limit or cr > 0.1):
         cfg["paused"] = True
         cfg["paused_reason"] = f"{now:%Y-%m-%d}: {bounced} bounced of {n} ({br:.1f}%), {complained} complaints"
         json.dump(cfg, open(os.path.join(HERE, "config.json"), "w", encoding="utf-8"), indent=1)

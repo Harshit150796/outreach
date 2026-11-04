@@ -87,6 +87,6 @@ Replies are real people: list them so the founder can answer from the Gmail / Zo
 - One sender: `extra_state.json` → `"paused": {"gmail": "reason"}`; delete the entry and set
   `"resumed": {"gmail": "YYYY-MM-DD"}` to resume (bounces are then counted only from that day, so old ones don't re-pause it).
 - Resend: set `"paused": false` and `"resumed_at": "<UTC time>"` in config.json. It emails the founder when it pauses itself.
-  `"max_per_day"` in config.json caps Resend's daily volume (20 after the Nov 3 resume).
+  Resend sends 60 a day (`ramp` in config.json; `max_per_day` can cap it). Bounce limit: `bounce_limit_pct` (10%, founder Nov 4).
 - First emails skip old-ISP mailboxes (att.net, sbcglobal, roadrunner, msn, aol, …): `LEGACY_ISP` in run.py.
 - Stuck pending after a crash: step 1b (`reconcile`). `clear-pending` only as a last resort after checking Sent folders.
