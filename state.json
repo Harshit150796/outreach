@@ -1619,6 +1619,38 @@
 "date": "2026-11-04",
 "resend_id": "01a1a764-4cf3-76e8-b276-b4923248cba2",
 "subject": "St. Helena Seventh-day Adventist Church: help for families in need"
+},
+"3e54ce2f5c85": {
+"email": "info@tumcpeace.org",
+"name": "Temple United Methodist Church",
+"county": "San Francisco",
+"date": "2026-11-04",
+"resend_id": "01a1a827-e2b3-70b3-9f04-443719064882",
+"subject": "Temple United Methodist Church: help for families in need"
+},
+"6d388ad923c0": {
+"email": "office@goodshepherdcamarillo.com",
+"name": "Good Shepherd Lutheran Church",
+"county": "Ventura",
+"date": "2026-11-04",
+"resend_id": "01a1a827-e5ac-7da9-bb2c-8bf879349f3b",
+"subject": "Good Shepherd Lutheran Church: help for families in need"
+},
+"271a3d88499a": {
+"email": "reception@goodshepherdparish.net",
+"name": "Good Shepherd Catholic Church",
+"county": "San Diego",
+"date": "2026-11-04",
+"resend_id": "01a1a827-e8de-7cca-b82e-3fd9588425f3",
+"subject": "Good Shepherd Catholic Church: help for families in need"
+},
+"e616aeac408e": {
+"email": "contact@gracepointvc.org",
+"name": "Grace Point Church",
+"county": "San Diego",
+"date": "2026-11-04",
+"resend_id": "01a1a827-ebdb-7362-84c9-9dec962ee975",
+"subject": "Free help for families at Grace Point Church"
 }
 },
 "suppressed": [
@@ -1634,7 +1666,12 @@
 "parish@olrs.org",
 "pcadventist.org@gmail.com",
 "adbelenmorenovalley@gmail.com",
-"rflanigan@firstdallas.org"
+"rflanigan@firstdallas.org",
+"gilroycampus@cathedraloffaith.org",
+"info@trinitychurchsf.org",
+"reception@saintroberts.org",
+"rrinde@firstb.org",
+"santonio@catholic.org"
 ],
 "runs": [
 {
@@ -1678,6 +1715,12 @@
 "sent": 60,
 "failed": 0,
 "requested": 60
+},
+{
+"date": "2026-11-04",
+"sent": 4,
+"failed": 0,
+"requested": 4
 }
 ]
 }
