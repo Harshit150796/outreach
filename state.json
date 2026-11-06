@@ -2131,6 +2131,486 @@
 "date": "2026-11-05",
 "resend_id": "01a1ad5b-a029-7b9b-8bc1-708b9d69f71a",
 "subject": "Free help for families at Calaveras Presbyterian Church"
+},
+"8dc5d1caa31a": {
+"email": "info@setoncatholicchurch.org",
+"name": "St Elizabeth Ann Seton Catholic Church",
+"county": "Kern",
+"date": "2026-11-06",
+"resend_id": "01a1b261-9ebc-7bb4-8e1d-6983239bb4a0",
+"subject": "St Elizabeth Ann Seton Catholic Church: help for families in need"
+},
+"2263008bd088": {
+"email": "churchoffice@trinitywhittier.org",
+"name": "Trinity Lutheran Church of Whittier",
+"county": "Los Angeles",
+"date": "2026-11-06",
+"resend_id": "01a1b261-a1b0-7415-8849-516472ebdf23",
+"subject": "Trinity Lutheran Church of Whittier: help for families in need"
+},
+"cd001416e4e1": {
+"email": "lcbcsecretary@yahoo.com",
+"name": "Life Change Baptist Church",
+"county": "Alameda",
+"date": "2026-11-06",
+"resend_id": "01a1b261-a47e-7d5e-90f2-c675f640c9d4",
+"subject": "A free link for San Leandro families"
+},
+"7a0bc8346456": {
+"email": "olmcatholicchurch@gmail.com",
+"name": "Our Lady of Mercy Church",
+"county": "San Mateo",
+"date": "2026-11-06",
+"resend_id": "01a1b261-a780-766f-890e-8b2e77157baa",
+"subject": "Free help for families at Our Lady of Mercy Church"
+},
+"432551ea85d5": {
+"email": "lwresource@gmail.com",
+"name": "Living Word Christian Center",
+"county": "Orange",
+"date": "2026-11-06",
+"resend_id": "01a1b261-aa6f-7f39-981b-7d489e091239",
+"subject": "Free help for families at Living Word Christian Center"
+},
+"256d77b12041": {
+"email": "info@woodlandpresbyterianchurch.org",
+"name": "Woodland Presbyterian Church",
+"county": "Yolo",
+"date": "2026-11-06",
+"resend_id": "01a1b261-ad68-776a-857d-c61de5e33ece",
+"subject": "Woodland Presbyterian Church: help for families in need"
+},
+"4cd439e579fe": {
+"email": "info@orcuttpres.org",
+"name": "Orcutt Presbyterian Church",
+"county": "Santa Barbara",
+"date": "2026-11-06",
+"resend_id": "01a1b261-b062-7804-823a-11e768bbe775",
+"subject": "Orcutt Presbyterian Church: help for families in need"
+},
+"56bda0898d9b": {
+"email": "info@laurelridgechurch.org",
+"name": "Laurel Ridge Community Church",
+"county": "Contra Costa",
+"date": "2026-11-06",
+"resend_id": "01a1b261-b366-7982-beec-c55068255fdb",
+"subject": "Free help for families at Laurel Ridge Community Church"
+},
+"9e01faf562a5": {
+"email": "ugccsf@gmail.com",
+"name": "Immaculate Conception Ukrainian Catholic Church",
+"county": "San Francisco",
+"date": "2026-11-06",
+"resend_id": "01a1b261-b639-743d-bd45-fe5571a43eff",
+"subject": "A free link for San Francisco families"
+},
+"28c6478ce8ec": {
+"email": "belmontbclab@gmail.com",
+"name": "Belmont Baptist Church",
+"county": "Los Angeles",
+"date": "2026-11-06",
+"resend_id": "01a1b261-b933-780a-8adc-e2d9907ba788",
+"subject": "Belmont Baptist Church: help for families in need"
+},
+"7ad1a0dd6387": {
+"email": "contact@calvaryccv.org",
+"name": "Calvary Chapel Chino Valley",
+"county": "San Bernardino",
+"date": "2026-11-06",
+"resend_id": "01a1b261-bc3c-7dd4-a3e2-408fe54fd062",
+"subject": "Free help for families at Calvary Chapel Chino Valley"
+},
+"ae87ef506870": {
+"email": "baldwinparkbilingualsda@gmail.com",
+"name": "Baldwin Park Bilingual (L.A) Seventh Day Adventist Church",
+"county": "Los Angeles",
+"date": "2026-11-06",
+"resend_id": "01a1b261-bf19-7bb8-81db-502d6c1d6739",
+"subject": "A free link for Baldwin Park families"
+},
+"2ffe0b71ae08": {
+"email": "iglesiaadventistasacramento@gmail.com",
+"name": "Iglesia Adventista del Séptimo Día",
+"county": "Yolo",
+"date": "2026-11-06",
+"resend_id": "01a1b261-c215-7402-8404-aef02046cd25",
+"subject": "Ayuda gratuita para las familias de Iglesia Adventista del Séptimo Día"
+},
+"4b99a766c7ff": {
+"email": "office@azurehills.org",
+"name": "Azure Hills Church",
+"county": "San Bernardino",
+"date": "2026-11-06",
+"resend_id": "01a1b261-c504-743b-8d57-94ebf2d256e8",
+"subject": "A free link for Grand Terrace families"
+},
+"f801854fc9ea": {
+"email": "saint.albert.office@gmail.com",
+"name": "Saint Brother Albert Chmielowski Polish Mission",
+"county": "Santa Clara",
+"date": "2026-11-06",
+"resend_id": "01a1b261-c7dd-729f-83a6-d6cf41783ac0",
+"subject": "A free link for San Jose families"
+},
+"5fd74455d511": {
+"email": "info@friends.church",
+"name": "Friends Church",
+"county": "Orange",
+"date": "2026-11-06",
+"resend_id": "01a1b261-cac7-7991-9d6c-1636e62f7ee9",
+"subject": "Free help for families at Friends Church"
+},
+"0d8592efca07": {
+"email": "mvfafcyouthdepartment@yahoo.com",
+"name": "Grace Fellowship Ministries",
+"county": "Riverside",
+"date": "2026-11-06",
+"resend_id": "01a1b261-cdaf-7ea9-8016-b5210f95045f",
+"subject": "A free link for Moreno Valley families"
+},
+"2377e50cc39b": {
+"email": "frontdesk@omcsandiego.org",
+"name": "Our Mother of Confidence Catholic Church",
+"county": "San Diego",
+"date": "2026-11-06",
+"resend_id": "01a1b261-d0a0-73bf-b660-cbe5ca017169",
+"subject": "A free link for San Diego families"
+},
+"019374ae6431": {
+"email": "dwellingplaceministry@gmail.com",
+"name": "The Dwelling Place Church",
+"county": "Contra Costa",
+"date": "2026-11-06",
+"resend_id": "01a1b261-d388-7931-b5ee-ddae0e78f2e4",
+"subject": "The Dwelling Place Church: help for families in need"
+},
+"9fa7e88b4710": {
+"email": "secretary@newhomembc.org",
+"name": "New Home Baptist Church",
+"county": "Sacramento",
+"date": "2026-11-06",
+"resend_id": "01a1b261-d68e-7e62-9966-aeedb86df406",
+"subject": "A free link for Sacramento families"
+},
+"0d5372355a8f": {
+"email": "sanclementemission@gmail.com",
+"name": "San Clemente Mission Parish",
+"county": "Kern",
+"date": "2026-11-06",
+"resend_id": "01a1b261-d997-792f-baa5-bd07230b6f56",
+"subject": "Free help for families at San Clemente Mission Parish"
+},
+"a319e3f0ed95": {
+"email": "cog4sq@gmail.com",
+"name": "Church of Glory",
+"county": "Los Angeles",
+"date": "2026-11-06",
+"resend_id": "01a1b261-dc8b-7e77-90cc-0fd0857bf8f4",
+"subject": "Church of Glory: help for families in need"
+},
+"727daba007b0": {
+"email": "newhavencogicla@gmail.com",
+"name": "New Haven Church of God In Christ",
+"county": "Los Angeles",
+"date": "2026-11-06",
+"resend_id": "01a1b261-df77-7eb2-850f-216efd2b8868",
+"subject": "Free help for families at New Haven Church of God In Christ"
+},
+"43a035836256": {
+"email": "parish@sfnativity.org",
+"name": "Nativity of Our Lord",
+"county": "San Francisco",
+"date": "2026-11-06",
+"resend_id": "01a1b261-e272-738a-a35f-004778e4eff3",
+"subject": "Nativity of Our Lord: help for families in need"
+},
+"a3432928befd": {
+"email": "frrolly106@gmail.com",
+"name": "Our Lady of Lourdes Catholic Church",
+"county": "Los Angeles",
+"date": "2026-11-06",
+"resend_id": "01a1b261-e56b-73d5-8516-293e59c35668",
+"subject": "A free link for Los Angeles families"
+},
+"e7aafcd4e9eb": {
+"email": "office@mentonechurch.org",
+"name": "Mentone SDA Church",
+"county": "San Bernardino",
+"date": "2026-11-06",
+"resend_id": "01a1b261-e83b-7f3c-8fa0-45735694e328",
+"subject": "Mentone SDA Church: help for families in need"
+},
+"4747576ab203": {
+"email": "stelizabethjulian@gmail.com",
+"name": "St Elizabeth Catholic Church",
+"county": "San Diego",
+"date": "2026-11-06",
+"resend_id": "01a1b261-eb35-71af-8ed0-194cd7b8af4c",
+"subject": "St Elizabeth Catholic Church: help for families in need"
+},
+"c5dd4060c16b": {
+"email": "office@fhcsd.net",
+"name": "Father's House Church",
+"county": "San Diego",
+"date": "2026-11-06",
+"resend_id": "01a1b261-ee42-7b5c-a0f2-09aab51d3b6b",
+"subject": "Free help for families at Father's House Church"
+},
+"3eced832a37f": {
+"email": "information@tehillahchurch.org",
+"name": "Tehillah Church",
+"county": "Kern",
+"date": "2026-11-06",
+"resend_id": "01a1b261-f118-7705-85cc-e4359ee9b1c6",
+"subject": "Tehillah Church: help for families in need"
+},
+"17b18d95ed3a": {
+"email": "tmf.miracles@gmail.com",
+"name": "Miraculous Word Christian Center",
+"county": "Alameda",
+"date": "2026-11-06",
+"resend_id": "01a1b261-f403-7a47-93c7-f05340b0ca3f",
+"subject": "Miraculous Word Christian Center: help for families in need"
+},
+"e439e5c10103": {
+"email": "graceassembly48@gmail.com",
+"name": "Grace Assembly San Diego",
+"county": "San Diego",
+"date": "2026-11-06",
+"resend_id": "01a1b261-f6f2-7459-b29c-10841a483fa3",
+"subject": "A free link for San Diego families"
+},
+"8b7777e410bd": {
+"email": "church@sjoachim.org",
+"name": "St Joachim's Catholic Church",
+"county": "Madera",
+"date": "2026-11-06",
+"resend_id": "01a1b261-f9f1-7c94-b013-818c0cd00da5",
+"subject": "St Joachim's Catholic Church: help for families in need"
+},
+"e9c94da416ea": {
+"email": "olqom@yahoo.com",
+"name": "Our Lady Queen of Martyrs Armenian Catholic Church",
+"county": "Los Angeles",
+"date": "2026-11-06",
+"resend_id": "01a1b261-fccb-7237-8ad7-2786d5f3d071",
+"subject": "A free link for Los Angeles families"
+},
+"0d8dbf64a78e": {
+"email": "info@themiraclehub.org",
+"name": "Miracle Church of God in Christ",
+"county": "Los Angeles",
+"date": "2026-11-06",
+"resend_id": "01a1b261-ff9b-70cb-9970-fd1e2f768b4b",
+"subject": "A free link for Los Angeles families"
+},
+"634995a31b86": {
+"email": "info@gracecityirvine.com",
+"name": "Grace City Church",
+"county": "Orange",
+"date": "2026-11-06",
+"resend_id": "01a1b262-0299-7a01-ba41-afee11deab58",
+"subject": "Free help for families at Grace City Church"
+},
+"efe7e5254947": {
+"email": "office@lifepointenaz.com",
+"name": "Life Pointe Church",
+"county": "Sacramento",
+"date": "2026-11-06",
+"resend_id": "01a1b262-058d-7eee-94dc-d2f9952f2192",
+"subject": "A free link for Rio Linda families"
+},
+"c3fb1db2f9e7": {
+"email": "parishoffice@st-clare.org",
+"name": "St. Clare Catholic Church",
+"county": "Los Angeles",
+"date": "2026-11-06",
+"resend_id": "01a1b262-087d-79e1-a828-ad0a6906e4f8",
+"subject": "St. Clare Catholic Church: help for families in need"
+},
+"a3591c77c512": {
+"email": "info@highergroundchurch.org",
+"name": "Higher Ground Church",
+"county": "Alameda",
+"date": "2026-11-06",
+"resend_id": "01a1b262-0b6b-7362-968b-54d3fb89e344",
+"subject": "A free link for Oakland families"
+},
+"742f5e44dd7d": {
+"email": "olphincalistoga@gmail.com",
+"name": "Our Lady of Perpetual Help Roman Catholic Church",
+"county": "Napa",
+"date": "2026-11-06",
+"resend_id": "01a1b262-0e7c-77f8-8f9b-4c7f6087b8f2",
+"subject": "A free link for Calistoga families"
+},
+"344442e4f8f7": {
+"email": "pastor@villagealive.com",
+"name": "Village Church of Laguna Woods",
+"county": "Orange",
+"date": "2026-11-06",
+"resend_id": "01a1b262-1166-7679-a602-a88d2d329646",
+"subject": "Free help for families at Village Church of Laguna Woods"
+},
+"7f6adf1300bc": {
+"email": "info@iglesia29.org",
+"name": "Iglesia 29",
+"county": "Orange",
+"date": "2026-11-06",
+"resend_id": "01a1b262-1441-7def-a5f2-dd9e161597ff",
+"subject": "Un enlace gratuito para familias de Orange"
+},
+"fec1fcf9a010": {
+"email": "tracycommunitychurch@gmail.com",
+"name": "Tracy Community Church",
+"county": "San Joaquin",
+"date": "2026-11-06",
+"resend_id": "01a1b262-1737-7380-9e9c-fd585a368996",
+"subject": "A free link for Tracy families"
+},
+"bd203566aaa9": {
+"email": "admin@stpaulspismobeach.com",
+"name": "St. Paul the Apostle",
+"county": "San Luis Obispo",
+"date": "2026-11-06",
+"resend_id": "01a1b262-1a42-720d-aade-f7451586b7c5",
+"subject": "A free link for Pismo Beach families"
+},
+"0254253164ed": {
+"email": "lightbearersfellowship@gmail.com",
+"name": "Light Bearers Fellowship Church",
+"county": "Santa Clara",
+"date": "2026-11-06",
+"resend_id": "01a1b262-1d57-7057-9eab-045ac8540c94",
+"subject": "Free help for families at Light Bearers Fellowship Church"
+},
+"6ab0791cd055": {
+"email": "holytrinitychurch276@yahoo.com",
+"name": "Holy Trinity Church",
+"county": "Monterey",
+"date": "2026-11-06",
+"resend_id": "01a1b262-2050-7acf-b36e-5bd8197f345f",
+"subject": "Holy Trinity Church: help for families in need"
+},
+"aace1fcd1796": {
+"email": "info@dcbc.org",
+"name": "Del Cerro Baptist Church",
+"county": "San Diego",
+"date": "2026-11-06",
+"resend_id": "01a1b262-234c-7232-85d8-9afc848dea10",
+"subject": "Del Cerro Baptist Church: help for families in need"
+},
+"64af857dbf3d": {
+"email": "bjmpro39@gmail.com",
+"name": "Riverside Kansas Avenue Seventh-day Adventist Church",
+"county": "Riverside",
+"date": "2026-11-06",
+"resend_id": "01a1b262-2638-73c6-a0b4-a5f954c9f5d4",
+"subject": "A free link for Riverside families"
+},
+"bc660739d707": {
+"email": "refuge.angelscamp@gmail.com",
+"name": "Refuge",
+"county": "Calaveras",
+"date": "2026-11-06",
+"resend_id": "01a1b262-2935-7f27-9186-78e18a63ad5d",
+"subject": "Free help for families at Refuge"
+},
+"cc0721942d6d": {
+"email": "info@thrivechurchca.com",
+"name": "Thrive Church CA",
+"county": "Solano",
+"date": "2026-11-06",
+"resend_id": "01a1b262-2c37-7b65-8fb6-826cfb4df6ad",
+"subject": "Thrive Church CA: help for families in need"
+},
+"ebd7700895e6": {
+"email": "newfaithcathedralcogic@gmail.com",
+"name": "New Faith Cathedral Church of God in Christ",
+"county": "Solano",
+"date": "2026-11-06",
+"resend_id": "01a1b262-2f11-7435-9d83-f64355eb38a3",
+"subject": "A free link for Vallejo families"
+},
+"471078782a05": {
+"email": "stelizabethchurchsf@gmail.com",
+"name": "St Elizabeth's Catholic Church",
+"county": "San Francisco",
+"date": "2026-11-06",
+"resend_id": "01a1b262-31ef-7107-984c-aacaf0471660",
+"subject": "Free help for families at St Elizabeth's Catholic Church"
+},
+"ae4b433e42ee": {
+"email": "stpaultranquillity@gmail.com",
+"name": "St. Vincent de Paul Church",
+"county": "Fresno",
+"date": "2026-11-06",
+"resend_id": "01a1b262-34e4-7c32-bd90-cb1a2c1b77f4",
+"subject": "Free help for families at St. Vincent de Paul Church"
+},
+"6b8e0ddb317e": {
+"email": "allnationsafricansdachurch@gmail.com",
+"name": "All Nations African Seventh-day Adventist Church",
+"county": "San Bernardino",
+"date": "2026-11-06",
+"resend_id": "01a1b262-37d8-7ae9-8176-2f26b51261ff",
+"subject": "A free link for San Bernardino families"
+},
+"2e3f45ef08d0": {
+"email": "lvsbpastorsaide@gmail.com",
+"name": "Linda Vista Second Baptist Church",
+"county": "San Diego",
+"date": "2026-11-06",
+"resend_id": "01a1b262-3ac8-79ae-bac6-e307c6dc6197",
+"subject": "A free link for San Diego families"
+},
+"dc3501d36e7d": {
+"email": "pastorron@newseasonsws.com",
+"name": "New Seasons Church",
+"county": "Yolo",
+"date": "2026-11-06",
+"resend_id": "01a1b262-3db3-7561-ba20-2911ea131138",
+"subject": "A free link for West Sacramento families"
+},
+"1d14e5d80bf9": {
+"email": "office@saintbernardcc.org",
+"name": "Saint Bernard Catholic Community",
+"county": "Los Angeles",
+"date": "2026-11-06",
+"resend_id": "01a1b262-40a6-7caf-8608-4fd0cd5678cc",
+"subject": "A free link for Bellflower families"
+},
+"f23bdbf1f981": {
+"email": "ccnorthgrove@gmail.com",
+"name": "Calvary Chapel Northgrove",
+"county": "Orange",
+"date": "2026-11-06",
+"resend_id": "01a1b262-43a2-7c98-a844-14ada78f75a7",
+"subject": "A free link for Anaheim families"
+},
+"2a5b827685a1": {
+"email": "parish@marymagdalen.org",
+"name": "St Mary Magdalen Church",
+"county": "Alameda",
+"date": "2026-11-06",
+"resend_id": "01a1b262-4693-71cd-88e5-82f89c94e878",
+"subject": "Free help for families at St Mary Magdalen Church"
+},
+"b25ee44bb7dd": {
+"email": "mckinleyvillechurchontherock@yahoo.com",
+"name": "Church On the Rock",
+"county": "Humboldt",
+"date": "2026-11-06",
+"resend_id": "01a1b262-4980-7ae9-823d-6ca5414cca50",
+"subject": "A free link for McKinleyville families"
+},
+"31691c1d5854": {
+"email": "codi.secretary@gmail.com",
+"name": "Church Of The Open Door International",
+"county": "Contra Costa",
+"date": "2026-11-06",
+"resend_id": "01a1b262-4c51-735c-9132-2112b740ee4d",
+"subject": "A free link for San Pablo families"
 }
 },
 "suppressed": [
@@ -2151,7 +2631,11 @@
 "info@trinitychurchsf.org",
 "reception@saintroberts.org",
 "rrinde@firstb.org",
-"santonio@catholic.org"
+"santonio@catholic.org",
+"gracekidsrv@gmail.com",
+"phousesd@yahoo.com",
+"sandiegospanissdachurch@gmail.com",
+"smgcus@yahoo.com"
 ],
 "runs": [
 {
@@ -2204,6 +2688,12 @@
 },
 {
 "date": "2026-11-05",
+"sent": 60,
+"failed": 0,
+"requested": 60
+},
+{
+"date": "2026-11-06",
 "sent": 60,
 "failed": 0,
 "requested": 60
