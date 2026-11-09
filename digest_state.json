@@ -168,6 +168,7 @@
 "resend:03ca2f8b7f08",
 "resend:04a37c1f9e7f",
 "resend:04f95c0476c5",
+"resend:06c06ab3317a",
 "resend:06c3e3441463",
 "resend:06f8e5ae9153",
 "resend:07498f7dace4",
@@ -264,6 +265,7 @@
 "resend:2fefa9bda1a1",
 "resend:2ffe0b71ae08",
 "resend:300c0b1f6412",
+"resend:30231421fa96",
 "resend:31691c1d5854",
 "resend:31ff8e7f0f44",
 "resend:32d9f4a04c92",
@@ -534,6 +536,7 @@
 "resend:bc03ff09326b",
 "resend:bc58b8213243",
 "resend:bc660739d707",
+"resend:bc7eb7661d9b",
 "resend:bcac575c88a0",
 "resend:bccdfe10cb7e",
 "resend:bd203566aaa9",
@@ -613,6 +616,7 @@
 "resend:e613c328cd4e",
 "resend:e616aeac408e",
 "resend:e66a28be8cf2",
+"resend:e6d687e9162f",
 "resend:e743cf62e4cc",
 "resend:e7aafcd4e9eb",
 "resend:e8c2464e6e56",
@@ -732,6 +736,11 @@
 "date": "2026-11-09",
 "churches": 60,
 "resend_id": "01a1c1ce-c7bf-7c22-a6f4-190c3bb2139f"
+},
+{
+"date": "2026-11-09",
+"churches": 4,
+"resend_id": "01a1c27a-b709-70a6-ac50-f69b0a95cd73"
 }
 ]
 }
