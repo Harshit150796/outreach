@@ -4051,6 +4051,38 @@
 "date": "2026-11-09",
 "resend_id": "01a1c1ce-8716-775c-9430-5af5a2948a80",
 "subject": "A free link for Brea families"
+},
+"06c06ab3317a": {
+"email": "contact.thehomechurch@gmail.com",
+"name": "The Home Church",
+"county": "Los Angeles",
+"date": "2026-11-09",
+"resend_id": "01a1c27a-7864-7206-b789-fabf96895210",
+"subject": "A free link for Rowland Heights families"
+},
+"30231421fa96": {
+"email": "victory.lighthouse@yahoo.com",
+"name": "Victory Lighthouse UPC Church",
+"county": "San Diego",
+"date": "2026-11-09",
+"resend_id": "01a1c27a-7b2e-7e76-9cd5-27560c974ce3",
+"subject": "Free help for families at Victory Lighthouse UPC Church"
+},
+"e6d687e9162f": {
+"email": "bayviewbaptistchurchsf@gmail.com",
+"name": "Bayview Baptist Church",
+"county": "San Francisco",
+"date": "2026-11-09",
+"resend_id": "01a1c27a-7e0d-7adf-b6c2-e19345568860",
+"subject": "Free help for families at Bayview Baptist Church"
+},
+"bc7eb7661d9b": {
+"email": "secretary@stgregoryarmenian.org",
+"name": "St. Gregory Armenian Catholic Church",
+"county": "Los Angeles",
+"date": "2026-11-09",
+"resend_id": "01a1c27a-80d9-7c44-820b-ae735e0ea7c9",
+"subject": "St. Gregory Armenian Catholic Church: help for families in need"
 }
 },
 "suppressed": [
@@ -4086,7 +4118,11 @@
 "bocbc2002@gmail.com",
 "info@stantonchurch.org",
 "info@zcfla.org",
-"info@kingsolomonbaptist.com"
+"info@kingsolomonbaptist.com",
+"churchofice@stveronicassf.com",
+"info@visionmundial.us",
+"pastorshirley@todwc.org",
+"wileydrake@hotmail.com"
 ],
 "runs": [
 {
@@ -4166,6 +4202,12 @@
 "sent": 60,
 "failed": 0,
 "requested": 60
+},
+{
+"date": "2026-11-09",
+"sent": 4,
+"failed": 0,
+"requested": 4
 }
 ]
 }
