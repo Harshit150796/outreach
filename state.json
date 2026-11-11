@@ -5043,6 +5043,70 @@
 "date": "2026-11-11",
 "resend_id": "01a1cbe4-c52f-7179-b6d7-085aa208331f",
 "subject": "A free link for Sacramento families"
+},
+"b7b87d0d93db": {
+"email": "info@stjonipomo.org",
+"name": "St. Joseph Catholic Church",
+"county": "San Luis Obispo",
+"date": "2026-11-11",
+"resend_id": "01a1cc2a-b6fd-7537-bf6f-8b9518942b78",
+"subject": "A free link for Nipomo families"
+},
+"82724442302e": {
+"email": "pastor.orlcsb@gmail.com",
+"name": "Our Redeemer Lutheran Church",
+"county": "Santa Barbara",
+"date": "2026-11-11",
+"resend_id": "01a1cc2a-b9cc-73c3-980a-ad82a438af1a",
+"subject": "A free link for Santa Barbara families"
+},
+"d1a667406874": {
+"email": "info@nbcbc.org",
+"name": "New Beginnings Baptist Church",
+"county": "Fresno",
+"date": "2026-11-11",
+"resend_id": "01a1cc2a-bc65-7a58-bef7-30441af37315",
+"subject": "A free link for Fresno families"
+},
+"be3ef6783478": {
+"email": "info@thepointe.net",
+"name": "The Pointe Church",
+"county": "Sacramento",
+"date": "2026-11-11",
+"resend_id": "01a1cc2a-befd-7550-a849-e8e02b4348fd",
+"subject": "Free help for families at The Pointe Church"
+},
+"98e91668a58b": {
+"email": "info@acflink.org",
+"name": "Redeemed Christian Church Of Godbeautiful Gate Fellowship",
+"county": "Alameda",
+"date": "2026-11-11",
+"resend_id": "01a1cc2a-c18a-7df5-81f6-65fb40a0a69f",
+"subject": "A free link for Berkeley families"
+},
+"59cede037863": {
+"email": "olrsj1@gmail.com",
+"name": "Our Lady of Refuge",
+"county": "Santa Clara",
+"date": "2026-11-11",
+"resend_id": "01a1cc2a-c444-70ec-8a99-9e7aa8e99efb",
+"subject": "Our Lady of Refuge: help for families in need"
+},
+"9834442da72b": {
+"email": "info@saintbrigidparish.org",
+"name": "Saint Brigid Parish",
+"county": "San Diego",
+"date": "2026-11-11",
+"resend_id": "01a1cc2a-c6f0-7124-89a8-9460451c69c1",
+"subject": "A free link for San Diego families"
+},
+"a9f47825dbdd": {
+"email": "parishqofa@gmail.com",
+"name": "Queen of Angels Catholic Church",
+"county": "San Diego",
+"date": "2026-11-11",
+"resend_id": "01a1cc2a-c987-7dee-86aa-35d1cae1d4b4",
+"subject": "Free help for families at Queen of Angels Catholic Church"
 }
 },
 "suppressed": [
@@ -5083,7 +5147,11 @@
 "info@visionmundial.us",
 "pastorshirley@todwc.org",
 "wileydrake@hotmail.com",
-"info@abundantgracesd.org"
+"info@abundantgracesd.org",
+"info@stthomassj.org",
+"pastor@resparish.org",
+"rcccg3pchurch@gmail.com",
+"sacredheartredbluf@outlook.com"
 ],
 "runs": [
 {
@@ -5181,6 +5249,12 @@
 "sent": 60,
 "failed": 0,
 "requested": 60
+},
+{
+"date": "2026-11-11",
+"sent": 8,
+"failed": 0,
+"requested": 8
 }
 ]
 }
