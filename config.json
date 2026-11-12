@@ -1,18 +1,21 @@
 {
- "from": "CouponDonation <hello@outreach.coupondonation.com>",
- "reply_to": "hello@coupondonation.com",
- "unsubscribe_address": "unsubscribe@outreach.coupondonation.com",
- "postal_address": "300 Creek View Road, Suite 209, Newark, DE 19711",
- "ramp": [
-  {
-   "until_day": 99999,
-   "per_day": 60
-  }
- ],
- "reserve_daily": 30,
- "reserve_monthly": 400,
- "queue_total": 17043,
- "paused": false,
- "resumed_at": "2026-11-04T16:27:36Z",
- "bounce_limit_pct": 10.0
+  "from": "CouponDonation <hello@outreach.coupondonation.com>",
+  "reply_to": "hello@coupondonation.com",
+  "unsubscribe_address": "unsubscribe@outreach.coupondonation.com",
+  "postal_address": "300 Creek View Road, Suite 209, Newark, DE 19711",
+  "ramp": [
+    {
+      "until_day": 99999,
+      "per_day": 60
+    }
+  ],
+  "reserve_daily": 30,
+  "reserve_monthly": 400,
+  "queue_total": 17043,
+  "paused": false,
+  "resumed_at": "2026-11-04T16:27:36Z",
+  "bounce_limit_pct": 10.0,
+  "founders_enabled": true,
+  "founders_per_day": 15,
+  "founders_followup_days": 5
 }

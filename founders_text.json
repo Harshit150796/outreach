@@ -1,0 +1,14 @@
+{
+ "Sponsor a family": {
+  "subject": "Could {Company} sponsor a family this holiday?",
+  "body": "Hi {Hi},\n\nCongrats on building {Company}.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again."
+ },
+ "Collaboration": {
+  "subject": "{Company} and CouponDonation",
+  "body": "Hi {Hi},\n\nCongrats on building {Company}.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\n{Collaboration line}\n\nWould you be open to a 15-minute call in the next two weeks?\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again."
+ },
+ "Follow-up": {
+  "subject": "Sent as a reply in the same thread",
+  "body": "Hi {Hi},\n\nBringing this back to the top of your inbox in case it got buried. If now isn't the right time, no problem at all.\n\nThanks,\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again."
+ }
+}
