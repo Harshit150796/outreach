@@ -1,7 +1,233 @@
 {
- "date": "2026-11-11",
- "items": [],
+ "date": "2026-11-12",
+ "items": [
+  {
+   "key": "first:founders-aucert-ai",
+   "to": "founders@aucert.ai",
+   "subject": "Could Aucert sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "founders@aucert.ai",
+    "subject": "Could Aucert sponsor a family this holiday?",
+    "content": "Hi Vivek and Rajesh,\n\nCongrats on building Aucert.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:founders-axiomat-com",
+   "to": "founders@axiomat.com",
+   "subject": "Could Axiomat sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "founders@axiomat.com",
+    "subject": "Could Axiomat sponsor a family this holiday?",
+    "content": "Hi Axiomat team,\n\nCongrats on building Axiomat.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:info-axonnic-com",
+   "to": "info@axonnic.com",
+   "subject": "Could Axonnic sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "info@axonnic.com",
+    "subject": "Could Axonnic sponsor a family this holiday?",
+    "content": "Hi Maxim and Arsh,\n\nCongrats on building Axonnic.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:founders-bayworks-app",
+   "to": "founders@bayworks.app",
+   "subject": "Could Bayworks sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "founders@bayworks.app",
+    "subject": "Could Bayworks sponsor a family this holiday?",
+    "content": "Hi Kaustubh and Shubham,\n\nCongrats on building Bayworks.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:jp-blinka-co",
+   "to": "jp@blinka.co",
+   "subject": "Could Blinka sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "jp@blinka.co",
+    "subject": "Could Blinka sponsor a family this holiday?",
+    "content": "Hi Juan Pablo,\n\nCongrats on building Blinka.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:nick-boxes-dev",
+   "to": "nick@boxes.dev",
+   "subject": "Could Boxes.dev sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "nick@boxes.dev",
+    "subject": "Could Boxes.dev sponsor a family this holiday?",
+    "content": "Hi Nick,\n\nCongrats on building Boxes.dev.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:founders-byteask-ai",
+   "to": "founders@byteask.ai",
+   "subject": "Could ByteAsk sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "founders@byteask.ai",
+    "subject": "Could ByteAsk sponsor a family this holiday?",
+    "content": "Hi Anirudha and Pratyush,\n\nCongrats on building ByteAsk.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:founders-caladh-com",
+   "to": "founders@caladh.com",
+   "subject": "Could Caladh sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "founders@caladh.com",
+    "subject": "Could Caladh sponsor a family this holiday?",
+    "content": "Hi Kristen,\n\nCongrats on building Caladh.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:team-cesara-com",
+   "to": "team@cesara.com",
+   "subject": "Could Cesara sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "team@cesara.com",
+    "subject": "Could Cesara sponsor a family this holiday?",
+    "content": "Hi Xinan and Junwoo,\n\nCongrats on building Cesara.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:rachel-claimkit-co",
+   "to": "rachel@claimkit.co",
+   "subject": "Could ClaimKit sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "rachel@claimkit.co",
+    "subject": "Could ClaimKit sponsor a family this holiday?",
+    "content": "Hi Rachel,\n\nCongrats on building ClaimKit.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:issa-databuddy-cc",
+   "to": "issa@databuddy.cc",
+   "subject": "Could Databuddy sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "issa@databuddy.cc",
+    "subject": "Could Databuddy sponsor a family this holiday?",
+    "content": "Hi Issa,\n\nCongrats on building Databuddy.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:slavko-deepmark-me",
+   "to": "slavko@deepmark.me",
+   "subject": "Could DeepMark sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "slavko@deepmark.me",
+    "subject": "Could DeepMark sponsor a family this holiday?",
+    "content": "Hi Slavko,\n\nCongrats on building DeepMark.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:founders-deployrobotics-co",
+   "to": "founders@deployrobotics.co",
+   "subject": "Could Deploy sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "founders@deployrobotics.co",
+    "subject": "Could Deploy sponsor a family this holiday?",
+    "content": "Hi Sahith and Irene,\n\nCongrats on building Deploy.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:founders-dreamscalelabs-com",
+   "to": "founders@dreamscalelabs.com",
+   "subject": "Could Dreamscale Labs sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "founders@dreamscalelabs.com",
+    "subject": "Could Dreamscale Labs sponsor a family this holiday?",
+    "content": "Hi Dreamscale Labs team,\n\nCongrats on building Dreamscale Labs.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  },
+  {
+   "key": "first:founders-dydema-com",
+   "to": "founders@dydema.com",
+   "subject": "Could Dydema sponsor a family this holiday?",
+   "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+   "args": {
+    "accountId": "3837587000000002002",
+    "region": "in",
+    "fromAddress": "connect@coupondonation.com",
+    "toAddress": "founders@dydema.com",
+    "subject": "Could Dydema sponsor a family this holiday?",
+    "content": "Hi Julian and Christopher,\n\nCongrats on building Dydema.\n\nI'm Harshit, founder of CouponDonation. Families in the US post what they need, like groceries or medicine, and donors cover it. No cash changes hands: each gift becomes a gift card for the store the family asked for, and the donor gets an email when it's used.\n\nWould your team sponsor a family this holiday season? Every dollar of your gift goes to the family, and you can choose who you help at coupondonation.com.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. If giving isn't a fit right now, I'd still value 15 minutes of founder-to-founder feedback.\n\nThanks,\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nIf you'd rather not hear from me, reply \"no thanks\" and I won't write again.",
+    "mailFormat": "plaintext"
+   }
+  }
+ ],
  "notes": [
-  "connect@: 0 first emails, 0 follow-ups. 67 founders still queued after today."
+  "connect@: 15 first emails, 0 follow-ups. 52 founders still queued after today."
  ]
 }

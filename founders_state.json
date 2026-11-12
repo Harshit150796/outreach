@@ -99,7 +99,68 @@
 }
 },
 "suppressed": [],
-"pending": {},
+"pending": {
+"first:founders-aucert-ai": {
+"date": "2026-11-12",
+"to": "founders@aucert.ai"
+},
+"first:founders-axiomat-com": {
+"date": "2026-11-12",
+"to": "founders@axiomat.com"
+},
+"first:info-axonnic-com": {
+"date": "2026-11-12",
+"to": "info@axonnic.com"
+},
+"first:founders-bayworks-app": {
+"date": "2026-11-12",
+"to": "founders@bayworks.app"
+},
+"first:jp-blinka-co": {
+"date": "2026-11-12",
+"to": "jp@blinka.co"
+},
+"first:nick-boxes-dev": {
+"date": "2026-11-12",
+"to": "nick@boxes.dev"
+},
+"first:founders-byteask-ai": {
+"date": "2026-11-12",
+"to": "founders@byteask.ai"
+},
+"first:founders-caladh-com": {
+"date": "2026-11-12",
+"to": "founders@caladh.com"
+},
+"first:team-cesara-com": {
+"date": "2026-11-12",
+"to": "team@cesara.com"
+},
+"first:rachel-claimkit-co": {
+"date": "2026-11-12",
+"to": "rachel@claimkit.co"
+},
+"first:issa-databuddy-cc": {
+"date": "2026-11-12",
+"to": "issa@databuddy.cc"
+},
+"first:slavko-deepmark-me": {
+"date": "2026-11-12",
+"to": "slavko@deepmark.me"
+},
+"first:founders-deployrobotics-co": {
+"date": "2026-11-12",
+"to": "founders@deployrobotics.co"
+},
+"first:founders-dreamscalelabs-com": {
+"date": "2026-11-12",
+"to": "founders@dreamscalelabs.com"
+},
+"first:founders-dydema-com": {
+"date": "2026-11-12",
+"to": "founders@dydema.com"
+}
+},
 "paused": "",
 "runs": [
 {
@@ -109,5 +170,5 @@
 "unknown": 0
 }
 ],
-"last_inbox": "2026-11-11"
+"last_inbox": "2026-11-12"
 }
