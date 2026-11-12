@@ -1,72 +1,109 @@
 {
-"sent": {},
+"sent": {
+"nick-ignitionbenefits-com": {
+"to": "nick@ignitionbenefits.com",
+"date": "2026-11-11",
+"subject": "Ignition Benefits and CouponDonation",
+"message_id": "1794457123196130200"
+},
+"onur-joinspine-ai": {
+"to": "onur@joinspine.ai",
+"date": "2026-11-11",
+"subject": "Spine and CouponDonation",
+"message_id": "1794457123226130100"
+},
+"paul-gettireswing-com": {
+"to": "paul@gettireswing.com",
+"date": "2026-11-11",
+"subject": "Tire Swing and CouponDonation",
+"message_id": "1794457123227130100"
+},
+"founders-trepo-ai": {
+"to": "founders@trepo.ai",
+"date": "2026-11-11",
+"subject": "Trepo and CouponDonation",
+"message_id": "1794457123967119300"
+},
+"founders-cova-care": {
+"to": "founders@cova.care",
+"date": "2026-11-11",
+"subject": "Cova and CouponDonation",
+"message_id": "1794457125239130200"
+},
+"founders-corvera-ai": {
+"to": "founders@corvera.ai",
+"date": "2026-11-11",
+"subject": "Corvera and CouponDonation",
+"message_id": "1794457125401130300"
+},
+"nathan-sira-team": {
+"to": "nathan@sira.team",
+"date": "2026-11-11",
+"subject": "Sira and CouponDonation",
+"message_id": "1794457125287130200"
+},
+"nikhil-memorable-sh": {
+"to": "nikhil@memorable.sh",
+"date": "2026-11-11",
+"subject": "Could Memorable sponsor a family this holiday?",
+"message_id": "1794457125210119300"
+},
+"doruk-0-security": {
+"to": "doruk@0.security",
+"date": "2026-11-11",
+"subject": "Could 0.security sponsor a family this holiday?",
+"message_id": "1794457158447130100"
+},
+"founders-agentrelay-com": {
+"to": "founders@agentrelay.com",
+"date": "2026-11-11",
+"subject": "Could Agent Relay sponsor a family this holiday?",
+"message_id": "1794457158441130300"
+},
+"rohit-appliedkinetics-ai": {
+"to": "rohit@appliedkinetics.ai",
+"date": "2026-11-11",
+"subject": "Could Applied Kinetics sponsor a family this holiday?",
+"message_id": "1794457158391130100"
+},
+"founders-archgen-tech": {
+"to": "founders@archgen.tech",
+"date": "2026-11-11",
+"subject": "Could Archgen Labs sponsor a family this holiday?",
+"message_id": "1794457158440130300"
+},
+"founders-armorerlabs-com": {
+"to": "founders@armorerlabs.com",
+"date": "2026-11-11",
+"subject": "Could Armorer Labs sponsor a family this holiday?",
+"message_id": "1794457159614130300"
+},
+"yudai-matsuoka-asakana-co": {
+"to": "yudai_matsuoka@asakana.co",
+"date": "2026-11-11",
+"subject": "Could Asakana sponsor a family this holiday?",
+"message_id": "1794457159718119300"
+},
+"contact-asim-group-com": {
+"to": "contact@asim-group.com",
+"date": "2026-11-11",
+"subject": "Could Asim sponsor a family this holiday?",
+"message_id": "1794457159692130200"
+}
+},
 "followups": {},
 "replied": {},
 "bounced": {},
 "suppressed": [],
-"pending": {
-"first:nick-ignitionbenefits-com": {
-"date": "2026-11-11",
-"to": "nick@ignitionbenefits.com"
-},
-"first:onur-joinspine-ai": {
-"date": "2026-11-11",
-"to": "onur@joinspine.ai"
-},
-"first:paul-gettireswing-com": {
-"date": "2026-11-11",
-"to": "paul@gettireswing.com"
-},
-"first:founders-trepo-ai": {
-"date": "2026-11-11",
-"to": "founders@trepo.ai"
-},
-"first:founders-cova-care": {
-"date": "2026-11-11",
-"to": "founders@cova.care"
-},
-"first:founders-corvera-ai": {
-"date": "2026-11-11",
-"to": "founders@corvera.ai"
-},
-"first:nathan-sira-team": {
-"date": "2026-11-11",
-"to": "nathan@sira.team"
-},
-"first:nikhil-memorable-sh": {
-"date": "2026-11-11",
-"to": "nikhil@memorable.sh"
-},
-"first:doruk-0-security": {
-"date": "2026-11-11",
-"to": "doruk@0.security"
-},
-"first:founders-agentrelay-com": {
-"date": "2026-11-11",
-"to": "founders@agentrelay.com"
-},
-"first:rohit-appliedkinetics-ai": {
-"date": "2026-11-11",
-"to": "rohit@appliedkinetics.ai"
-},
-"first:founders-archgen-tech": {
-"date": "2026-11-11",
-"to": "founders@archgen.tech"
-},
-"first:founders-armorerlabs-com": {
-"date": "2026-11-11",
-"to": "founders@armorerlabs.com"
-},
-"first:yudai-matsuoka-asakana-co": {
-"date": "2026-11-11",
-"to": "yudai_matsuoka@asakana.co"
-},
-"first:contact-asim-group-com": {
-"date": "2026-11-11",
-"to": "contact@asim-group.com"
-}
-},
+"pending": {},
 "paused": "",
-"runs": [],
+"runs": [
+{
+"date": "2026-11-11",
+"sent": 15,
+"failed": 0,
+"unknown": 0
+}
+],
 "last_inbox": "2026-11-11"
 }
