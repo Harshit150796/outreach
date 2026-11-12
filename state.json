@@ -5587,6 +5587,62 @@
 "date": "2026-11-12",
 "resend_id": "01a1d102-92da-7843-ad24-3337f725b967",
 "subject": "Free help for families at Kingdom Hearts Fellowship Church"
+},
+"97433aaf8c43": {
+"email": "graceprespca@gmail.com",
+"name": "Grace Presbyterian Church",
+"county": "Orange",
+"date": "2026-11-12",
+"resend_id": "01a1d171-795f-706c-bef3-e514df403dce",
+"subject": "Grace Presbyterian Church: help for families in need"
+},
+"e0699bf18665": {
+"email": "info@fivewoundschurch.org",
+"name": "Five Wounds Portuguese National Parish",
+"county": "Santa Clara",
+"date": "2026-11-12",
+"resend_id": "01a1d171-7c60-74d8-8ef2-d12272a95331",
+"subject": "A free link for San Jose families"
+},
+"27465bbc9210": {
+"email": "kingcitybiblechurch@gmail.com",
+"name": "King City Bible Church",
+"county": "Monterey",
+"date": "2026-11-12",
+"resend_id": "01a1d171-7f9a-7110-9b7e-49cba87ba206",
+"subject": "A free link for King City families"
+},
+"400321c27309": {
+"email": "office@corpuschristifremont.org",
+"name": "Corpus Christi Church",
+"county": "Alameda",
+"date": "2026-11-12",
+"resend_id": "01a1d171-827a-7abd-a496-d362d9f25b9b",
+"subject": "Free help for families at Corpus Christi Church"
+},
+"02d496cd113f": {
+"email": "sanfernando.valley.filipino@gmail.com",
+"name": "San Fernando Valley Filipino Seventh Day Adventist Church",
+"county": "Los Angeles",
+"date": "2026-11-12",
+"resend_id": "01a1d171-855a-7a8c-bdf5-80bb130cd438",
+"subject": "A free link for Los Angeles families"
+},
+"352ffb739097": {
+"email": "calvarychapelscv@gmail.com",
+"name": "Calvary Chapel Santa Clarita",
+"county": "Los Angeles",
+"date": "2026-11-12",
+"resend_id": "01a1d171-8860-7c5d-83f9-2087ff494e56",
+"subject": "A free link for Santa Clarita families"
+},
+"1c884d473098": {
+"email": "remnantchurchav@gmail.com",
+"name": "Remnant Church AV",
+"county": "Los Angeles",
+"date": "2026-11-12",
+"resend_id": "01a1d171-8b70-757b-9380-741a0ee3f7c7",
+"subject": "Remnant Church AV: help for families in need"
 }
 },
 "suppressed": [
@@ -5633,7 +5689,14 @@
 "rcccg3pchurch@gmail.com",
 "sacredheartredbluf@outlook.com",
 "info@nbcbc.org",
-"office@thewayofthecrossca.org"
+"office@thewayofthecrossca.org",
+"501fbcturlock@gmail.com",
+"contact@tsbchurch.org",
+"info@adincommunitybiblechurch.com",
+"newbcfr@yahoo.com",
+"pastorcarol@lolmv.org",
+"wearelivinggrace@gmail.com",
+"office@bcumc.org"
 ],
 "runs": [
 {
@@ -5743,6 +5806,12 @@
 "sent": 60,
 "failed": 0,
 "requested": 60
+},
+{
+"date": "2026-11-12",
+"sent": 7,
+"failed": 0,
+"requested": 7
 }
 ]
 }
