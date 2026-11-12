@@ -150,6 +150,7 @@ def cmd_plan(a):
                                           "content": body, "mailFormat": "plaintext"}})
         # first emails
         n = 0
+        per_day -= sum(1 for v in s["sent"].values() if v["date"] == tds)  # never more than per_day in one day
         for q in queue:
             if n >= per_day:
                 break
