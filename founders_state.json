@@ -93,7 +93,11 @@
 },
 "followups": {},
 "replied": {},
-"bounced": {},
+"bounced": {
+"founders@cova.care": {
+"date": "2026-11-11"
+}
+},
 "suppressed": [],
 "pending": {},
 "paused": "",
