@@ -6123,6 +6123,86 @@
 "date": "2026-11-13",
 "resend_id": "01a1d627-fe56-7c63-8509-9cef3b600bbc",
 "subject": "Free help for families at Blythe Central SDA Church"
+},
+"2a3374002c45": {
+"email": "pastor@biblebaptistarleta.org",
+"name": "Bible Baptist Church",
+"county": "Los Angeles",
+"date": "2026-11-13",
+"resend_id": "01a1d681-2386-78db-9ee5-1eb125ba2460",
+"subject": "Bible Baptist Church: help for families in need"
+},
+"72967fc1dec6": {
+"email": "godwwminfo@gmail.com",
+"name": "Greater Open Door COGIC",
+"county": "Los Angeles",
+"date": "2026-11-13",
+"resend_id": "01a1d681-26b9-793d-9448-f84ef9d12144",
+"subject": "Free help for families at Greater Open Door COGIC"
+},
+"b61b06f230d5": {
+"email": "info@saintstephensf.org",
+"name": "St Stephen's Catholic Church",
+"county": "San Francisco",
+"date": "2026-11-13",
+"resend_id": "01a1d681-29e6-799e-95a4-6a1ef2fde79a",
+"subject": "St Stephen's Catholic Church: help for families in need"
+},
+"a305866ad4a6": {
+"email": "info@villagechurchsd.com",
+"name": "Village Church SD",
+"county": "San Diego",
+"date": "2026-11-13",
+"resend_id": "01a1d681-2d24-7acb-9985-ea520ac0265e",
+"subject": "Village Church SD: help for families in need"
+},
+"4e0613d479b3": {
+"email": "stambrose1281@gmail.com",
+"name": "St Ambrose Catholic Church",
+"county": "Los Angeles",
+"date": "2026-11-13",
+"resend_id": "01a1d681-3077-718e-a660-397c63592b54",
+"subject": "A free link for West Hollywood families"
+},
+"9566a150e9ad": {
+"email": "churchnativity@nativitymenlo.org",
+"name": "Church of the Nativity",
+"county": "San Mateo",
+"date": "2026-11-13",
+"resend_id": "01a1d681-3445-72ce-8c40-058321331d6b",
+"subject": "A free link for Menlo Park families"
+},
+"113c299b23f6": {
+"email": "stjosephchaldean@gmail.com",
+"name": "St. Joseph Chaldean Catholic Church",
+"county": "San Diego",
+"date": "2026-11-13",
+"resend_id": "01a1d681-3862-7f14-826d-d7dc6c65c10e",
+"subject": "St. Joseph Chaldean Catholic Church: help for families in need"
+},
+"ee9cff32e495": {
+"email": "info@actssantamonica.org",
+"name": "ACTS Santa Monica",
+"county": "Los Angeles",
+"date": "2026-11-13",
+"resend_id": "01a1d681-3b77-7bc9-9c06-8619c434c0ea",
+"subject": "ACTS Santa Monica: help for families in need"
+},
+"e9e5fa13e41f": {
+"email": "info@oakvalleychurch.com",
+"name": "Oak Valley Church",
+"county": "Stanislaus",
+"date": "2026-11-13",
+"resend_id": "01a1d681-3ea1-757c-a1e9-ef47142f4930",
+"subject": "Free help for families at Oak Valley Church"
+},
+"143814a53d06": {
+"email": "stjoachimoffice@gmail.com",
+"name": "Saint Joachim Catholic Church",
+"county": "Alameda",
+"date": "2026-11-13",
+"resend_id": "01a1d681-42a4-728e-b18e-c719cfbc8673",
+"subject": "A free link for Hayward families"
 }
 },
 "suppressed": [
@@ -6177,7 +6257,12 @@
 "pastorcarol@lolmv.org",
 "wearelivinggrace@gmail.com",
 "office@bcumc.org",
-"kingcitybiblechurch@gmail.com"
+"kingcitybiblechurch@gmail.com",
+"calvarypacoima@gmail.com",
+"info@regeneratedchurch.org",
+"information@stdorothy.org",
+"pastor@stbasil.org",
+"info@calvaryvista.com"
 ],
 "runs": [
 {
@@ -6299,6 +6384,12 @@
 "sent": 60,
 "failed": 0,
 "requested": 60
+},
+{
+"date": "2026-11-13",
+"sent": 10,
+"failed": 0,
+"requested": 10
 }
 ]
 }
