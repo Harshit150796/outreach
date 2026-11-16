@@ -195,7 +195,7 @@ def web_verdict(q, checks):
         return "shown"
     return "not shown" if str(v.get("why", "")).startswith("not shown") else ""
 
-def next_batch(n, look_ahead=900):
+def next_batch(n, look_ahead=100000):
     """The next n churches. Order (bounce review, Nov 15-16, 2026; see web_confirm.py):
        1. address shown on the church's own website (about 3% bounced)
        2. not checked yet, or the website could not be read (about 5-6%)
