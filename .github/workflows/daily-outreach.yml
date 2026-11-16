@@ -2,7 +2,7 @@ name: Daily church outreach
 
 on:
   schedule:
-    - cron: "41 12 * * *"   # every day 12:41 UTC (~8:41am New York)
+    - cron: "41 12 * * 1-5"   # Monday to Friday 12:41 UTC (~8:41am New York). No weekend sends: Sunday is a church's busiest day (Nov 15, 2026)
   workflow_dispatch: {}     # "Run workflow" button for manual runs
 
 permissions:
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   send:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
 
@@ -29,12 +29,13 @@ jobs:
           RESEND_FULL_KEY: ${{ secrets.RESEND_FULL_KEY }}
         run: python3 daily.py
 
-      - name: Save progress (state.json / config.json)
+      - name: Save progress (state.json / config.json / web_checks.json)
         if: always()
         run: |
           git config user.name "outreach-bot"
           git config user.email "outreach-bot@users.noreply.github.com"
           git add state.json config.json
+          if [ -f web_checks.json ]; then git add web_checks.json; fi
           if git diff --cached --quiet; then
             echo "No changes to save."
           else

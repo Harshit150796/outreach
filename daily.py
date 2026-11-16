@@ -12,6 +12,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 API = "https://api.resend.com"
 OUTREACH_DOMAIN = "outreach.coupondonation.com"
 OWN_DOMAIN = "coupondonation.com"
+SEEDS = set()  # config seed_emails, filled in main()
 DAILY_CAP, MONTHLY_CAP = 100, 3000
 SUMMARY = []
 
@@ -81,8 +82,8 @@ def addrs(v):
 FOUNDER = "connect.coupondonation@gmail.com"
 
 def is_us(a):
-    """Our own inboxes (call lists, tests): never counted as outreach."""
-    return a == FOUNDER or is_own(a)
+    """Our own inboxes (call lists, tests, the founder's test inboxes in config seed_emails): never counted as outreach."""
+    return a == FOUNDER or is_own(a) or a in SEEDS
 
 def alert(send_key, subject, text):
     """Email the founder. Best effort: never stops the run."""
@@ -114,6 +115,7 @@ def main():
 
     # 1. Gate
     cfg = load("config.json")
+    SEEDS.update(e.strip().lower() for e in (cfg.get("seed_emails") or []))
     if cfg.get("paused"):
         log("Outreach waiting: config.json has paused=true" + (f" ({cfg['paused_reason']})" if cfg.get("paused_reason") else "")
             + ". Nothing sent."); finish(0)
@@ -149,7 +151,7 @@ def main():
         run_py("suppress", "--emails", ",".join(bad))
         log(f"Bounced/complained addresses suppressed: {len(bad)}.")
     min_n = 20 if resumed else 40
-    limit = float(cfg.get("bounce_limit_pct", 6.0))  # founder: 6% (Oct 29), 10% (Nov 4)
+    limit = float(cfg.get("bounce_limit_pct", 5.0))  # founder: 6% (Oct 29), 10% (Nov 4), 5% (Nov 15)
     if n >= min_n and (br > limit or cr > 0.1):
         cfg["paused"] = True
         cfg["paused_reason"] = f"{now:%Y-%m-%d}: {bounced} bounced of {n} ({br:.1f}%), {complained} complaints"
@@ -168,7 +170,7 @@ def main():
         subj = (m.get("subject") or "")
         detail = get(f"/emails/receiving/{m['id']}", full_key)
         body = (detail.get("text") or re.sub(r"<[^>]+>", " ", detail.get("html") or ""))
-        asks = re.search(r"\b(unsubscribe|stop|remove)\b", subj + "\n" + body[:2000], re.I)
+        asks = re.search(r"\b(unsubscribe|stop|remove|no,? thanks|no,? gracias)\b", subj + "\n" + body[:2000], re.I)
         if cfg["unsubscribe_address"].lower() not in to and not asks:
             continue
         senders = addrs(m.get("from") or detail.get("from"))
@@ -218,6 +220,15 @@ def main():
     k = plan["send_today"]
     if k <= 0:
         log(f"Quota used up for today (sent today: {sent_today}). Nothing sent."); finish(0)
+
+    # 5b. Website check for the churches coming up (web_confirm.py): addresses shown on the church's own site go
+    # first, addresses a readable site doesn't show are held back. Best effort: a failure never stops the send.
+    try:
+        r = subprocess.run([sys.executable, os.path.join(HERE, "web_confirm.py"), "next", "--n", "150"],
+                           capture_output=True, text=True, cwd=HERE, timeout=560)
+        log("Website check: " + ((r.stdout or "").strip().splitlines() or [(r.stderr or "no output").strip()[:300]])[-1])
+    except Exception as e:  # noqa: BLE001
+        log(f"Website check skipped: {e}")
 
     # 6. Send
     out = run_py("send", "--n", str(k), "--key", send_key)

@@ -39,7 +39,7 @@ BOUNCE_PAUSE = 5.0  # % over the last 14 days (min 20 sent) pauses that sender
 FREE_DOMAINS = {"gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "aol.com", "icloud.com", "me.com",
                 "msn.com", "live.com", "comcast.net", "sbcglobal.net", "att.net", "verizon.net", "ymail.com",
                 "protonmail.com", "mail.com", "cox.net", "charter.net", "earthlink.net", "pacbell.net"}
-OPTOUT = re.compile(r"\b(unsubscribe|remove (me|us|our)|take (me|us) off|stop (emailing|sending|contacting)|do not (email|contact)|no more emails?|opt[ -]?out)\b", re.I)
+OPTOUT = re.compile(r"\b(unsubscribe|no,? thanks|no,? gracias|not interested|remove (me|us|our)|take (me|us) off|stop (emailing|sending|contacting)|do not (email|contact)|no more emails?|opt[ -]?out)\b", re.I)
 BOUNCE_FROM = re.compile(r"(mailer-daemon|postmaster|mail delivery)", re.I)
 BOUNCE_SUBJ = re.compile(r"(undeliver|delivery status|delivery (has )?failed|failure notice|returned mail|could not be delivered|address not found|mail delivery|non[- ]?delivery)", re.I)
 EMAIL_RE = re.compile(r"[\w.!#$%&'*+/=?^`{|}~-]+@[\w-]+(?:\.[\w-]+)+")
@@ -86,83 +86,41 @@ def weekday_name(iso, lang):
     es = ["el lunes", "el martes", "el miércoles", "el jueves", "el viernes", "el sábado", "el domingo"]
     return (es if lang == "es" else en)[d.weekday()]
 
-# Gmail and Zoho send short, personal plain-text notes. They carry the same message, link, sign-off and
-# footer as the Resend email, without its headline, bullet list, steps and extra links (a long text email
-# from a personal mailbox reads like a mass mailing and lands in spam more often).
-FIRST = {
-    "en": """{hello}
-
-CouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free in about 3 minutes.
-
-Could {church} share this link with families who need help?
-{apply}
-
-And if you'd like to see how it works yourself, feel free to donate even a small amount at {donate}. You'll get tracking updates when it reaches the person in need, and you'll bring a small smile to someone's face.
-
-Questions? Just reply. A real person will answer.
-
-With gratitude,
-The CouponDonation team
-coupondonation.com
-
---
-CouponDonation Inc., {addr}
-{why}
-{unsub}""",
-    "es": """{hello}
-
-CouponDonation convierte donaciones en tarjetas de regalo para comida, medicinas, transporte y recibos. Las familias solicitan gratis en unos 3 minutos.
-
-¿Podría {church} compartir este enlace con las familias que necesitan ayuda?
-{apply}
-
-Y si desea ver cómo funciona, puede donar aunque sea una cantidad pequeña en {donate}. Recibirá avisos cuando llegue a la persona que lo necesita, y le sacará una sonrisa a alguien.
-
-¿Preguntas? Responda a este correo; le contesta una persona real.
-
-Con gratitud,
-El equipo de CouponDonation
-coupondonation.com
-
---
-CouponDonation Inc., {addr}
-{why}
-{unsub}""",
-}
-
+# Wording approved by the founder on Nov 15, 2026 (email playbook). The first email is the same plain-text
+# email Resend sends (run.compose). One follow-up only, four working days later.
 FU = {
     "en": dict(
-        subj="Following up: {subject}",
+        subj="Re: {subject}",
         body="""{hello}
 
-A quick follow-up to our email {day} about free help for families. Families can apply for gift cards for groceries, medicine, rides and bills here:
+One more note, then I'll stop.
+
+If a family at {church} needs help with food, groceries, travel or health benefits this month, they can ask here, free:
 {apply}
 
-Could {church} share it in a bulletin or with whoever helps families in need? If now isn't a good time, no reply is needed. This is our only follow-up.
+If this isn't for {church}, reply "no thanks" and you won't hear from me again.
 
-With gratitude,
-The CouponDonation team
-coupondonation.com
+Harshit
+Founder, CouponDonation
 
 --
-CouponDonation Inc., {addr}
-{unsub}"""),
+CouponDonation Inc., {addr}"""),
     "es": dict(
-        subj="Seguimiento: {subject}",
+        subj="Re: {subject}",
         body="""{hello}
 
-Le escribimos de nuevo sobre nuestro correo {day} acerca de ayuda gratuita para familias. Las familias pueden solicitar tarjetas de regalo para comida, medicinas, transporte y recibos aquí:
+Una nota más y no le escribo de nuevo.
+
+Si una familia de {church} necesita ayuda con comida, despensa, transporte o gastos de salud este mes, puede pedirla aquí, gratis (la página está en inglés):
 {apply}
 
-¿Podría {church} compartirlo en su boletín o con quien ayuda a las familias necesitadas? Si no es buen momento, no hace falta responder. Este es nuestro único seguimiento.
+Si esto no es para {church}, responda "no, gracias" y no volverá a saber de mí.
 
-Con gratitud,
-El equipo de CouponDonation
-coupondonation.com
+Harshit
+Fundador, CouponDonation
 
 --
-CouponDonation Inc., {addr}
-{unsub}"""),
+CouponDonation Inc., {addr}"""),
 }
 
 DONATE = "https://www.coupondonation.com/donate"
@@ -182,21 +140,14 @@ def followup(q, orig_date, orig_subject):
     lang = "es" if run.SPANISH(q) else "en"
     church = run.clean_name(q["name"])
     t = run.T[lang]
-    body = FU[lang]["body"].format(hello=run.greeting(q, church, lang), day=when(orig_date, lang), apply=run.APPLY,
+    body = FU[lang]["body"].format(hello=run.greeting(q, church, lang), apply=run.APPLY,
                                    church=church, addr=run.CFG["postal_address"],
                                    unsub=t["unsub_txt"].format(u=run.CFG["unsubscribe_address"]))
     return FU[lang]["subj"].format(subject=orig_subject), body
 
 def first_text(q):
-    """Same subject as the Resend email; short plain-text body."""
-    lang = "es" if run.SPANISH(q) else "en"
-    church = run.clean_name(q["name"])
-    t = run.T[lang]
-    city = q["city"] or ("su comunidad" if lang == "es" else "your area")
-    subj = run.subject(q, church, city, lang)
-    body = FIRST[lang].format(hello=run.greeting(q, church, lang), church=church, apply=run.APPLY, donate=DONATE,
-                              addr=run.CFG["postal_address"], why=t["why"].format(church=church),
-                              unsub=t["unsub_txt"].format(u=run.CFG["unsubscribe_address"]))
+    """The same subject and plain-text body as the Resend email."""
+    subj, body, _ = run.compose(q)
     return subj, body
 
 def sender_stats(xs, sender, since):
@@ -299,9 +250,12 @@ def cmd_plan(a):
         sent_ids = set(rs["sent"]) | set(xs["sent"])
         emailed = {v["email"].lower() for v in rs["sent"].values()} | {v["email"].lower() for v in xs["sent"].values()}
         skipped, firsts = 0, []
+        web_checks = run.load("web_checks.json", {}) or {}
         for q in queue:
             if q["id"] in sent_ids or q["email"].lower() in emailed or blocked(q["email"], rs, xs) or run.risky(q["email"]) or q.get("check") == "drop":
                 continue
+            if run.held_back(q) or run.web_verdict(q, web_checks) == "not shown":
+                continue  # held back after the Nov 15-16, 2026 bounce review (see run.next_batch)
             if skipped < SKIP_AHEAD:
                 skipped += 1; continue
             if len(firsts) >= room:

@@ -6,7 +6,7 @@ and writes back what happened. Never change the email text or recipients by hand
 - Sender: **connect@coupondonation.com** — Composio account `zoho_mail_termor-medial`, accountId `3837587000000002002`, region `in`.
 - Folders: Inbox `3837587000000002014`, Notification `3837587000000003001`, Sent `3837587000000002022`.
 - Who: `founders_queue.json` (from the donor prospects sheet; set `"status": "Skip"` to leave someone out).
-- Wording: `founders_text.json` (approved by the founder on Nov 12, 2026).
+- Wording: `founders_text.json` (approved by the founder on Nov 12, 2026; reworded and approved again on Nov 15, 2026).
 - Limits (config.json): `founders_per_day` first emails per weekday (15), one follow-up in the same thread after
   `founders_followup_days` (5) with no reply. 3 bounces in a day pause sending (`founders_state.json` → `paused`).
 - Off switch: `"founders_enabled": false` or `"founders_paused": "<reason>"` in config.json.

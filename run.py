@@ -34,71 +34,69 @@ def the_church(n):
 
 SPANISH = lambda q: q["community"] == "Spanish" or q["denomination"].endswith("(Spanish-language)")
 
-SUBJECTS_EN = [
-    "Free help for families at {church}",
-    "A free link for {city} families",
-    "{church}: help for families in need",
-]
-SUBJECTS_ES = [
-    "Ayuda gratuita para las familias de {church}",
-    "Un enlace gratuito para familias de {city}",
-]
-
-LOGO = "https://coupondonation.com/favicon-192.png"
-GREEN, BLUE, INK = "#2e7d32", "#1565c0", "#16231a"
+# Wording approved by the founder on Nov 15, 2026 (email playbook). One plain-text email from a named person
+# with one ask: no headline, bullets, button or images, because a designed email reads as a newsletter.
+# Help is for food, groceries, travel and health benefits. It says what CouponDonation is (a company, not a
+# charity) and that the whole gift reaches the family.
+SUBJECTS = {
+    "en": ("When a family at {church} needs help", "When a family in {city} needs help"),
+    "es": ("Cuando una familia de {church} necesita ayuda", "Cuando una familia de {city} necesita ayuda"),
+}
 
 T = {
     "en": dict(
         lang="en",
-        preheader="Free help with groceries, medicine, rides and bills, for the families your church serves.",
-        eyebrow="For churches in California",
-        headline="A new way to give:<br>trackable, transparent, real.",
-        headline_txt="A new way to give: trackable, transparent, real.",
-        points=["No guessing where your money went. Each gift becomes coupons for groceries and essentials, and you can see it reach someone in need.",
-                "Make someone happy today. Donate to a family near you, or apply if your family needs help.",
-                "Give or get help, both in one place: donate a gift you can track, or apply for groceries and essentials."],
-        intro="CouponDonation turns donations into gift cards for groceries, medicine, rides and bills. Families apply for free, and every donated dollar covers their need.",
-        ask="Could {church} share our link with families who need help?",
-        cta="Apply for help",
-        share_label="Or share the link",
-        steps=[("Apply", "Free, 3-minute form"),
-               ("Verify", "Reviewed in 2–3 days"),
-               ("Receive", "Gift card for the need")],
-        fine="Help comes as a coupon, gift card or credit, never cash. Not every request can be approved.",
-        partner="Already caring for a family? <a href=\"{partners}\" style=\"color:#1565c0;text-decoration:none;font-weight:600;\">Start a fundraiser for them&nbsp;&rarr;</a>",
-        partner_txt="Already caring for a family? Start a fundraiser for them: {partners}",
-        reply="Questions? Just reply. A real person will answer.",
-        sign="With gratitude,",
-        team="The CouponDonation team",
+        body="""{hello}
+
+I'm Harshit, the founder of CouponDonation.
+
+When a family at {church} is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.
+
+The family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.
+
+We're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.
+
+If a family comes to mind, or asks you for help, this is the page to pass on:
+{apply}
+
+Questions? Just reply.
+
+Harshit Agrawal
+Founder, CouponDonation
+
+--
+CouponDonation Inc., {addr}
+{why}
+{unsub}""",
         why="You're receiving this because {church}'s email is on its public listing.",
-        unsub="Unsubscribe",
-        unsub_txt="To stop these emails, reply \"unsubscribe\" or write to {u}.",
+        unsub_txt="Reply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to {u}.",
     ),
     "es": dict(
         lang="es",
-        preheader="Ayuda gratuita con comida, medicinas, transporte y recibos para las familias de su iglesia.",
-        eyebrow="Para iglesias de California",
-        headline="Una nueva forma de dar:<br>rastreable, transparente, real.",
-        headline_txt="Una nueva forma de dar: rastreable, transparente, real.",
-        points=["Sin dudas sobre adónde fue su dinero. Cada donación se convierte en cupones para comida y artículos esenciales, y puede ver cómo llega a alguien que lo necesita.",
-                "Haga feliz a alguien hoy. Done a una familia cerca de usted, o solicite ayuda si su familia la necesita.",
-                "Dar o recibir ayuda, todo en un solo lugar: done un regalo que puede rastrear, o solicite ayuda con comida y artículos esenciales."],
-        intro="CouponDonation convierte donaciones en tarjetas de regalo para comida, medicinas, transporte y recibos. Las familias solicitan gratis y cada dólar donado cubre su necesidad.",
-        ask="¿Podría {church} compartir nuestro enlace con las familias que necesitan ayuda?",
-        cta="Solicitar ayuda",
-        share_label="O comparta el enlace",
-        steps=[("Solicitar", "Gratis, 3 minutos"),
-               ("Verificar", "Revisión en 2–3 días"),
-               ("Recibir", "Tarjeta para la necesidad")],
-        fine="La ayuda llega como cupón, tarjeta de regalo o crédito, nunca en efectivo. No todas las solicitudes pueden aprobarse.",
-        partner="",
-        partner_txt="",
-        reply="¿Preguntas? Responda a este correo; le contesta una persona real, en español si prefiere.",
-        sign="Con gratitud,",
-        team="El equipo de CouponDonation",
+        body="""{hello}
+
+Soy Harshit, fundador de CouponDonation.
+
+Cuando una familia de {church} necesita comida, despensa, transporte o ayuda con gastos de salud, la gente que la rodea casi siempre quiere ayudar y no sabe cómo. Nosotros les damos una manera.
+
+La familia, o alguien de la iglesia en su nombre, crea una página gratis. Se puede dar desde $10. Cada aporte le llega a la familia como una tarjeta de regalo de una tienda, nunca en efectivo, y quien dio recibe un aviso cuando la familia la recibe y cuando la usa.
+
+Somos una empresa, no una organización benéfica, así que los aportes no son deducibles de impuestos. No cobramos comisión sobre el aporte. El 100% llega a las familias.
+
+Si piensa en alguna familia, o si alguna le pide ayuda, esta es la página para compartir (está en inglés):
+{apply}
+
+¿Preguntas? Solo responda a este correo.
+
+Harshit Agrawal
+Fundador, CouponDonation
+
+--
+CouponDonation Inc., {addr}
+{why}
+{unsub}""",
         why="Recibe este correo porque el email de {church} aparece en su listado público.",
-        unsub="Cancelar suscripción",
-        unsub_txt="Para no recibir más correos, responda \"unsubscribe\" o escriba a {u}.",
+        unsub_txt="Responda \"no, gracias\" o \"unsubscribe\" y no le volveré a escribir. También puede escribir a {u}.",
     ),
 }
 
@@ -119,130 +117,20 @@ def greeting(q, church, lang):
     return f"Hello {base} team,"
 
 def subject(q, church, city, lang):
-    opts = SUBJECTS_ES if lang == "es" else SUBJECTS_EN
-    s = opts[h(q["id"] + "s", len(opts))].format(church=church, city=city)
-    if len(s) > 70:
-        s = (f"Ayuda gratuita para familias de {city}" if lang == "es" else f"A free link for {city} families")
-    return s
+    full, short = SUBJECTS[lang]
+    s = full.format(church=church)
+    return s if len(s) <= 70 else short.format(city=city)
 
 def compose(q):
+    """(subject, plain text, None). Text only: there is no HTML version any more."""
     lang = "es" if SPANISH(q) else "en"
     t = T[lang]
     church = clean_name(q["name"])
     city = q["city"] or ("su comunidad" if lang == "es" else "your area")
     subj = subject(q, church, city, lang)
-    hello = greeting(q, church, lang)
-    ask = t["ask"].format(church=church)
-    addr = CFG["postal_address"]
-    u = CFG["unsubscribe_address"]
-    unsub_link = f"mailto:{u}?subject=unsubscribe"
-    short_apply = APPLY.replace("https://www.", "")
-
-    # ---------- plain text ----------
-    txt = [hello, "", t["headline_txt"], "", t["intro"], ""] + [f"• {x}" for x in t["points"]] + ["", ask, "", f"{t['cta']}: {APPLY}", ("Donar" if lang == "es" else "Donate") + ": https://www.coupondonation.com/donate", "",
-           " → ".join(f"{a} ({b})" for a, b in t["steps"]), t["fine"], ""]
-    if t["partner_txt"]:
-        txt += [t["partner_txt"].format(partners=PARTNERS), ""]
-    txt += [t["reply"], "", t["sign"], t["team"], "hello@coupondonation.com · coupondonation.com", "",
-            "--", f"CouponDonation Inc., {addr}", t["why"].format(church=church), t["unsub_txt"].format(u=u)]
-    text = "\n".join(txt)
-
-    # ---------- HTML ----------
-    SANS = "font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;"
-    SERIF = "font-family:Georgia,'Times New Roman',Times,serif;"
-    steps = ""
-    for i, (a, b) in enumerate(t["steps"], 1):
-        steps += (
-            f'<td class="step" width="33%" valign="top" style="padding:0 6px;">'
-            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>'
-            f'<td style="background:#f6f8f5;border-radius:12px;padding:18px 14px 16px;">'
-            f'<div style="{SERIF}font-size:22px;line-height:22px;color:{GREEN};font-weight:400;">0{i}</div>'
-            f'<div style="{SANS}font-size:15px;line-height:20px;color:{INK};font-weight:700;padding-top:10px;">{esc(a)}</div>'
-            f'<div style="{SANS}font-size:13px;line-height:18px;color:#5d6b62;padding-top:3px;">{esc(b)}</div>'
-            f'</td></tr></table></td>')
-    partner = (f'<tr><td class="px" style="padding:0 44px 6px;{SANS}font-size:14px;line-height:22px;color:#46524a;">'
-               f'{t["partner"].format(partners=PARTNERS)}</td></tr>') if t["partner"] else ""
-    html = f"""<!doctype html>
-<html lang="{t['lang']}" xmlns="http://www.w3.org/1999/xhtml"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="x-apple-disable-message-reformatting"><meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light only">
-<title>{esc(subj)}</title>
-<style>
-  body{{margin:0;padding:0;-webkit-text-size-adjust:100%;}}
-  a{{text-decoration:none;}}
-  @media (max-width:600px){{
-    .px{{padding-left:24px!important;padding-right:24px!important;}}
-    .hero{{font-size:38px!important;line-height:42px!important;}}
-    .step{{display:block!important;width:100%!important;padding:0 0 10px!important;box-sizing:border-box;}}
-    .steps{{padding-left:24px!important;padding-right:24px!important;}}
-    .btn a{{display:block!important;}}
-  }}
-</style></head>
-<body style="margin:0;padding:0;background:#eef1ec;">
-<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;mso-hide:all;">{esc(t['preheader'])}&#8199;&#65279;&#847;&#8199;&#65279;&#847;&#8199;&#65279;&#847;</div>
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#eef1ec;">
-<tr><td align="center" style="padding:36px 12px 40px;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;background:#ffffff;border-radius:20px;overflow:hidden;box-shadow:0 1px 3px rgba(22,35,26,.06);">
-
-  <!-- brand bar -->
-  <tr><td style="height:5px;line-height:5px;font-size:0;background:{GREEN};background-image:linear-gradient(90deg,{GREEN},{BLUE});">&nbsp;</td></tr>
-  <tr><td class="px" style="padding:30px 44px 0;">
-    <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
-      <td valign="middle" style="padding-right:12px;"><img src="{LOGO}" width="44" height="44" alt="CouponDonation" style="display:block;border:0;width:44px;height:44px;"></td>
-      <td valign="middle" style="{SANS}font-size:21px;line-height:24px;font-weight:800;letter-spacing:-.3px;"><span style="color:{GREEN};">Coupon</span><span style="color:{BLUE};">Donation</span></td>
-    </tr></table>
-  </td></tr>
-
-  <!-- hero -->
-  <tr><td class="px" style="padding:40px 44px 0;">
-    <div style="{SANS}font-size:12px;line-height:16px;letter-spacing:1.6px;text-transform:uppercase;color:{GREEN};font-weight:700;">{esc(t['eyebrow'])}</div>
-    <h1 class="hero" style="{SERIF}margin:14px 0 0;font-size:48px;line-height:52px;font-weight:400;color:{INK};letter-spacing:-1px;">{t['headline']}</h1>
-  </td></tr>
-
-  <tr><td class="px" style="padding:28px 44px 0;{SANS}font-size:16px;line-height:26px;color:#46524a;">
-    <p style="margin:0 0 14px;color:{INK};">{esc(hello)}</p>
-    <p style="margin:0 0 14px;">{esc(t['intro'])}</p>
-    <ul style="margin:0 0 14px;padding-left:20px;">{''.join(f'<li style="margin:0 0 8px;">{esc(x)}</li>' for x in t['points'])}</ul>
-    <p style="margin:0;color:{INK};font-weight:600;">{esc(ask)}</p>
-  </td></tr>
-
-  <!-- CTA -->
-  <tr><td class="px" style="padding:28px 44px 0;">
-    <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="btn"><tr>
-      <td align="center" bgcolor="{GREEN}" style="border-radius:999px;">
-        <a href="{APPLY}" style="{SANS}display:inline-block;padding:16px 34px;font-size:16px;line-height:20px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:999px;letter-spacing:.2px;">{esc(t['cta'])}&nbsp;&nbsp;&rarr;</a>
-      </td></tr></table>
-    <div style="{SANS}font-size:13px;line-height:20px;color:#7a857d;padding-top:14px;"><a href="https://www.coupondonation.com/donate" style="color:{GREEN};font-weight:600;text-decoration:none;">{"Donar" if lang == "es" else "Donate to a family"}</a> &middot; {esc(t['share_label'])}: <a href="{APPLY}" style="color:{BLUE};font-weight:600;text-decoration:none;">{esc(short_apply)}</a></div>
-  </td></tr>
-
-  <!-- steps -->
-  <tr><td class="steps" style="padding:34px 38px 0;">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>{steps}</tr></table>
-  </td></tr>
-  <tr><td class="px" style="padding:14px 44px 26px;{SANS}font-size:12px;line-height:18px;color:#8a948d;">{esc(t['fine'])}</td></tr>
-
-  <tr><td class="px" style="padding:0 44px;"><div style="height:1px;line-height:1px;font-size:0;background:#e7ebe6;">&nbsp;</div></td></tr>
-  <tr><td style="height:24px;line-height:24px;font-size:0;">&nbsp;</td></tr>
-  {partner}
-  <tr><td class="px" style="padding:0 44px 34px;{SANS}font-size:14px;line-height:22px;color:#46524a;">
-    {esc(t['reply'])}<br><br>
-    <span style="color:#7a857d;">{esc(t['sign'])}</span><br>
-    <span style="color:{INK};font-weight:700;">{esc(t['team'])}</span><br>
-    <a href="https://www.coupondonation.com" style="color:{GREEN};text-decoration:none;">coupondonation.com</a>
-  </td></tr>
-</table>
-
-<!-- footer -->
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;">
-  <tr><td align="center" style="padding:22px 20px 0;{SANS}font-size:12px;line-height:19px;color:#8a948d;">
-    CouponDonation Inc. &middot; {esc(addr)}<br>
-    {esc(t['why'].format(church=church))}<br>
-    <a href="{unsub_link}" style="color:#8a948d;text-decoration:underline;">{esc(t['unsub'])}</a>
-  </td></tr>
-</table>
-</td></tr></table>
-</body></html>"""
-    return subj, text, html
+    text = t["body"].format(hello=greeting(q, church, lang), church=church, apply=APPLY, addr=CFG["postal_address"],
+                            why=t["why"].format(church=church), unsub=t["unsub_txt"].format(u=CFG["unsubscribe_address"]))
+    return subj, text, None
 
 def state():
     return load("state.json", {"sent": {}, "suppressed": [], "runs": []})
@@ -271,18 +159,71 @@ def risky(email):
     """True for addresses we skip for first emails (abandoned-ISP domains)."""
     return email.rsplit("@", 1)[-1].lower() in LEGACY_ISP
 
-def next_batch(n):
+# Bounce review, Nov 15, 2026 (893 first emails, 63 addresses later suppressed, almost all bounces):
+#   a church's own domain that is NOT its website's domain     41 sent, 8 bounced (20%)
+#   a person's mailbox on the church's domain (not info@...)   21 sent, 4 bounced (19%)
+#   everything else                                           831 sent, 51 bounced (6%)
+# The first two groups are held back: they are only used once nothing else is left to send.
+FREE_MAIL = {"gmail.com", "googlemail.com", "yahoo.com", "hotmail.com", "outlook.com", "live.com", "icloud.com", "me.com",
+             "mac.com", "proton.me", "protonmail.com"}
+SHARED_BOX = re.compile(r"^(info|office|admin|contact|church|parish|secretary|pastor|hello|mail|welcome|connect|reception|"
+                        r"frontdesk|churchoffice|parishoffice|rectory|ministry|ministries|team|staff|email|inquir|general|"
+                        r"iglesia|oficina|parroquia|secretaria)", re.I)
+
+def _host(url):
+    m = re.match(r"^(?:[a-z]+://)?(?:www\.)?([^/:?#]+)", (url or "").strip().lower())
+    return m.group(1) if m else ""
+
+def held_back(q):
+    """Why this address waits until the safer ones are used up ('' when it doesn't)."""
+    local, _, domain = q["email"].lower().rpartition("@")
+    if domain in FREE_MAIL:
+        return ""
+    site = _host(q.get("website"))
+    if site and not (domain == site or domain.endswith("." + site) or site.endswith("." + domain)):
+        return "email domain is not the church website's domain"
+    if not SHARED_BOX.match(local):
+        return "a person's mailbox, not a shared church address"
+    return ""
+
+def web_verdict(q, checks):
+    """'shown' (address is on the church's own website), 'not shown' (site read, address absent) or '' (unknown)."""
+    v = checks.get(q["id"])
+    if not v:
+        return ""
+    if v.get("found"):
+        return "shown"
+    return "not shown" if str(v.get("why", "")).startswith("not shown") else ""
+
+def next_batch(n, look_ahead=900):
+    """The next n churches. Order (bounce review, Nov 15-16, 2026; see web_confirm.py):
+       1. address shown on the church's own website (about 3% bounced)
+       2. not checked yet, or the website could not be read (about 5-6%)
+       3. held back: website read but the address isn't on it (about 15%), or a held_back() address (about 19%)."""
     s = state()
     xids, xsup = extra_taken()
     sup = set(e.lower() for e in s["suppressed"]) | xsup
-    out = []
+    checks = load("web_checks.json", {}) or {}
+    first, second, later, seen = [], [], [], 0
     for q in load("queue.json"):
         if q["id"] in s["sent"] or q["id"] in xids or q["email"].lower() in sup or risky(q["email"]) or q.get("check") == "drop":
             continue
-        out.append(q)
-        if len(out) >= n:
+        seen += 1
+        w = web_verdict(q, checks)
+        if w == "shown":
+            first.append(q)
+        elif w == "not shown" or held_back(q):
+            if len(later) < n:
+                later.append(q)
+        elif len(second) < n:
+            second.append(q)
+        if len(first) >= n or seen >= look_ahead:
             break
-    return out
+    return (first + second + later)[:n]
+
+def seeds():
+    """The founder's test inboxes: each gets one copy of the day's first email, to see where it lands (inbox or spam)."""
+    return [e.strip().lower() for e in (CFG.get("seed_emails") or []) if "@" in e]
 
 def post(url, key, payload, idem):
     req = urllib.request.Request(url, data=json.dumps(payload).encode(), method="POST",
@@ -300,7 +241,6 @@ def cmd_preview(a):
         subj, body, html = compose(q)
         p = os.path.join(HERE, "previews", f"{q['seq']:05d}.txt")
         open(p, "w", encoding="utf-8").write(f"To: {q['email']}\nSubject: {subj}\n\n{body}\n")
-        open(p[:-4] + ".html", "w", encoding="utf-8").write(html)
         print(p)
 
 def cmd_send(a):
@@ -312,9 +252,21 @@ def cmd_send(a):
     batch = next_batch(a.n)
     today = dt.datetime.now(dt.timezone.utc).astimezone(dt.timezone(dt.timedelta(hours=-5))).date().isoformat()
     sent, failed = 0, []
+    # One copy of today's first email to each test inbox (config seed_emails). Never recorded as a church,
+    # never counted in the totals, at most once a day (idempotency key).
+    seeded = 0
+    if batch:
+        subj, body, _ = compose(batch[0])
+        for seed in seeds():
+            payload = {"from": CFG["from"], "to": [seed], "reply_to": [CFG["reply_to"]], "subject": subj, "text": body,
+                       "headers": {"List-Unsubscribe": f"<mailto:{CFG['unsubscribe_address']}?subject=unsubscribe>"},
+                       "tags": [{"name": "campaign", "value": "seed"}]}
+            code, res = post("https://api.resend.com/emails", a.key, payload, "seed-" + today + "-" + hashlib.md5(seed.encode()).hexdigest()[:10])
+            seeded += 1 if code in (200, 201) and res.get("id") else 0
+            time.sleep(0.6)
     for q in batch:
-        subj, body, html = compose(q)
-        payload = {"from": CFG["from"], "to": [q["email"]], "reply_to": [CFG["reply_to"]], "subject": subj, "text": body, "html": html,
+        subj, body, _ = compose(q)
+        payload = {"from": CFG["from"], "to": [q["email"]], "reply_to": [CFG["reply_to"]], "subject": subj, "text": body,
                    "headers": {"List-Unsubscribe": f"<mailto:{CFG['unsubscribe_address']}?subject=unsubscribe>"},
                    "tags": [{"name": "campaign", "value": "ca_churches_2026"}, {"name": "queue_id", "value": q["id"]}]}
         code, res = post("https://api.resend.com/emails", a.key, payload, "ca-churches-" + q["id"])
@@ -331,7 +283,7 @@ def cmd_send(a):
     s["runs"].append({"date": today, "sent": sent, "failed": len(failed), "requested": a.n})
     save_state(s)
     total = len(load("queue.json"))
-    print(json.dumps({"date": today, "sent_today": sent, "failed": failed[:5], "total_sent": len(s["sent"]),
+    print(json.dumps({"date": today, "sent_today": sent, "seed_copies": seeded, "failed": failed[:5], "total_sent": len(s["sent"]),
                       "remaining": total - len(s["sent"]) - len(s["suppressed"])}, indent=1))
 
 def cmd_suppress(a):
