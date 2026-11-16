@@ -100,64 +100,120 @@
 },
 "suppressed": [],
 "pending": {
+"fu:nick-ignitionbenefits-com": {
+"date": "2026-11-16",
+"to": "nick@ignitionbenefits.com"
+},
+"fu:onur-joinspine-ai": {
+"date": "2026-11-16",
+"to": "onur@joinspine.ai"
+},
+"fu:paul-gettireswing-com": {
+"date": "2026-11-16",
+"to": "paul@gettireswing.com"
+},
+"fu:founders-trepo-ai": {
+"date": "2026-11-16",
+"to": "founders@trepo.ai"
+},
+"fu:founders-corvera-ai": {
+"date": "2026-11-16",
+"to": "founders@corvera.ai"
+},
+"fu:nathan-sira-team": {
+"date": "2026-11-16",
+"to": "nathan@sira.team"
+},
+"fu:nikhil-memorable-sh": {
+"date": "2026-11-16",
+"to": "nikhil@memorable.sh"
+},
+"fu:doruk-0-security": {
+"date": "2026-11-16",
+"to": "doruk@0.security"
+},
+"fu:founders-agentrelay-com": {
+"date": "2026-11-16",
+"to": "founders@agentrelay.com"
+},
+"fu:rohit-appliedkinetics-ai": {
+"date": "2026-11-16",
+"to": "rohit@appliedkinetics.ai"
+},
+"fu:founders-archgen-tech": {
+"date": "2026-11-16",
+"to": "founders@archgen.tech"
+},
+"fu:founders-armorerlabs-com": {
+"date": "2026-11-16",
+"to": "founders@armorerlabs.com"
+},
+"fu:yudai-matsuoka-asakana-co": {
+"date": "2026-11-16",
+"to": "yudai_matsuoka@asakana.co"
+},
+"fu:contact-asim-group-com": {
+"date": "2026-11-16",
+"to": "contact@asim-group.com"
+},
 "first:founders-aucert-ai": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "founders@aucert.ai"
 },
 "first:founders-axiomat-com": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "founders@axiomat.com"
 },
 "first:info-axonnic-com": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "info@axonnic.com"
 },
 "first:founders-bayworks-app": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "founders@bayworks.app"
 },
 "first:jp-blinka-co": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "jp@blinka.co"
 },
 "first:nick-boxes-dev": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "nick@boxes.dev"
 },
 "first:founders-byteask-ai": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "founders@byteask.ai"
 },
 "first:founders-caladh-com": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "founders@caladh.com"
 },
 "first:team-cesara-com": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "team@cesara.com"
 },
 "first:rachel-claimkit-co": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "rachel@claimkit.co"
 },
 "first:issa-databuddy-cc": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "issa@databuddy.cc"
 },
 "first:slavko-deepmark-me": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "slavko@deepmark.me"
 },
 "first:founders-deployrobotics-co": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "founders@deployrobotics.co"
 },
 "first:founders-dreamscalelabs-com": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "founders@dreamscalelabs.com"
 },
 "first:founders-dydema-com": {
-"date": "2026-11-13",
+"date": "2026-11-16",
 "to": "founders@dydema.com"
 }
 },
@@ -170,5 +226,5 @@
 "unknown": 0
 }
 ],
-"last_inbox": "2026-11-13"
+"last_inbox": "2026-11-16"
 }
