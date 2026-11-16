@@ -116,7 +116,7 @@ def run_checks(rows, threads=32, budget_s=420):
     ex.shutdown(wait=False, cancel_futures=True)
     return out
 
-def cmd_next(n):
+def cmd_next(n, budget_s=420, threads=32):
     import datetime as dt
     import run
     checks = load_checks()
@@ -132,7 +132,7 @@ def cmd_next(n):
         rows.append({"id": q["id"], "email": q["email"], "website": q.get("website") or ""})
         if len(rows) >= n:
             break
-    got = run_checks(rows)
+    got = run_checks(rows, threads=threads, budget_s=budget_s)
     today = dt.date.today().isoformat()
     for k, v in got.items():
         checks[k] = {"found": bool(v["found"]), "why": v["why"].split(":")[0], "date": today}
@@ -146,10 +146,11 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("next"); p.add_argument("--n", type=int, default=150)
+    p.add_argument("--budget", type=int, default=420); p.add_argument("--threads", type=int, default=32)
     sub.add_parser("report")
     a = ap.parse_args()
     if a.cmd == "next":
-        cmd_next(a.n)
+        cmd_next(a.n, a.budget, a.threads)
     else:
         c = collections.Counter(("shown on site" if v["found"] else v["why"]) for v in load_checks().values())
         print(json.dumps(c, indent=1))
