@@ -260,7 +260,68 @@
 }
 },
 "suppressed": [],
-"pending": {},
+"pending": {
+"first:founders-elimentary-com": {
+"date": "2026-11-17",
+"to": "founders@elimentary.com"
+},
+"first:sarthak-elithia-com": {
+"date": "2026-11-17",
+"to": "sarthak@elithia.com"
+},
+"first:diva-evardi-ai": {
+"date": "2026-11-17",
+"to": "diva@evardi.ai"
+},
+"first:founders-fire-co": {
+"date": "2026-11-17",
+"to": "founders@fire.co"
+},
+"first:founders-godhands-dev": {
+"date": "2026-11-17",
+"to": "founders@godhands.dev"
+},
+"first:nour-heygradon-com": {
+"date": "2026-11-17",
+"to": "nour@heygradon.com"
+},
+"first:founders-grep-ai": {
+"date": "2026-11-17",
+"to": "founders@grep.ai"
+},
+"first:julian-hemlock-inc": {
+"date": "2026-11-17",
+"to": "julian@hemlock.inc"
+},
+"first:founders-gethesperai-com": {
+"date": "2026-11-17",
+"to": "founders@gethesperai.com"
+},
+"first:nooshin-hillstar-ai": {
+"date": "2026-11-17",
+"to": "nooshin@hillstar.ai"
+},
+"first:founders-hue-run": {
+"date": "2026-11-17",
+"to": "founders@hue.run"
+},
+"first:founders-agentfm-ai": {
+"date": "2026-11-17",
+"to": "founders@agentfm.ai"
+},
+"first:founders-kairoshealthai-com": {
+"date": "2026-11-17",
+"to": "founders@kairoshealthai.com"
+},
+"first:melanie-withkiwi-ai": {
+"date": "2026-11-17",
+"to": "melanie@withkiwi.ai"
+},
+"first:vedant-runlatent-ai": {
+"date": "2026-11-17",
+"to": "vedant@runlatent.ai"
+}
+},
 "paused": "",
 "runs": [
 {
@@ -276,5 +337,5 @@
 "unknown": 0
 }
 ],
-"last_inbox": "2026-11-16"
+"last_inbox": "2026-11-17"
 }

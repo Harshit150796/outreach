@@ -1,443 +1,233 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "items": [
   {
-   "key": "fu:nick-ignitionbenefits-com",
-   "to": "nick@ignitionbenefits.com",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457123196130200",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "nick@ignitionbenefits.com",
-    "subject": "Re: Ignition Benefits and CouponDonation",
-    "content": "Hi Nick,\n\nOne more try, then I'll stop.\n\nIs this something Ignition Benefits would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:onur-joinspine-ai",
-   "to": "onur@joinspine.ai",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457123226130100",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "onur@joinspine.ai",
-    "subject": "Re: Spine and CouponDonation",
-    "content": "Hi Onur,\n\nOne more try, then I'll stop.\n\nIs this something Spine would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:paul-gettireswing-com",
-   "to": "paul@gettireswing.com",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457123227130100",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "paul@gettireswing.com",
-    "subject": "Re: Tire Swing and CouponDonation",
-    "content": "Hi Paul,\n\nOne more try, then I'll stop.\n\nIs this something Tire Swing would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:founders-trepo-ai",
-   "to": "founders@trepo.ai",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457123967119300",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@trepo.ai",
-    "subject": "Re: Trepo and CouponDonation",
-    "content": "Hi Matt and Zach,\n\nOne more try, then I'll stop.\n\nIs this something Trepo would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:founders-corvera-ai",
-   "to": "founders@corvera.ai",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457125401130300",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@corvera.ai",
-    "subject": "Re: Corvera and CouponDonation",
-    "content": "Hi Christopher and Dirk,\n\nOne more try, then I'll stop.\n\nIs this something Corvera would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:nathan-sira-team",
-   "to": "nathan@sira.team",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457125287130200",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "nathan@sira.team",
-    "subject": "Re: Sira and CouponDonation",
-    "content": "Hi Nathan,\n\nOne more try, then I'll stop.\n\nIs this something Sira would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:nikhil-memorable-sh",
-   "to": "nikhil@memorable.sh",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457125210119300",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "nikhil@memorable.sh",
-    "subject": "Re: Could Memorable sponsor a family this holiday?",
-    "content": "Hi Nikhil,\n\nOne more try, then I'll stop.\n\nIs this something Memorable would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:doruk-0-security",
-   "to": "doruk@0.security",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457158447130100",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "doruk@0.security",
-    "subject": "Re: Could 0.security sponsor a family this holiday?",
-    "content": "Hi Doruk,\n\nOne more try, then I'll stop.\n\nIs this something 0.security would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:founders-agentrelay-com",
-   "to": "founders@agentrelay.com",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457158441130300",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@agentrelay.com",
-    "subject": "Re: Could Agent Relay sponsor a family this holiday?",
-    "content": "Hi Will and Khaliq,\n\nOne more try, then I'll stop.\n\nIs this something Agent Relay would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:rohit-appliedkinetics-ai",
-   "to": "rohit@appliedkinetics.ai",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457158391130100",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "rohit@appliedkinetics.ai",
-    "subject": "Re: Could Applied Kinetics sponsor a family this holiday?",
-    "content": "Hi Rohit,\n\nOne more try, then I'll stop.\n\nIs this something Applied Kinetics would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:founders-archgen-tech",
-   "to": "founders@archgen.tech",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457158440130300",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@archgen.tech",
-    "subject": "Re: Could Archgen Labs sponsor a family this holiday?",
-    "content": "Hi Hariharan and Naveen,\n\nOne more try, then I'll stop.\n\nIs this something Archgen Labs would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:founders-armorerlabs-com",
-   "to": "founders@armorerlabs.com",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457159614130300",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@armorerlabs.com",
-    "subject": "Re: Could Armorer Labs sponsor a family this holiday?",
-    "content": "Hi Daniel and Cristian,\n\nOne more try, then I'll stop.\n\nIs this something Armorer Labs would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:yudai-matsuoka-asakana-co",
-   "to": "yudai_matsuoka@asakana.co",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457159718119300",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "yudai_matsuoka@asakana.co",
-    "subject": "Re: Could Asakana sponsor a family this holiday?",
-    "content": "Hi Yudai,\n\nOne more try, then I'll stop.\n\nIs this something Asakana would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "fu:contact-asim-group-com",
-   "to": "contact@asim-group.com",
-   "tool": "ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL",
-   "args": {
-    "accountId": "3837587000000002002",
-    "region": "in",
-    "messageId": "1794457159692130200",
-    "fromAddress": "connect@coupondonation.com",
-    "toAddress": "contact@asim-group.com",
-    "subject": "Re: Could Asim sponsor a family this holiday?",
-    "content": "Hi Asim team,\n\nOne more try, then I'll stop.\n\nIs this something Asim would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
-    "mailFormat": "plaintext"
-   }
-  },
-  {
-   "key": "first:founders-aucert-ai",
-   "to": "founders@aucert.ai",
-   "subject": "Could Aucert help one family this holiday?",
+   "key": "first:founders-elimentary-com",
+   "to": "founders@elimentary.com",
+   "subject": "Could Elimentary help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@aucert.ai",
-    "subject": "Could Aucert help one family this holiday?",
-    "content": "Hi Vivek and Rajesh,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Aucert cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "founders@elimentary.com",
+    "subject": "Could Elimentary help one family this holiday?",
+    "content": "Hi Elimentary team,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Elimentary cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:founders-axiomat-com",
-   "to": "founders@axiomat.com",
-   "subject": "Could Axiomat help one family this holiday?",
+   "key": "first:sarthak-elithia-com",
+   "to": "sarthak@elithia.com",
+   "subject": "Could Elithia help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@axiomat.com",
-    "subject": "Could Axiomat help one family this holiday?",
-    "content": "Hi Axiomat team,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Axiomat cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "sarthak@elithia.com",
+    "subject": "Could Elithia help one family this holiday?",
+    "content": "Hi Sarthak,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Elithia cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:info-axonnic-com",
-   "to": "info@axonnic.com",
-   "subject": "Could Axonnic help one family this holiday?",
+   "key": "first:diva-evardi-ai",
+   "to": "diva@evardi.ai",
+   "subject": "Could Evardi help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "info@axonnic.com",
-    "subject": "Could Axonnic help one family this holiday?",
-    "content": "Hi Maxim and Arsh,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Axonnic cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "diva@evardi.ai",
+    "subject": "Could Evardi help one family this holiday?",
+    "content": "Hi Diva,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Evardi cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:founders-bayworks-app",
-   "to": "founders@bayworks.app",
-   "subject": "Could Bayworks help one family this holiday?",
+   "key": "first:founders-fire-co",
+   "to": "founders@fire.co",
+   "subject": "Could Fire Wallet help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@bayworks.app",
-    "subject": "Could Bayworks help one family this holiday?",
-    "content": "Hi Kaustubh and Shubham,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Bayworks cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "founders@fire.co",
+    "subject": "Could Fire Wallet help one family this holiday?",
+    "content": "Hi Fire Wallet team,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Fire Wallet cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:jp-blinka-co",
-   "to": "jp@blinka.co",
-   "subject": "Could Blinka help one family this holiday?",
+   "key": "first:founders-godhands-dev",
+   "to": "founders@godhands.dev",
+   "subject": "Could GodHands help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "jp@blinka.co",
-    "subject": "Could Blinka help one family this holiday?",
-    "content": "Hi Juan Pablo,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Blinka cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "founders@godhands.dev",
+    "subject": "Could GodHands help one family this holiday?",
+    "content": "Hi Sai and Aditya,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould GodHands cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:nick-boxes-dev",
-   "to": "nick@boxes.dev",
-   "subject": "Could Boxes.dev help one family this holiday?",
+   "key": "first:nour-heygradon-com",
+   "to": "nour@heygradon.com",
+   "subject": "Could Gradon help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "nick@boxes.dev",
-    "subject": "Could Boxes.dev help one family this holiday?",
-    "content": "Hi Nick,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Boxes.dev cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "nour@heygradon.com",
+    "subject": "Could Gradon help one family this holiday?",
+    "content": "Hi Nour,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Gradon cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:founders-byteask-ai",
-   "to": "founders@byteask.ai",
-   "subject": "Could ByteAsk help one family this holiday?",
+   "key": "first:founders-grep-ai",
+   "to": "founders@grep.ai",
+   "subject": "Could Grep AI help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@byteask.ai",
-    "subject": "Could ByteAsk help one family this holiday?",
-    "content": "Hi Anirudha and Pratyush,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould ByteAsk cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "founders@grep.ai",
+    "subject": "Could Grep AI help one family this holiday?",
+    "content": "Hi AJ,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Grep AI cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:founders-caladh-com",
-   "to": "founders@caladh.com",
-   "subject": "Could Caladh help one family this holiday?",
+   "key": "first:julian-hemlock-inc",
+   "to": "julian@hemlock.inc",
+   "subject": "Could Hemlock help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@caladh.com",
-    "subject": "Could Caladh help one family this holiday?",
-    "content": "Hi Kristen,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Caladh cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "julian@hemlock.inc",
+    "subject": "Could Hemlock help one family this holiday?",
+    "content": "Hi Julian,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Hemlock cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:team-cesara-com",
-   "to": "team@cesara.com",
-   "subject": "Could Cesara help one family this holiday?",
+   "key": "first:founders-gethesperai-com",
+   "to": "founders@gethesperai.com",
+   "subject": "Could Hesper AI help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "team@cesara.com",
-    "subject": "Could Cesara help one family this holiday?",
-    "content": "Hi Xinan and Junwoo,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Cesara cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "founders@gethesperai.com",
+    "subject": "Could Hesper AI help one family this holiday?",
+    "content": "Hi Pankaj and Nitish,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Hesper AI cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:rachel-claimkit-co",
-   "to": "rachel@claimkit.co",
-   "subject": "Could ClaimKit help one family this holiday?",
+   "key": "first:nooshin-hillstar-ai",
+   "to": "nooshin@hillstar.ai",
+   "subject": "Could HillStar help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "rachel@claimkit.co",
-    "subject": "Could ClaimKit help one family this holiday?",
-    "content": "Hi Rachel,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould ClaimKit cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "nooshin@hillstar.ai",
+    "subject": "Could HillStar help one family this holiday?",
+    "content": "Hi Nooshin,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould HillStar cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:issa-databuddy-cc",
-   "to": "issa@databuddy.cc",
-   "subject": "Could Databuddy help one family this holiday?",
+   "key": "first:founders-hue-run",
+   "to": "founders@hue.run",
+   "subject": "Could Hue help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "issa@databuddy.cc",
-    "subject": "Could Databuddy help one family this holiday?",
-    "content": "Hi Issa,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Databuddy cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "founders@hue.run",
+    "subject": "Could Hue help one family this holiday?",
+    "content": "Hi Aneesh and Josh,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Hue cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:slavko-deepmark-me",
-   "to": "slavko@deepmark.me",
-   "subject": "Could DeepMark help one family this holiday?",
+   "key": "first:founders-agentfm-ai",
+   "to": "founders@agentfm.ai",
+   "subject": "Could isoquant help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "slavko@deepmark.me",
-    "subject": "Could DeepMark help one family this holiday?",
-    "content": "Hi Slavko,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould DeepMark cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "founders@agentfm.ai",
+    "subject": "Could isoquant help one family this holiday?",
+    "content": "Hi Aniket and Mugdhaa,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould isoquant cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:founders-deployrobotics-co",
-   "to": "founders@deployrobotics.co",
-   "subject": "Could Deploy help one family this holiday?",
+   "key": "first:founders-kairoshealthai-com",
+   "to": "founders@kairoshealthai.com",
+   "subject": "Could Kairos Health help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@deployrobotics.co",
-    "subject": "Could Deploy help one family this holiday?",
-    "content": "Hi Sahith and Irene,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Deploy cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "founders@kairoshealthai.com",
+    "subject": "Could Kairos Health help one family this holiday?",
+    "content": "Hi Kairos Health team,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Kairos Health cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:founders-dreamscalelabs-com",
-   "to": "founders@dreamscalelabs.com",
-   "subject": "Could Dreamscale Labs help one family this holiday?",
+   "key": "first:melanie-withkiwi-ai",
+   "to": "melanie@withkiwi.ai",
+   "subject": "Could Kiwi help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@dreamscalelabs.com",
-    "subject": "Could Dreamscale Labs help one family this holiday?",
-    "content": "Hi Dreamscale Labs team,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Dreamscale Labs cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "melanie@withkiwi.ai",
+    "subject": "Could Kiwi help one family this holiday?",
+    "content": "Hi Melanie,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Kiwi cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   },
   {
-   "key": "first:founders-dydema-com",
-   "to": "founders@dydema.com",
-   "subject": "Could Dydema help one family this holiday?",
+   "key": "first:vedant-runlatent-ai",
+   "to": "vedant@runlatent.ai",
+   "subject": "Could Latent help one family this holiday?",
    "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
    "args": {
     "accountId": "3837587000000002002",
     "region": "in",
     "fromAddress": "connect@coupondonation.com",
-    "toAddress": "founders@dydema.com",
-    "subject": "Could Dydema help one family this holiday?",
-    "content": "Hi Julian and Christopher,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Dydema cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
+    "toAddress": "vedant@runlatent.ai",
+    "subject": "Could Latent help one family this holiday?",
+    "content": "Hi Vedant,\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould Latent cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again.",
     "mailFormat": "plaintext"
    }
   }
  ],
  "notes": [
-  "connect@: 15 first emails, 14 follow-ups. 52 founders still queued after today."
+  "connect@: 15 first emails, 0 follow-ups. 37 founders still queued after today."
  ]
 }
