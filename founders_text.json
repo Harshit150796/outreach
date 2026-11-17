@@ -1,14 +1,14 @@
 {
  "Sponsor a family": {
   "subject": "Could {Company} help one family this holiday?",
-  "body": "Hi {Hi},\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould {Company} cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again."
+  "body": "Hi {Hi},\n\nI'm Harshit, founder of CouponDonation. Families post what they need on our site: food, groceries, travel or health benefits. Each gift reaches them as a store gift card, never cash, and the giver is told when it's received and used.\n\nWould {Company} cover one family's need this holiday? You choose the family and the amount.\n\nWe're a company, not a charity, so it isn't tax-deductible. We take no fee from the gift. 100% goes to the family.\n\nOpen to it? Reply and I'll send you two or three fundraisers to choose from. If you'd like to know more about us first, book a 30-minute call here:\n{Book}\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again."
  },
  "Collaboration": {
   "subject": "An idea for {Company}",
-  "body": "Hi {Hi},\n\nI'm Harshit, founder of CouponDonation. People give to a family in need of food, groceries, travel or health benefits, and the gift reaches them as a store gift card, never cash.\n\n{Collaboration line}\n\nIs that worth 15 minutes? If yes, reply with a time that suits you. A \"no\" is just as useful to me.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again."
+  "body": "Hi {Hi},\n\nI'm Harshit, founder of CouponDonation. People give to a family in need of food, groceries, travel or health benefits, and the gift reaches them as a store gift card, never cash.\n\n{Collaboration line}\n\nIs that worth a 30-minute call? If yes, pick a time that suits you here:\n{Book}\n\nA \"no\" is just as useful to me.\n\nHarshit Agrawal\nFounder, CouponDonation\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again."
  },
  "Follow-up": {
   "subject": "Sent as a reply in the same thread",
-  "body": "Hi {Hi},\n\nOne more try, then I'll stop.\n\nIs this something {Company} would consider? A yes or a no both help me.\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again."
+  "body": "Hi {Hi},\n\nOne more try, then I'll stop.\n\nIs this something {Company} would consider? A yes or a no both help me. If it's easier to talk, book a 30-minute call:\n{Book}\n\nHarshit\n\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nReply \"no thanks\" and I won't write again."
  }
 }

@@ -37,7 +37,8 @@ SPANISH = lambda q: q["community"] == "Spanish" or q["denomination"].endswith("(
 # Wording approved by the founder on Nov 15, 2026 (email playbook). One plain-text email from a named person
 # with one ask: no headline, bullets, button or images, because a designed email reads as a newsletter.
 # Help is for food, groceries, travel and health benefits. It says what CouponDonation is (a company, not a
-# charity) and that the whole gift reaches the family.
+# charity) and that the whole gift reaches the family. Founder request, Nov 17, 2026: every outreach email also
+# offers a 30-minute introductory call (config.json book_call_url, the team's Calendly page).
 SUBJECTS = {
     "en": ("When a family at {church} needs help", "When a family in {city} needs help"),
     "es": ("Cuando una familia de {church} necesita ayuda", "Cuando una familia de {city} necesita ayuda"),
@@ -59,7 +60,8 @@ We're a company, not a charity, so gifts aren't tax-deductible. We take no fee f
 If a family comes to mind, or asks you for help, this is the page to pass on:
 {apply}
 
-Questions? Just reply.
+Questions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:
+{book}
 
 Harshit Agrawal
 Founder, CouponDonation
@@ -86,7 +88,8 @@ Somos una empresa, no una organización benéfica, así que los aportes no son d
 Si piensa en alguna familia, o si alguna le pide ayuda, esta es la página para compartir (está en inglés):
 {apply}
 
-¿Preguntas? Solo responda a este correo.
+¿Preguntas? Solo responda a este correo. O, si quiere saber más sobre nosotros, reserve aquí una llamada de 30 minutos (en inglés):
+{book}
 
 Harshit Agrawal
 Fundador, CouponDonation
@@ -128,7 +131,7 @@ def compose(q):
     church = clean_name(q["name"])
     city = q["city"] or ("su comunidad" if lang == "es" else "your area")
     subj = subject(q, church, city, lang)
-    text = t["body"].format(hello=greeting(q, church, lang), church=church, apply=APPLY, addr=CFG["postal_address"],
+    text = t["body"].format(hello=greeting(q, church, lang), church=church, apply=APPLY, book=CFG["book_call_url"], addr=CFG["postal_address"],
                             why=t["why"].format(church=church), unsub=t["unsub_txt"].format(u=CFG["unsubscribe_address"]))
     return subj, text, None
 

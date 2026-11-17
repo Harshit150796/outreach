@@ -73,7 +73,8 @@ def blocked(q, s):
 
 def fill(t, q):
     return (t.replace("{Company}", q["company"]).replace("{Hi}", q["hi"])
-             .replace("{Collaboration line}", q.get("collab_line") or ""))
+             .replace("{Collaboration line}", q.get("collab_line") or "")
+             .replace("{Book}", cfg().get("book_call_url", "https://calendly.com/connect-coupondonation/-")))
 
 
 # ---------------------------------------------------------------- inbox

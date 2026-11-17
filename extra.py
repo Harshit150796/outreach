@@ -98,6 +98,9 @@ One more note, then I'll stop.
 If a family at {church} needs help with food, groceries, travel or health benefits this month, they can ask here, free:
 {apply}
 
+To hear more about us first, you can book a 30-minute call:
+{book}
+
 If this isn't for {church}, reply "no thanks" and you won't hear from me again.
 
 Harshit
@@ -113,6 +116,9 @@ Una nota más y no le escribo de nuevo.
 
 Si una familia de {church} necesita ayuda con comida, despensa, transporte o gastos de salud este mes, puede pedirla aquí, gratis (la página está en inglés):
 {apply}
+
+Para saber más sobre nosotros, puede reservar una llamada de 30 minutos (en inglés):
+{book}
 
 Si esto no es para {church}, responda "no, gracias" y no volverá a saber de mí.
 
@@ -140,7 +146,7 @@ def followup(q, orig_date, orig_subject):
     lang = "es" if run.SPANISH(q) else "en"
     church = run.clean_name(q["name"])
     t = run.T[lang]
-    body = FU[lang]["body"].format(hello=run.greeting(q, church, lang), apply=run.APPLY,
+    body = FU[lang]["body"].format(hello=run.greeting(q, church, lang), apply=run.APPLY, book=run.CFG["book_call_url"],
                                    church=church, addr=run.CFG["postal_address"],
                                    unsub=t["unsub_txt"].format(u=run.CFG["unsubscribe_address"]))
     return FU[lang]["subj"].format(subject=orig_subject), body
