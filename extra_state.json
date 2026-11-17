@@ -1967,7 +1967,8 @@
 },
 "replied": {
 "pastorron@newseasonsws.com": "2026-11-10",
-"info@lathirdcfsl.com": "2026-11-10"
+"info@lathirdcfsl.com": "2026-11-10",
+"upperlakesda@gmail.com": "2026-11-17"
 },
 "bounced": {
 "escalonfbc@att.net": {
@@ -1991,8 +1992,251 @@
 "sender": "gmail"
 }
 },
-"suppressed": [],
-"pending": {},
+"suppressed": [
+"upperlakesda@gmail.com"
+],
+"pending": {
+"gmail_fu:4d9568e57079": {
+"date": "2026-11-17",
+"to": "office@stpaulsumcsj.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_fu:96f04fca436b": {
+"date": "2026-11-17",
+"to": "rockchurchofthehighdesert@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_fu:089e19175453": {
+"date": "2026-11-17",
+"to": "church@oneholyfamily.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:591c367b8e9e": {
+"date": "2026-11-17",
+"to": "dpc.office@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:67c074155896": {
+"date": "2026-11-17",
+"to": "calvarysouthcounty@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:4593419a7576": {
+"date": "2026-11-17",
+"to": "davisparkcoc@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:cc69a9a1933b": {
+"date": "2026-11-17",
+"to": "info@belongchurch.cc",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:ba21a45ddd71": {
+"date": "2026-11-17",
+"to": "staff@paseodelrey.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:1974ac84c606": {
+"date": "2026-11-17",
+"to": "encountercommunity18749@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:c281b88a72d4": {
+"date": "2026-11-17",
+"to": "bakersfieldcentralchurch@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:b53770d326c3": {
+"date": "2026-11-17",
+"to": "bethsimcha@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:49ced5cf1bf4": {
+"date": "2026-11-17",
+"to": "revkangas@yahoo.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:1217a3b4fd47": {
+"date": "2026-11-17",
+"to": "ilyoung9@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:71b18053e5a1": {
+"date": "2026-11-17",
+"to": "reception@gpfyucaipa.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:6811698fb44d": {
+"date": "2026-11-17",
+"to": "info@captivatesd.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:2a18e7ade337": {
+"date": "2026-11-17",
+"to": "shieldlongbeach@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:d918aa86aecf": {
+"date": "2026-11-17",
+"to": "hello@everwellchurch.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:c81938f4949c": {
+"date": "2026-11-17",
+"to": "mail@stmikessc.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:9ba04f2ff0c6": {
+"date": "2026-11-17",
+"to": "office@pumchurch.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:8a37d3f24a40": {
+"date": "2026-11-17",
+"to": "wcotnaz@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:e3f5a0e23cb9": {
+"date": "2026-11-17",
+"to": "foothill_losaltos@yahoo.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:1a53c9b73dc5": {
+"date": "2026-11-17",
+"to": "officemanager@claremontucc.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"gmail_first:4b4d97f8710e": {
+"date": "2026-11-17",
+"to": "hollywoodgathering@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:f8508b1e64ce": {
+"date": "2026-11-17",
+"to": "josedolphine@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:203c1e713bd0": {
+"date": "2026-11-17",
+"to": "office@independentbaptistchurchsandiego.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:543dd5586f01": {
+"date": "2026-11-17",
+"to": "nuphillyonline@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:b31de894f0d8": {
+"date": "2026-11-17",
+"to": "info@northcalvarychurch.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:dcb8ba7dd76e": {
+"date": "2026-11-17",
+"to": "zionnhsec@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:881d84e0f90e": {
+"date": "2026-11-17",
+"to": "elarsen.office@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:3b5e8a30dd1b": {
+"date": "2026-11-17",
+"to": "dandrews@fbcsanmateo.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:0875c6f5e09c": {
+"date": "2026-11-17",
+"to": "rosyv.stsebastian@outlook.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:69932c0eac95": {
+"date": "2026-11-17",
+"to": "office@vincentcatholic.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:e613c328cd4e": {
+"date": "2026-11-17",
+"to": "iacogemail@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:eff957a119e4": {
+"date": "2026-11-17",
+"to": "info@churchofsaintanthony.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:787f646ca580": {
+"date": "2026-11-17",
+"to": "meysximix@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:71b9283e20cc": {
+"date": "2026-11-17",
+"to": "info@graceatthecircle.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:4692450e2c9d": {
+"date": "2026-11-17",
+"to": "stjohnssanbruno@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:205bd7f2b196": {
+"date": "2026-11-17",
+"to": "brawleycatholic@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:c844e819d1d8": {
+"date": "2026-11-17",
+"to": "contact@bethelcarson.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:5f4afaeb28f8": {
+"date": "2026-11-17",
+"to": "info@alcc3500.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:45316913bf1a": {
+"date": "2026-11-17",
+"to": "bkennedy@firstassembly-ws.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:cee278aab109": {
+"date": "2026-11-17",
+"to": "sanantonio1893@yahoo.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:5fde88a8ff44": {
+"date": "2026-11-17",
+"to": "pastormatt@oaktreeonline.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:da204b3dd84d": {
+"date": "2026-11-17",
+"to": "rev.moisesflores@yahoo.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:f27076674be4": {
+"date": "2026-11-17",
+"to": "threshingfloortabernacle@gmail.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:d80e57e16816": {
+"date": "2026-11-17",
+"to": "lewrich58@icloud.com",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:f41106fc1164": {
+"date": "2026-11-17",
+"to": "veronica@saintcharles.org",
+"at": "2026-11-17T18:24:32+00:00"
+},
+"zoho_fu:a87cdfaffddf": {
+"date": "2026-11-17",
+"to": "info@calvarysolidground.com",
+"at": "2026-11-17T18:24:32+00:00"
+}
+},
 "paused": {},
 "runs": [
 {
@@ -2059,8 +2303,8 @@
 "zoho_fu": 20
 }
 ],
-"last_inbox_gmail": "2026-11-16",
-"last_inbox_zoho": "2026-11-16",
+"last_inbox_gmail": "2026-11-17",
+"last_inbox_zoho": "2026-11-17",
 "resumed": {
 "gmail": "2026-11-03"
 }
