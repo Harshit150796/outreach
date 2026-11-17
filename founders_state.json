@@ -179,6 +179,96 @@
 "date": "2026-11-16",
 "subject": "Could Dydema help one family this holiday?",
 "message_id": "1794853532285119300"
+},
+"founders-elimentary-com": {
+"to": "founders@elimentary.com",
+"date": "2026-11-17",
+"subject": "Could Elimentary help one family this holiday?",
+"message_id": "1794939804756130300"
+},
+"sarthak-elithia-com": {
+"to": "sarthak@elithia.com",
+"date": "2026-11-17",
+"subject": "Could Elithia help one family this holiday?",
+"message_id": "1794939804747130200"
+},
+"diva-evardi-ai": {
+"to": "diva@evardi.ai",
+"date": "2026-11-17",
+"subject": "Could Evardi help one family this holiday?",
+"message_id": "1794939804737130100"
+},
+"founders-fire-co": {
+"to": "founders@fire.co",
+"date": "2026-11-17",
+"subject": "Could Fire Wallet help one family this holiday?",
+"message_id": "1794939804760108000"
+},
+"founders-godhands-dev": {
+"to": "founders@godhands.dev",
+"date": "2026-11-17",
+"subject": "Could GodHands help one family this holiday?",
+"message_id": "1794939805912130100"
+},
+"nour-heygradon-com": {
+"to": "nour@heygradon.com",
+"date": "2026-11-17",
+"subject": "Could Gradon help one family this holiday?",
+"message_id": "1794939827083130200"
+},
+"founders-grep-ai": {
+"to": "founders@grep.ai",
+"date": "2026-11-17",
+"subject": "Could Grep AI help one family this holiday?",
+"message_id": "1794939827288130300"
+},
+"julian-hemlock-inc": {
+"to": "julian@hemlock.inc",
+"date": "2026-11-17",
+"subject": "Could Hemlock help one family this holiday?",
+"message_id": "1794939827213119300"
+},
+"founders-gethesperai-com": {
+"to": "founders@gethesperai.com",
+"date": "2026-11-17",
+"subject": "Could Hesper AI help one family this holiday?",
+"message_id": "1794939827213108000"
+},
+"nooshin-hillstar-ai": {
+"to": "nooshin@hillstar.ai",
+"date": "2026-11-17",
+"subject": "Could HillStar help one family this holiday?",
+"message_id": "1794939828459119300"
+},
+"founders-hue-run": {
+"to": "founders@hue.run",
+"date": "2026-11-17",
+"subject": "Could Hue help one family this holiday?",
+"message_id": "1794939849147119300"
+},
+"founders-agentfm-ai": {
+"to": "founders@agentfm.ai",
+"date": "2026-11-17",
+"subject": "Could isoquant help one family this holiday?",
+"message_id": "1794939849211130300"
+},
+"founders-kairoshealthai-com": {
+"to": "founders@kairoshealthai.com",
+"date": "2026-11-17",
+"subject": "Could Kairos Health help one family this holiday?",
+"message_id": "1794939849147119301"
+},
+"melanie-withkiwi-ai": {
+"to": "melanie@withkiwi.ai",
+"date": "2026-11-17",
+"subject": "Could Kiwi help one family this holiday?",
+"message_id": "1794939849136130200"
+},
+"vedant-runlatent-ai": {
+"to": "vedant@runlatent.ai",
+"date": "2026-11-17",
+"subject": "Could Latent help one family this holiday?",
+"message_id": "1794939850404130100"
 }
 },
 "followups": {
@@ -260,68 +350,7 @@
 }
 },
 "suppressed": [],
-"pending": {
-"first:founders-elimentary-com": {
-"date": "2026-11-17",
-"to": "founders@elimentary.com"
-},
-"first:sarthak-elithia-com": {
-"date": "2026-11-17",
-"to": "sarthak@elithia.com"
-},
-"first:diva-evardi-ai": {
-"date": "2026-11-17",
-"to": "diva@evardi.ai"
-},
-"first:founders-fire-co": {
-"date": "2026-11-17",
-"to": "founders@fire.co"
-},
-"first:founders-godhands-dev": {
-"date": "2026-11-17",
-"to": "founders@godhands.dev"
-},
-"first:nour-heygradon-com": {
-"date": "2026-11-17",
-"to": "nour@heygradon.com"
-},
-"first:founders-grep-ai": {
-"date": "2026-11-17",
-"to": "founders@grep.ai"
-},
-"first:julian-hemlock-inc": {
-"date": "2026-11-17",
-"to": "julian@hemlock.inc"
-},
-"first:founders-gethesperai-com": {
-"date": "2026-11-17",
-"to": "founders@gethesperai.com"
-},
-"first:nooshin-hillstar-ai": {
-"date": "2026-11-17",
-"to": "nooshin@hillstar.ai"
-},
-"first:founders-hue-run": {
-"date": "2026-11-17",
-"to": "founders@hue.run"
-},
-"first:founders-agentfm-ai": {
-"date": "2026-11-17",
-"to": "founders@agentfm.ai"
-},
-"first:founders-kairoshealthai-com": {
-"date": "2026-11-17",
-"to": "founders@kairoshealthai.com"
-},
-"first:melanie-withkiwi-ai": {
-"date": "2026-11-17",
-"to": "melanie@withkiwi.ai"
-},
-"first:vedant-runlatent-ai": {
-"date": "2026-11-17",
-"to": "vedant@runlatent.ai"
-}
-},
+"pending": {},
 "paused": "",
 "runs": [
 {
@@ -333,6 +362,12 @@
 {
 "date": "2026-11-16",
 "sent": 29,
+"failed": 0,
+"unknown": 0
+},
+{
+"date": "2026-11-17",
+"sent": 15,
 "failed": 0,
 "unknown": 0
 }
