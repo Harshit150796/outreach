@@ -8123,6 +8123,62 @@
 "date": "2026-11-18",
 "resend_id": "01a1efe7-b778-7acd-9b19-dae46acdddd4",
 "subject": "When a family at Calvary Chapel The Barn needs help"
+},
+"bd05c3231585": {
+"email": "secretary@chico1st.com",
+"name": "First Assembly of God",
+"county": "Butte",
+"date": "2026-11-18",
+"resend_id": "01a1f06f-808c-7178-9692-efe19a46d99b",
+"subject": "When a family at First Assembly of God needs help"
+},
+"8ed07db35ee6": {
+"email": "info@tahoeadventist.org",
+"name": "Heavenly Valley Seventh-day Adventist Church",
+"county": "El Dorado",
+"date": "2026-11-18",
+"resend_id": "01a1f06f-831e-7dfa-81ca-29e917a6689c",
+"subject": "When a family in South Lake Tahoe needs help"
+},
+"1cafb89be0b5": {
+"email": "office@ocfchurch.com",
+"name": "Oceanside Christian Fellowship",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1f06f-85a9-7383-810a-233a27acb966",
+"subject": "When a family at Oceanside Christian Fellowship needs help"
+},
+"66bed7048a8e": {
+"email": "info@experiencebmc.org",
+"name": "Beebe Memorial Cathedral",
+"county": "Alameda",
+"date": "2026-11-18",
+"resend_id": "01a1f06f-883f-71b0-ae11-07aae76c2c3d",
+"subject": "When a family at Beebe Memorial Cathedral needs help"
+},
+"87a04a0c510a": {
+"email": "info@joshuahouseofprayercogic.com",
+"name": "Joshua House of Prayer",
+"county": "Solano",
+"date": "2026-11-18",
+"resend_id": "01a1f06f-8add-7b9f-a599-d5d0e85638e3",
+"subject": "When a family at Joshua House of Prayer needs help"
+},
+"e6e54c0390b1": {
+"email": "info@nccworship.com",
+"name": "Northridge Christian Church",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1f06f-8d72-7da9-9976-0b66e352f384",
+"subject": "When a family at Northridge Christian Church needs help"
+},
+"dcb9340fb362": {
+"email": "info@harvestfamily.net",
+"name": "Harvest Community Church",
+"county": "Placer",
+"date": "2026-11-18",
+"resend_id": "01a1f06f-9013-7a15-a831-d9b23a82040c",
+"subject": "When a family at Harvest Community Church needs help"
 }
 },
 "suppressed": [
@@ -8202,7 +8258,10 @@
 "dcchurch@desertchapel.org",
 "lemoore1umc@yahoo.com",
 "office@gracepa.org",
-"bob.rankin@standrewelsegundo.org"
+"bob.rankin@standrewelsegundo.org",
+"myglendorachurch@gmail.com",
+"reception@carmelmission.org",
+"montereypriest@gmail.com"
 ],
 "runs": [
 {
@@ -8354,6 +8413,12 @@
 "sent": 60,
 "failed": 0,
 "requested": 60
+},
+{
+"date": "2026-11-18",
+"sent": 7,
+"failed": 0,
+"requested": 7
 }
 ]
 }
