@@ -350,7 +350,68 @@
 }
 },
 "suppressed": [],
-"pending": {},
+"pending": {
+"first:todd-limnion-ai": {
+"date": "2026-11-18",
+"to": "todd@limnion.ai"
+},
+"first:founders-neomatter-com": {
+"date": "2026-11-18",
+"to": "founders@neomatter.com"
+},
+"first:anais-oasive-ai": {
+"date": "2026-11-18",
+"to": "anais@oasive.ai"
+},
+"first:founders-obsessiondb-com": {
+"date": "2026-11-18",
+"to": "founders@obsessiondb.com"
+},
+"first:founders-odin-robotics-com": {
+"date": "2026-11-18",
+"to": "founders@odin-robotics.com"
+},
+"first:ananay-openhack-com": {
+"date": "2026-11-18",
+"to": "ananay@openhack.com"
+},
+"first:arnav-openlakehq-com": {
+"date": "2026-11-18",
+"to": "arnav@openlakehq.com"
+},
+"first:founders-operatechnologies-com": {
+"date": "2026-11-18",
+"to": "founders@operatechnologies.com"
+},
+"first:founders-ordolabs-ai": {
+"date": "2026-11-18",
+"to": "founders@ordolabs.ai"
+},
+"first:macy-papaya-fyi": {
+"date": "2026-11-18",
+"to": "macy@papaya.fyi"
+},
+"first:frankie-bryel-ai": {
+"date": "2026-11-18",
+"to": "frankie@bryel.ai"
+},
+"first:wilhelm-petrichorbio-com": {
+"date": "2026-11-18",
+"to": "wilhelm@petrichorbio.com"
+},
+"first:manny-ploid-com": {
+"date": "2026-11-18",
+"to": "manny@ploid.com"
+},
+"first:akshay-pomerado-ai": {
+"date": "2026-11-18",
+"to": "akshay@pomerado.ai"
+},
+"first:founders-primordiant-com": {
+"date": "2026-11-18",
+"to": "founders@primordiant.com"
+}
+},
 "paused": "",
 "runs": [
 {
@@ -372,5 +433,5 @@
 "unknown": 0
 }
 ],
-"last_inbox": "2026-11-17"
+"last_inbox": "2026-11-18"
 }
