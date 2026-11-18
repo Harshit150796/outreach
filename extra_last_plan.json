@@ -1,728 +1,689 @@
 {
-"date": "2026-11-17",
+"date": "2026-11-18",
 "items": [
 {
-"key": "gmail_fu:4d9568e57079",
-"tool": "GMAIL_REPLY_TO_THREAD",
-"account": "gmail_spitz-fixed",
-"to": "office@stpaulsumcsj.com",
-"args": {
-"thread_id": "1a1cbe2772cbf6f3",
-"recipient_email": "office@stpaulsumcsj.com",
-"message_body": "Dear Pastor Blewis,\n\nOne more note, then I'll stop.\n\nIf a family at St Paul's United Methodist Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for St Paul's United Methodist Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
-"is_html": false,
-"include_signature": false
-}
-},
-{
-"key": "gmail_fu:96f04fca436b",
-"tool": "GMAIL_REPLY_TO_THREAD",
-"account": "gmail_spitz-fixed",
-"to": "rockchurchofthehighdesert@gmail.com",
-"args": {
-"thread_id": "1a1cbe27ace6ef4c",
-"recipient_email": "rockchurchofthehighdesert@gmail.com",
-"message_body": "Dear Pastor Axtell,\n\nOne more note, then I'll stop.\n\nIf a family at Rock Church of the High Desert needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Rock Church of the High Desert, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
-"is_html": false,
-"include_signature": false
-}
-},
-{
-"key": "gmail_fu:089e19175453",
-"tool": "GMAIL_REPLY_TO_THREAD",
-"account": "gmail_spitz-fixed",
-"to": "church@oneholyfamily.org",
-"args": {
-"thread_id": "1a1cbe27aef79092",
-"recipient_email": "church@oneholyfamily.org",
-"message_body": "Dear Father Lam,\n\nOne more note, then I'll stop.\n\nIf a family at Holy Family Catholic Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Holy Family Catholic Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
-"is_html": false,
-"include_signature": false
-}
-},
-{
-"key": "gmail_first:591c367b8e9e",
+"key": "gmail_first:34de5f609abd",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "dpc.office@gmail.com",
-"subject": "When a family at Dolores Park Church needs help",
+"to": "info@crossroadsccenter.org",
+"subject": "When a family at Crossroads Christian Center needs help",
 "args": {
-"recipient_email": "dpc.office@gmail.com",
-"subject": "When a family at Dolores Park Church needs help",
-"body": "Hello Dolores Park Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Dolores Park Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Dolores Park Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "info@crossroadsccenter.org",
+"subject": "When a family at Crossroads Christian Center needs help",
+"body": "Hello Crossroads Christian Center team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Crossroads Christian Center is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Crossroads Christian Center's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:67c074155896",
+"key": "gmail_first:811afb91878e",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "calvarysouthcounty@gmail.com",
-"subject": "When a family at Calvary Chapel South County needs help",
+"to": "office@promise.family",
+"subject": "When a family at Promise Christian Church - LCMS needs help",
 "args": {
-"recipient_email": "calvarysouthcounty@gmail.com",
-"subject": "When a family at Calvary Chapel South County needs help",
-"body": "Hello Calvary Chapel South County team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Calvary Chapel South County is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Calvary Chapel South County's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "office@promise.family",
+"subject": "When a family at Promise Christian Church - LCMS needs help",
+"body": "Hello Promise Christian Church - LCMS team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Promise Christian Church - LCMS is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Promise Christian Church - LCMS's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:4593419a7576",
+"key": "gmail_first:e16fbacefd7c",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "davisparkcoc@gmail.com",
-"subject": "When a family at Davis Park Church of Christ needs help",
+"to": "ecogicrca@gmail.com",
+"subject": "When a family at Ephesians Church of God In Christ needs help",
 "args": {
-"recipient_email": "davisparkcoc@gmail.com",
-"subject": "When a family at Davis Park Church of Christ needs help",
-"body": "Hello Davis Park Church of Christ team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Davis Park Church of Christ is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Davis Park Church of Christ's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "ecogicrca@gmail.com",
+"subject": "When a family at Ephesians Church of God In Christ needs help",
+"body": "Hello Ephesians Church of God In Christ team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Ephesians Church of God In Christ is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Ephesians Church of God In Christ's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:cc69a9a1933b",
+"key": "gmail_first:808c5a60ab9c",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "info@belongchurch.cc",
-"subject": "When a family at Belong Church needs help",
+"to": "info@thetownchurch.com",
+"subject": "When a family at The Town Church needs help",
 "args": {
-"recipient_email": "info@belongchurch.cc",
-"subject": "When a family at Belong Church needs help",
-"body": "Hello Belong Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Belong Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Belong Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "info@thetownchurch.com",
+"subject": "When a family at The Town Church needs help",
+"body": "Hello Town Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at The Town Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because The Town Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:ba21a45ddd71",
+"key": "gmail_first:d813941faf32",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "staff@paseodelrey.org",
-"subject": "When a family at Paseo del Rey Church needs help",
+"to": "office@calvarybaptistsf.org",
+"subject": "When a family at Calvary Baptist Church needs help",
 "args": {
-"recipient_email": "staff@paseodelrey.org",
-"subject": "When a family at Paseo del Rey Church needs help",
-"body": "Hello Paseo del Rey Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Paseo del Rey Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Paseo del Rey Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "office@calvarybaptistsf.org",
+"subject": "When a family at Calvary Baptist Church needs help",
+"body": "Hello Calvary Baptist Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Calvary Baptist Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Calvary Baptist Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:1974ac84c606",
+"key": "gmail_first:2741c4c7d373",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "encountercommunity18749@gmail.com",
-"subject": "When a family at Encounter Community Church needs help",
+"to": "info@crossroadsturlock.com",
+"subject": "When a family at Crossroads Church needs help",
 "args": {
-"recipient_email": "encountercommunity18749@gmail.com",
-"subject": "When a family at Encounter Community Church needs help",
-"body": "Hello Encounter Community Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Encounter Community Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Encounter Community Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "info@crossroadsturlock.com",
+"subject": "When a family at Crossroads Church needs help",
+"body": "Hello Crossroads Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Crossroads Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Crossroads Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:c281b88a72d4",
+"key": "gmail_first:336234f6f706",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "bakersfieldcentralchurch@gmail.com",
-"subject": "When a family in Bakersfield needs help",
+"to": "office@newlifepomona.com",
+"subject": "When a family at Newlife Pomona needs help",
 "args": {
-"recipient_email": "bakersfieldcentralchurch@gmail.com",
-"subject": "When a family in Bakersfield needs help",
-"body": "Hello Bakersfield Central Seventh-day Adventist Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Bakersfield Central Seventh-day Adventist Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Bakersfield Central Seventh-day Adventist Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "office@newlifepomona.com",
+"subject": "When a family at Newlife Pomona needs help",
+"body": "Hello Newlife Pomona team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Newlife Pomona is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Newlife Pomona's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:b53770d326c3",
+"key": "gmail_first:dcee2756052b",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "bethsimcha@gmail.com",
-"subject": "When a family at Beth Simcha Messianic Congregation needs help",
+"to": "harvesttbc@gmail.com",
+"subject": "When a family at Harvest Tabernacle Bible Church needs help",
 "args": {
-"recipient_email": "bethsimcha@gmail.com",
-"subject": "When a family at Beth Simcha Messianic Congregation needs help",
-"body": "Hello Beth Simcha Messianic Congregation team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Beth Simcha Messianic Congregation is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Beth Simcha Messianic Congregation's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "harvesttbc@gmail.com",
+"subject": "When a family at Harvest Tabernacle Bible Church needs help",
+"body": "Hello Harvest Tabernacle Bible Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Harvest Tabernacle Bible Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Harvest Tabernacle Bible Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:49ced5cf1bf4",
+"key": "gmail_first:fcaeb521b3e7",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "revkangas@yahoo.com",
-"subject": "When a family at Good Shepherd Lutheran Church needs help",
+"to": "info@newlifepca.com",
+"subject": "When a family at New Life Presbyterian Church needs help",
 "args": {
-"recipient_email": "revkangas@yahoo.com",
-"subject": "When a family at Good Shepherd Lutheran Church needs help",
-"body": "Hello Good Shepherd Lutheran Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Good Shepherd Lutheran Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Good Shepherd Lutheran Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "info@newlifepca.com",
+"subject": "When a family at New Life Presbyterian Church needs help",
+"body": "Hello New Life Presbyterian Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at New Life Presbyterian Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because New Life Presbyterian Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:1217a3b4fd47",
+"key": "gmail_first:32dd72eb5fb1",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "ilyoung9@gmail.com",
-"subject": "When a family at Korean United Presbyterian Church needs help",
+"to": "office@alcrpv.org",
+"subject": "When a family at Ascension Lutheran Church needs help",
 "args": {
-"recipient_email": "ilyoung9@gmail.com",
-"subject": "When a family at Korean United Presbyterian Church needs help",
-"body": "Hello Korean United Presbyterian Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Korean United Presbyterian Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Korean United Presbyterian Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "office@alcrpv.org",
+"subject": "When a family at Ascension Lutheran Church needs help",
+"body": "Hello Ascension Lutheran Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Ascension Lutheran Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Ascension Lutheran Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:71b18053e5a1",
+"key": "gmail_first:99b2ee7c6a21",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "reception@gpfyucaipa.org",
-"subject": "When a family at Grace Point Fellowship needs help",
+"to": "hello@fcfullerton.org",
+"subject": "When a family at Friends Church Fullerton needs help",
 "args": {
-"recipient_email": "reception@gpfyucaipa.org",
-"subject": "When a family at Grace Point Fellowship needs help",
-"body": "Hello Grace Point Fellowship team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Grace Point Fellowship is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Grace Point Fellowship's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "hello@fcfullerton.org",
+"subject": "When a family at Friends Church Fullerton needs help",
+"body": "Hello Friends Church Fullerton team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Friends Church Fullerton is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Friends Church Fullerton's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:6811698fb44d",
+"key": "gmail_first:0e5e1019ac01",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "info@captivatesd.com",
-"subject": "When a family at Captivate Church Central Offices needs help",
+"to": "info@anchorchurch.global",
+"subject": "When a family at Anchor Church needs help",
 "args": {
-"recipient_email": "info@captivatesd.com",
-"subject": "When a family at Captivate Church Central Offices needs help",
-"body": "Hello Captivate Church Central Offices team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Captivate Church Central Offices is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Captivate Church Central Offices's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "info@anchorchurch.global",
+"subject": "When a family at Anchor Church needs help",
+"body": "Hello Anchor Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Anchor Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Anchor Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:2a18e7ade337",
+"key": "gmail_first:0d2c4fae6e2e",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "shieldlongbeach@gmail.com",
-"subject": "When a family in Long Beach needs help",
+"to": "missionhillsla@gmail.com",
+"subject": "When a family at Mission Hills Christian Church needs help",
 "args": {
-"recipient_email": "shieldlongbeach@gmail.com",
-"subject": "When a family in Long Beach needs help",
-"body": "Hello Shield of Faith Christian Center Long Beach team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Shield of Faith Christian Center Long Beach is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Shield of Faith Christian Center Long Beach's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "missionhillsla@gmail.com",
+"subject": "When a family at Mission Hills Christian Church needs help",
+"body": "Hello Mission Hills Christian Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Mission Hills Christian Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Mission Hills Christian Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:d918aa86aecf",
+"key": "gmail_first:088b440a3d87",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "hello@everwellchurch.com",
-"subject": "When a family at Everwell Church needs help",
+"to": "info@shadowrockchurch.com",
+"subject": "When a family at Shadow Rock Church needs help",
 "args": {
-"recipient_email": "hello@everwellchurch.com",
-"subject": "When a family at Everwell Church needs help",
-"body": "Hello Everwell Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Everwell Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Everwell Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "info@shadowrockchurch.com",
+"subject": "When a family at Shadow Rock Church needs help",
+"body": "Hello Shadow Rock Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Shadow Rock Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Shadow Rock Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:c81938f4949c",
+"key": "gmail_first:a2ef16737d7e",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "mail@stmikessc.org",
-"subject": "When a family at St Michael and All Angels Episcopal Church needs help",
+"to": "pastorreedman@gmail.com",
+"subject": "When a family at Desert Cities Baptist Church needs help",
 "args": {
-"recipient_email": "mail@stmikessc.org",
-"subject": "When a family at St Michael and All Angels Episcopal Church needs help",
-"body": "Hello St Michael and All Angels Episcopal Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at St Michael and All Angels Episcopal Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because St Michael and All Angels Episcopal Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "pastorreedman@gmail.com",
+"subject": "When a family at Desert Cities Baptist Church needs help",
+"body": "Hello Desert Cities Baptist Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Desert Cities Baptist Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Desert Cities Baptist Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:9ba04f2ff0c6",
+"key": "gmail_first:40e0dc9a5d22",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "office@pumchurch.com",
-"subject": "When a family at Palmdale United Methodist Church needs help",
+"to": "trinitycampforever@gmail.com",
+"subject": "When a family at Trinity Episcopal Church needs help",
 "args": {
-"recipient_email": "office@pumchurch.com",
-"subject": "When a family at Palmdale United Methodist Church needs help",
-"body": "Hello Palmdale United Methodist Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Palmdale United Methodist Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Palmdale United Methodist Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "trinitycampforever@gmail.com",
+"subject": "When a family at Trinity Episcopal Church needs help",
+"body": "Hello Trinity Episcopal Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Trinity Episcopal Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Trinity Episcopal Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:8a37d3f24a40",
+"key": "gmail_first:b88252bc2ec4",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "wcotnaz@gmail.com",
-"subject": "When a family at Weaverville Church of the Nazarene needs help",
+"to": "mail@cornerstonehemet.org",
+"subject": "When a family at Cornerstone needs help",
 "args": {
-"recipient_email": "wcotnaz@gmail.com",
-"subject": "When a family at Weaverville Church of the Nazarene needs help",
-"body": "Hello Weaverville Church of the Nazarene team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Weaverville Church of the Nazarene is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Weaverville Church of the Nazarene's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "mail@cornerstonehemet.org",
+"subject": "When a family at Cornerstone needs help",
+"body": "Hello Cornerstone team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Cornerstone is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Cornerstone's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:e3f5a0e23cb9",
+"key": "gmail_first:6882b81faa73",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "foothill_losaltos@yahoo.com",
-"subject": "When a family at Foothill Baptist Church needs help",
+"to": "info@ccc-mbc.org",
+"subject": "When a family at Canaan Christian Covenant Baptist Church needs help",
 "args": {
-"recipient_email": "foothill_losaltos@yahoo.com",
-"subject": "When a family at Foothill Baptist Church needs help",
-"body": "Hello Foothill Baptist Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Foothill Baptist Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Foothill Baptist Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "info@ccc-mbc.org",
+"subject": "When a family at Canaan Christian Covenant Baptist Church needs help",
+"body": "Hello Canaan Christian Covenant Baptist Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Canaan Christian Covenant Baptist Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Canaan Christian Covenant Baptist Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:1a53c9b73dc5",
+"key": "gmail_first:fcf77d3b0c1f",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "officemanager@claremontucc.org",
-"subject": "When a family at Claremont United Church of Christ needs help",
+"to": "office@assumptionlb.org",
+"subject": "When a family at Assumption of the Blessed Virgin Mary needs help",
 "args": {
-"recipient_email": "officemanager@claremontucc.org",
-"subject": "When a family at Claremont United Church of Christ needs help",
-"body": "Hello Claremont United Church of Christ team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Claremont United Church of Christ is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Claremont United Church of Christ's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "office@assumptionlb.org",
+"subject": "When a family at Assumption of the Blessed Virgin Mary needs help",
+"body": "Hello Assumption of the Blessed Virgin Mary team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Assumption of the Blessed Virgin Mary is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Assumption of the Blessed Virgin Mary's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "gmail_first:4b4d97f8710e",
+"key": "gmail_first:356aa4c93e10",
 "tool": "GMAIL_SEND_EMAIL",
 "account": "gmail_spitz-fixed",
-"to": "hollywoodgathering@gmail.com",
-"subject": "When a family at My Gathering Place International needs help",
+"to": "rwhittemore46@gmail.com",
+"subject": "When a family at Grace Missionary Baptist Church needs help",
 "args": {
-"recipient_email": "hollywoodgathering@gmail.com",
-"subject": "When a family at My Gathering Place International needs help",
-"body": "Hello My Gathering Place International team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at My Gathering Place International is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply.\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because My Gathering Place International's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
+"recipient_email": "rwhittemore46@gmail.com",
+"subject": "When a family at Grace Missionary Baptist Church needs help",
+"body": "Hello Grace Missionary Baptist Church team,\n\nI'm Harshit, the founder of CouponDonation.\n\nWhen a family at Grace Missionary Baptist Church is in need of food, groceries, travel or health benefits, the people around them usually want to help and don't know how. We give them a way.\n\nThe family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.\n\nWe take no fee from the gift. 100% goes to the families.\n\nIf a family comes to mind, or asks you for help, this is the page to pass on:\nhttps://www.coupondonation.com/apply\n\nQuestions? Just reply. Or, if you'd like to know more about us, book a 30-minute call with us here:\nhttps://calendly.com/connect-coupondonation/-\n\nHarshit Agrawal\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711\nYou're receiving this because Grace Missionary Baptist Church's email is on its public listing.\nReply \"no thanks\" or \"unsubscribe\" and I won't write again. You can also write to unsubscribe@outreach.coupondonation.com.",
 "is_html": false,
 "include_signature": false
 }
 },
 {
-"key": "zoho_fu:f8508b1e64ce",
+"key": "zoho_fu:cd9d61edbbb3",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "josedolphine@gmail.com",
-"subject": "Re: A free link for Temple City families",
+"to": "office@cgbcsac.org",
+"subject": "Re: Free help for families at Chinese Grace Bible Church",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "josedolphine@gmail.com",
-"subject": "Re: A free link for Temple City families",
-"content": "Dear Pastor Benitez,\n\nOne more note, then I'll stop.\n\nIf a family at Seventh-day Adventist Temple needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Seventh-day Adventist Temple, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "office@cgbcsac.org",
+"subject": "Re: Free help for families at Chinese Grace Bible Church",
+"content": "Dear Pastor Wong,\n\nOne more note, then I'll stop.\n\nIf a family at Chinese Grace Bible Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Chinese Grace Bible Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:203c1e713bd0",
+"key": "zoho_fu:5a753ab9e076",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "office@independentbaptistchurchsandiego.org",
-"subject": "Re: Free help for families at Independent Baptist Church",
+"to": "phlosangeles1@gmail.com",
+"subject": "Re: A free link for Lynwood families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "office@independentbaptistchurchsandiego.org",
-"subject": "Re: Free help for families at Independent Baptist Church",
-"content": "Dear Pastor Martinez,\n\nOne more note, then I'll stop.\n\nIf a family at Independent Baptist Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Independent Baptist Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "phlosangeles1@gmail.com",
+"subject": "Re: A free link for Lynwood families",
+"content": "Dear Pastor Rivera,\n\nOne more note, then I'll stop.\n\nIf a family at The Potter's House Church of Los Angeles needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for The Potter's House Church of Los Angeles, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:543dd5586f01",
+"key": "zoho_fu:7159dc56d676",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "nuphillyonline@gmail.com",
-"subject": "Re: Free help for families at New Philadelphia AME Church",
+"to": "pastorronilopez@outlook.com",
+"subject": "Re: Iddpmi 70 y Estrella: help for families in need",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "nuphillyonline@gmail.com",
-"subject": "Re: Free help for families at New Philadelphia AME Church",
-"content": "Dear Pastor Gentry,\n\nOne more note, then I'll stop.\n\nIf a family at New Philadelphia AME Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for New Philadelphia AME Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "pastorronilopez@outlook.com",
+"subject": "Re: Iddpmi 70 y Estrella: help for families in need",
+"content": "Dear Pastor Lopez,\n\nOne more note, then I'll stop.\n\nIf a family at Iddpmi 70 y Estrella needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Iddpmi 70 y Estrella, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:b31de894f0d8",
+"key": "zoho_fu:32d9f4a04c92",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "info@northcalvarychurch.com",
-"subject": "Re: Free help for families at North Calvary Church",
+"to": "pastorjackalisea@salinaschurchoftherock.com",
+"subject": "Re: A free link for Salinas families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "info@northcalvarychurch.com",
-"subject": "Re: Free help for families at North Calvary Church",
-"content": "Dear Pastor Wilbanks,\n\nOne more note, then I'll stop.\n\nIf a family at North Calvary Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for North Calvary Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "pastorjackalisea@salinaschurchoftherock.com",
+"subject": "Re: A free link for Salinas families",
+"content": "Dear Pastor Alisea,\n\nOne more note, then I'll stop.\n\nIf a family at Church of the Rock needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Church of the Rock, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:dcb8ba7dd76e",
+"key": "zoho_fu:520fc1b47423",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "zionnhsec@gmail.com",
-"subject": "Re: A free link for North Highlands families",
+"to": "sda4251@yahoo.com",
+"subject": "Re: A free link for Eureka families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "zionnhsec@gmail.com",
-"subject": "Re: A free link for North Highlands families",
-"content": "Dear Pastor Hess,\n\nOne more note, then I'll stop.\n\nIf a family at Zion Lutheran Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Zion Lutheran Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "sda4251@yahoo.com",
+"subject": "Re: A free link for Eureka families",
+"content": "Dear Pastor Baker,\n\nOne more note, then I'll stop.\n\nIf a family at Eureka Seventh-day Adventist Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Eureka Seventh-day Adventist Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:881d84e0f90e",
+"key": "zoho_fu:b09993e943ec",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "elarsen.office@gmail.com",
-"subject": "Re: Camino SDA Church: help for families in need",
+"to": "info@stbarnabasborregosprings.com",
+"subject": "Re: St Barnabas Episcopal Church: help for families in need",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "elarsen.office@gmail.com",
-"subject": "Re: Camino SDA Church: help for families in need",
-"content": "Dear Pastor Blum,\n\nOne more note, then I'll stop.\n\nIf a family at Camino SDA Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Camino SDA Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "info@stbarnabasborregosprings.com",
+"subject": "Re: St Barnabas Episcopal Church: help for families in need",
+"content": "Dear Pastor Madsen,\n\nOne more note, then I'll stop.\n\nIf a family at St Barnabas Episcopal Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for St Barnabas Episcopal Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:3b5e8a30dd1b",
+"key": "zoho_fu:8ab515fb7727",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "dandrews@fbcsanmateo.org",
-"subject": "Re: First Baptist Church: help for families in need",
+"to": "francinesanfilippo@yahoo.com",
+"subject": "Re: Free help for families at St Agnes Catholic Church",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "dandrews@fbcsanmateo.org",
-"subject": "Re: First Baptist Church: help for families in need",
-"content": "Dear Pastor Heinz,\n\nOne more note, then I'll stop.\n\nIf a family at First Baptist Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for First Baptist Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "francinesanfilippo@yahoo.com",
+"subject": "Re: Free help for families at St Agnes Catholic Church",
+"content": "Dear Father Velos,\n\nOne more note, then I'll stop.\n\nIf a family at St Agnes Catholic Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for St Agnes Catholic Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:0875c6f5e09c",
+"key": "zoho_fu:e6025bb31a96",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "rosyv.stsebastian@outlook.com",
-"subject": "Re: A free link for Sebastopol families",
+"to": "info@westsideredlands.org",
+"subject": "Re: Free help for families at Westside Christian Church and School",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "rosyv.stsebastian@outlook.com",
-"subject": "Re: A free link for Sebastopol families",
-"content": "Dear Father Valencia,\n\nOne more note, then I'll stop.\n\nIf a family at St Sebastian Roman Catholic Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for St Sebastian Roman Catholic Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "info@westsideredlands.org",
+"subject": "Re: Free help for families at Westside Christian Church and School",
+"content": "Dear Pastor Rehwald,\n\nOne more note, then I'll stop.\n\nIf a family at Westside Christian Church and School needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Westside Christian Church and School, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:69932c0eac95",
+"key": "zoho_fu:41d57ad58af3",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "office@vincentcatholic.org",
-"subject": "Re: Free help for families at St Vincent de Paul Parish",
+"to": "parishofficespxj@gmail.com",
+"subject": "Re: A free link for Jamul families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "office@vincentcatholic.org",
-"subject": "Re: Free help for families at St Vincent de Paul Parish",
-"content": "Dear Father De Paulis,\n\nOne more note, then I'll stop.\n\nIf a family at St Vincent de Paul Parish needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for St Vincent de Paul Parish, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "parishofficespxj@gmail.com",
+"subject": "Re: A free link for Jamul families",
+"content": "Dear Father Garcia,\n\nOne more note, then I'll stop.\n\nIf a family at St Pius X Catholic Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for St Pius X Catholic Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:e613c328cd4e",
+"key": "zoho_fu:ff693a8b6a02",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "iacogemail@gmail.com",
-"subject": "Re: Interstate Association of the Church of God: help for families in need",
+"to": "secretary@sjccotati.org",
+"subject": "Re: A free link for Cotati families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "iacogemail@gmail.com",
-"subject": "Re: Interstate Association of the Church of God: help for families in need",
-"content": "Dear Pastor Pollard,\n\nOne more note, then I'll stop.\n\nIf a family at Interstate Association of the Church of God needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Interstate Association of the Church of God, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "secretary@sjccotati.org",
+"subject": "Re: A free link for Cotati families",
+"content": "Dear Father Lemus,\n\nOne more note, then I'll stop.\n\nIf a family at St Joseph Catholic Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for St Joseph Catholic Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:eff957a119e4",
+"key": "zoho_fu:3a850ca64459",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "info@churchofsaintanthony.org",
-"subject": "Re: A free link for Walnut Grove families",
+"to": "lvchacon@stignatiussac.org",
+"subject": "Re: St Ignatius Loyola Parish: help for families in need",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "info@churchofsaintanthony.org",
-"subject": "Re: A free link for Walnut Grove families",
-"content": "Dear Father Velazquez,\n\nOne more note, then I'll stop.\n\nIf a family at St. Anthony and St. Therese Catholic Churches needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for St. Anthony and St. Therese Catholic Churches, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "lvchacon@stignatiussac.org",
+"subject": "Re: St Ignatius Loyola Parish: help for families in need",
+"content": "Dear Father Lucas,\n\nOne more note, then I'll stop.\n\nIf a family at St Ignatius Loyola Parish needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for St Ignatius Loyola Parish, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:787f646ca580",
+"key": "zoho_fu:7716cf4bd2a0",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "meysximix@gmail.com",
-"subject": "Re: Free help for families at Ascension Lutheran Church",
+"to": "fumcsf@gmail.com",
+"subject": "Re: A free link for San Fernando families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "meysximix@gmail.com",
-"subject": "Re: Free help for families at Ascension Lutheran Church",
-"content": "Dear Pastor Abram,\n\nOne more note, then I'll stop.\n\nIf a family at Ascension Lutheran Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Ascension Lutheran Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "fumcsf@gmail.com",
+"subject": "Re: A free link for San Fernando families",
+"content": "Dear Pastor Burns,\n\nOne more note, then I'll stop.\n\nIf a family at First United Methodist Church of San Fernando needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for First United Methodist Church of San Fernando, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:71b9283e20cc",
+"key": "zoho_fu:2fa23ac34475",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "info@graceatthecircle.com",
-"subject": "Re: Free help for families at Grace at The Circle",
-"args": {
-"accountId": "5347274000000002002",
-"region": "in",
-"fromAddress": "hello@coupondonation.com",
-"toAddress": "info@graceatthecircle.com",
-"subject": "Re: Free help for families at Grace at The Circle",
-"content": "Dear Pastor Riggle,\n\nOne more note, then I'll stop.\n\nIf a family at Grace at The Circle needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Grace at The Circle, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
-"mailFormat": "plaintext"
-}
-},
-{
-"key": "zoho_fu:4692450e2c9d",
-"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
-"account": "zoho_mail_ungot-snail",
-"to": "stjohnssanbruno@gmail.com",
-"subject": "Re: St. John's United Church of Christ: help for families in need",
-"args": {
-"accountId": "5347274000000002002",
-"region": "in",
-"fromAddress": "hello@coupondonation.com",
-"toAddress": "stjohnssanbruno@gmail.com",
-"subject": "Re: St. John's United Church of Christ: help for families in need",
-"content": "Dear Pastor Verbeet,\n\nOne more note, then I'll stop.\n\nIf a family at St. John's United Church of Christ needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for St. John's United Church of Christ, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
-"mailFormat": "plaintext"
-}
-},
-{
-"key": "zoho_fu:205bd7f2b196",
-"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
-"account": "zoho_mail_ungot-snail",
-"to": "brawleycatholic@gmail.com",
-"subject": "Re: Free help for families at St Joseph Catholic Church, Westmorland",
-"args": {
-"accountId": "5347274000000002002",
-"region": "in",
-"fromAddress": "hello@coupondonation.com",
-"toAddress": "brawleycatholic@gmail.com",
-"subject": "Re: Free help for families at St Joseph Catholic Church, Westmorland",
-"content": "Dear Father MORALES,\n\nOne more note, then I'll stop.\n\nIf a family at St Joseph Catholic Church, Westmorland needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for St Joseph Catholic Church, Westmorland, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
-"mailFormat": "plaintext"
-}
-},
-{
-"key": "zoho_fu:c844e819d1d8",
-"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
-"account": "zoho_mail_ungot-snail",
-"to": "contact@bethelcarson.com",
-"subject": "Re: Bethel Baptist Church and Christian School: help for families in need",
-"args": {
-"accountId": "5347274000000002002",
-"region": "in",
-"fromAddress": "hello@coupondonation.com",
-"toAddress": "contact@bethelcarson.com",
-"subject": "Re: Bethel Baptist Church and Christian School: help for families in need",
-"content": "Dear Pastor Abrot,\n\nOne more note, then I'll stop.\n\nIf a family at Bethel Baptist Church and Christian School needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Bethel Baptist Church and Christian School, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
-"mailFormat": "plaintext"
-}
-},
-{
-"key": "zoho_fu:5f4afaeb28f8",
-"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
-"account": "zoho_mail_ungot-snail",
-"to": "info@alcc3500.org",
+"to": "info@tcotw.org",
 "subject": "Re: A free link for Los Angeles families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "info@alcc3500.org",
+"toAddress": "info@tcotw.org",
 "subject": "Re: A free link for Los Angeles families",
-"content": "Dear Pastor Coon,\n\nOne more note, then I'll stop.\n\nIf a family at Abundant Life Christian Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Abundant Life Christian Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"content": "Dear Pastor Hayford,\n\nOne more note, then I'll stop.\n\nIf a family at The Church On The Way Sawtelle needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for The Church On The Way Sawtelle, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:45316913bf1a",
+"key": "zoho_fu:d4f6426640f0",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "bkennedy@firstassembly-ws.org",
-"subject": "Re: Pixley First Assembly of God: help for families in need",
+"to": "mpbchurch@gmail.com",
+"subject": "Re: Free help for families at Church of the Most Precious Blood",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "bkennedy@firstassembly-ws.org",
-"subject": "Re: Pixley First Assembly of God: help for families in need",
-"content": "Dear Pastor Kennedy,\n\nOne more note, then I'll stop.\n\nIf a family at Pixley First Assembly of God needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Pixley First Assembly of God, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "mpbchurch@gmail.com",
+"subject": "Re: Free help for families at Church of the Most Precious Blood",
+"content": "Dear Father Selvaraj,\n\nOne more note, then I'll stop.\n\nIf a family at Church of the Most Precious Blood needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Church of the Most Precious Blood, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:cee278aab109",
+"key": "zoho_fu:6aaced40d2d7",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "sanantonio1893@yahoo.com",
-"subject": "Re: St. Anthony of Padua Church: help for families in need",
+"to": "ursdachurch@gmail.com",
+"subject": "Re: A free link for Magalia families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "sanantonio1893@yahoo.com",
-"subject": "Re: St. Anthony of Padua Church: help for families in need",
-"content": "Dear Father Agudo,\n\nOne more note, then I'll stop.\n\nIf a family at St. Anthony of Padua Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for St. Anthony of Padua Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "ursdachurch@gmail.com",
+"subject": "Re: A free link for Magalia families",
+"content": "Dear Pastor Kearbey,\n\nOne more note, then I'll stop.\n\nIf a family at Upper Ridge Seventh-day Adventist Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Upper Ridge Seventh-day Adventist Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:5fde88a8ff44",
+"key": "zoho_fu:e024c4e7e042",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "pastormatt@oaktreeonline.org",
-"subject": "Re: A free link for Elk Grove families",
+"to": "pastorhodges1955@gmail.com",
+"subject": "Re: A free link for Lemon Grove families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "pastormatt@oaktreeonline.org",
-"subject": "Re: A free link for Elk Grove families",
-"content": "Dear Pastor Thompson,\n\nOne more note, then I'll stop.\n\nIf a family at Oak Tree Community Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Oak Tree Community Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "pastorhodges1955@gmail.com",
+"subject": "Re: A free link for Lemon Grove families",
+"content": "Dear Pastor Hodges,\n\nOne more note, then I'll stop.\n\nIf a family at The Church of Yeshua Ha Mashiach needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for The Church of Yeshua Ha Mashiach, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:da204b3dd84d",
+"key": "zoho_fu:ad3ed89ba650",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "rev.moisesflores@yahoo.com",
-"subject": "Re: A free link for La Puente families",
+"to": "gloriadei@mygloriadei.org",
+"subject": "Re: A free link for Dana Point families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "rev.moisesflores@yahoo.com",
-"subject": "Re: A free link for La Puente families",
-"content": "Dear Pastor Flores,\n\nOne more note, then I'll stop.\n\nIf a family at II Adam Project needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for II Adam Project, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "gloriadei@mygloriadei.org",
+"subject": "Re: A free link for Dana Point families",
+"content": "Dear Pastor Mattson,\n\nOne more note, then I'll stop.\n\nIf a family at Gloria Dei Lutheran Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Gloria Dei Lutheran Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:f27076674be4",
+"key": "zoho_fu:5b34cb2334b7",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "threshingfloortabernacle@gmail.com",
-"subject": "Re: Threshing Floor Tabernacle: help for families in need",
+"to": "office@woodsidesda.org",
+"subject": "Re: A free link for Sacramento families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "threshingfloortabernacle@gmail.com",
-"subject": "Re: Threshing Floor Tabernacle: help for families in need",
-"content": "Dear Pastor Killings,\n\nOne more note, then I'll stop.\n\nIf a family at Threshing Floor Tabernacle needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Threshing Floor Tabernacle, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "office@woodsidesda.org",
+"subject": "Re: A free link for Sacramento families",
+"content": "Dear Pastor Speyer,\n\nOne more note, then I'll stop.\n\nIf a family at Woodside Seventh-day Adventist Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Woodside Seventh-day Adventist Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:d80e57e16816",
+"key": "zoho_fu:4baa6e5ceadc",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "lewrich58@icloud.com",
-"subject": "Re: A free link for Bakersfield families",
+"to": "olgpoxnard@gmail.com",
+"subject": "Re: Our Lady of Guadalupe: help for families in need",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "lewrich58@icloud.com",
-"subject": "Re: A free link for Bakersfield families",
-"content": "Dear Pastor Taylor,\n\nOne more note, then I'll stop.\n\nIf a family at Antioch Baptist Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Antioch Baptist Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "olgpoxnard@gmail.com",
+"subject": "Re: Our Lady of Guadalupe: help for families in need",
+"content": "Dear Father Vazquez-Bravo,\n\nOne more note, then I'll stop.\n\nIf a family at Our Lady of Guadalupe needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Our Lady of Guadalupe, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:f41106fc1164",
+"key": "zoho_fu:43f80ed19c11",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "veronica@saintcharles.org",
-"subject": "Re: A free link for San Diego families",
+"to": "info@mbcla.org",
+"subject": "Re: A free link for Alhambra families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "veronica@saintcharles.org",
-"subject": "Re: A free link for San Diego families",
-"content": "Dear Father Maldonado,\n\nOne more note, then I'll stop.\n\nIf a family at Saint Charles Catholic Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Saint Charles Catholic Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "info@mbcla.org",
+"subject": "Re: A free link for Alhambra families",
+"content": "Dear Pastor Chung,\n\nOne more note, then I'll stop.\n\nIf a family at Mandarin Baptist Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Mandarin Baptist Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 },
 {
-"key": "zoho_fu:a87cdfaffddf",
+"key": "zoho_fu:0b153b1b1f11",
 "tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
 "account": "zoho_mail_ungot-snail",
-"to": "info@calvarysolidground.com",
-"subject": "Re: Free help for families at Calvary Solid Ground",
+"to": "info@coasthillsbaptist.org",
+"subject": "Re: A free link for Santa Maria families",
 "args": {
 "accountId": "5347274000000002002",
 "region": "in",
 "fromAddress": "hello@coupondonation.com",
-"toAddress": "info@calvarysolidground.com",
-"subject": "Re: Free help for families at Calvary Solid Ground",
-"content": "Dear Pastor Smith,\n\nOne more note, then I'll stop.\n\nIf a family at Calvary Solid Ground needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nIf this isn't for Calvary Solid Ground, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"toAddress": "info@coasthillsbaptist.org",
+"subject": "Re: A free link for Santa Maria families",
+"content": "Dear Pastor Villafuerte,\n\nOne more note, then I'll stop.\n\nIf a family at Coast Hills Baptist Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Coast Hills Baptist Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:2a411338003c",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "admin@stmarysalinas.org",
+"subject": "Re: Saint Mary of the Nativity Catholic Church: help for families in need",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "admin@stmarysalinas.org",
+"subject": "Re: Saint Mary of the Nativity Catholic Church: help for families in need",
+"content": "Dear Father Calvario,\n\nOne more note, then I'll stop.\n\nIf a family at Saint Mary of the Nativity Catholic Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Saint Mary of the Nativity Catholic Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:7d324d0b515f",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "iglesiafrutodelavid@gmail.com",
+"subject": "Re: Un enlace gratuito para familias de Chula Vista",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "iglesiafrutodelavid@gmail.com",
+"subject": "Re: Un enlace gratuito para familias de Chula Vista",
+"content": "Estimado Pastor Rodriguez:\n\nUna nota más y no le escribo de nuevo.\n\nSi una familia de Iglesia Fruto De La Vid necesita ayuda con comida, despensa, transporte o gastos de salud este mes, puede pedirla aquí, gratis (la página está en inglés):\nhttps://www.coupondonation.com/apply\n\nPara saber más sobre nosotros, puede reservar una llamada de 30 minutos (en inglés):\nhttps://calendly.com/connect-coupondonation/-\n\nSi esto no es para Iglesia Fruto De La Vid, responda \"no, gracias\" y no volverá a saber de mí.\n\nHarshit\nFundador, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:24144fa4162c",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "lutheranchurchredbluff@gmail.com",
+"subject": "Re: A free link for Red Bluff families",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "lutheranchurchredbluff@gmail.com",
+"subject": "Re: A free link for Red Bluff families",
+"content": "Dear Pastor Padilla,\n\nOne more note, then I'll stop.\n\nIf a family at St Paul's Lutheran Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for St Paul's Lutheran Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
+"mailFormat": "plaintext"
+}
+},
+{
+"key": "zoho_fu:0f5d8784fcee",
+"tool": "ZOHO_MAIL_MESSAGES_SEND_EMAIL",
+"account": "zoho_mail_ungot-snail",
+"to": "office@acyc.family",
+"subject": "Re: Adventure Church: help for families in need",
+"args": {
+"accountId": "5347274000000002002",
+"region": "in",
+"fromAddress": "hello@coupondonation.com",
+"toAddress": "office@acyc.family",
+"subject": "Re: Adventure Church: help for families in need",
+"content": "Dear Pastor Cisneros,\n\nOne more note, then I'll stop.\n\nIf a family at Adventure Church needs help with food, groceries, travel or health benefits this month, they can ask here, free:\nhttps://www.coupondonation.com/apply\n\nTo hear more about us first, you can book a 30-minute call:\nhttps://calendly.com/connect-coupondonation/-\n\nIf this isn't for Adventure Church, reply \"no thanks\" and you won't hear from me again.\n\nHarshit\nFounder, CouponDonation\n\n--\nCouponDonation Inc., 300 Creek View Road, Suite 209, Newark, DE 19711",
 "mailFormat": "plaintext"
 }
 }
 ],
 "notes": [
-"Gmail: sending day 8, 20 first emails, 3 follow-ups.",
-"Zoho: sending day 8, 25 follow-ups."
+"Gmail: sending day 9, 20 first emails, 0 follow-ups.",
+"Zoho: sending day 9, 25 follow-ups."
 ]
 }
