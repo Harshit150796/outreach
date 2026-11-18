@@ -7643,6 +7643,486 @@
 "date": "2026-11-17",
 "resend_id": "01a1eac1-8965-7ee9-a42b-cd3440fdc0cc",
 "subject": "When a family at The Reconditioned Church needs help"
+},
+"1373408cecc3": {
+"email": "info@stpatsag.org",
+"name": "Saint Patrick's Catholic Church",
+"county": "San Luis Obispo",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-0bc5-76c1-82d9-460255e27500",
+"subject": "When a family at Saint Patrick's Catholic Church needs help"
+},
+"8215128b3be0": {
+"email": "admin@lighthousechurch.com",
+"name": "The Lighthouse Church",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-0e9a-7566-96c7-63f9716fc827",
+"subject": "When a family at The Lighthouse Church needs help"
+},
+"c845c1fdcc80": {
+"email": "williammilligan@gmail.com",
+"name": "House of Restoration",
+"county": "Alameda",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-1178-7081-9f74-e4b34dc5b7ba",
+"subject": "When a family at House of Restoration needs help"
+},
+"c8c83dcb5c6e": {
+"email": "info@sainthedwig.org",
+"name": "Saint Hedwig Catholic Church",
+"county": "Orange",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-14f9-76a4-859f-c4bb95e68906",
+"subject": "When a family at Saint Hedwig Catholic Church needs help"
+},
+"368d320e1162": {
+"email": "sequoiaworshipcenter@outlook.com",
+"name": "Sequoia Worship Center",
+"county": "Tulare",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-17d1-73f3-a3d3-18ea51c26eca",
+"subject": "When a family at Sequoia Worship Center needs help"
+},
+"dd6330d3d431": {
+"email": "info@redemptionojai.org",
+"name": "Redemption Church Assemblies of God",
+"county": "Ventura",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-1aa6-742a-b946-54d3b6af3833",
+"subject": "When a family at Redemption Church Assemblies of God needs help"
+},
+"60f17883cd7d": {
+"email": "st.stephen.martyr@gmail.com",
+"name": "St. Stephen Martyr Catholic Church",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-1d75-7b1b-8cb2-f490c30766dd",
+"subject": "When a family at St. Stephen Martyr Catholic Church needs help"
+},
+"bde74c769d82": {
+"email": "emanuelcalvarychapelsacramento@gmail.com",
+"name": "Emanuel Calvary Chapel",
+"county": "Sacramento",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-2042-74b8-a5b6-1f9710ac6ee9",
+"subject": "When a family at Emanuel Calvary Chapel needs help"
+},
+"9fda82b27d7c": {
+"email": "olfatimasf@gmail.com",
+"name": "Our Lady of Fatima Russian Byzantine Catholic Church",
+"county": "San Francisco",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-2316-7742-85f8-a3c41f44fafc",
+"subject": "When a family in San Francisco needs help"
+},
+"f97c36960dba": {
+"email": "reception@carmelmission.org",
+"name": "Carmel Mission Basilica",
+"county": "Monterey",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-25e8-72e9-8358-1631f12cd0c0",
+"subject": "When a family at Carmel Mission Basilica needs help"
+},
+"47252689d11b": {
+"email": "office@holycrossmelkite.org",
+"name": "Holy Cross Melkite Catholic Church",
+"county": "Orange",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-28b6-757c-8d4f-2487c28c8d33",
+"subject": "When a family at Holy Cross Melkite Catholic Church needs help"
+},
+"b7844731c7dd": {
+"email": "vanbuskirk.gary@yahoo.com",
+"name": "Mariner's Discovery Church",
+"county": "Contra Costa",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-2b94-7191-a84c-56b30f7f8d18",
+"subject": "When a family at Mariner's Discovery Church needs help"
+},
+"91fbcd89b93e": {
+"email": "littlechurch29@gmail.com",
+"name": "Little Church of the Desert",
+"county": "San Bernardino",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-2e8f-759b-8d38-68fe3c5ce05f",
+"subject": "When a family at Little Church of the Desert needs help"
+},
+"828352e21cec": {
+"email": "info@foothillchurch.org",
+"name": "Foothill Church",
+"county": "Nevada",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-3160-7bd1-83be-2fb078a5f1a8",
+"subject": "When a family at Foothill Church needs help"
+},
+"a3e89c3b82d2": {
+"email": "info@neighborhood-church.org",
+"name": "Neighborhood Church",
+"county": "Contra Costa",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-3433-7d6e-8686-e73f777d173d",
+"subject": "When a family at Neighborhood Church needs help"
+},
+"183201d5212c": {
+"email": "wascofwbc@yahoo.com",
+"name": "Free Will Baptist Church",
+"county": "Kern",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-3704-7cb5-ba42-a2dde265c184",
+"subject": "When a family at Free Will Baptist Church needs help"
+},
+"3ff96597faf2": {
+"email": "info@christiannewlife.com",
+"name": "NewLife Christian Fellowship San Diego",
+"county": "San Diego",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-39e9-7329-b60f-07460f019a40",
+"subject": "When a family at NewLife Christian Fellowship San Diego needs help"
+},
+"3e9dc61a93dc": {
+"email": "admin@orlandlutheran.com",
+"name": "First Lutheran Church of Orland",
+"county": "Glenn",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-3d67-72ef-b956-4b179b6b611d",
+"subject": "When a family at First Lutheran Church of Orland needs help"
+},
+"a7946e661563": {
+"email": "vvclhsc@gmail.com",
+"name": "Valley View Church",
+"county": "Placer",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-4033-75a1-9dfa-49de8682c9a6",
+"subject": "When a family at Valley View Church needs help"
+},
+"b555c5b80d9d": {
+"email": "skparishoffice@gmail.com",
+"name": "St. Kevin Catholic Church",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-430a-7bc2-939b-f9a2072cb5c3",
+"subject": "When a family at St. Kevin Catholic Church needs help"
+},
+"13089158a524": {
+"email": "info@bayviewbc.org",
+"name": "Bay View Baptist Church",
+"county": "San Diego",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-45dc-7ade-b102-8d2334289aff",
+"subject": "When a family at Bay View Baptist Church needs help"
+},
+"f9530cd192a5": {
+"email": "office@saintmalachy.church",
+"name": "St. Malachy Roman Catholic Church",
+"county": "Kern",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-48ac-7579-8cff-a49323686a7b",
+"subject": "When a family at St. Malachy Roman Catholic Church needs help"
+},
+"ba9fdb03aa0a": {
+"email": "admin@holytrinityelcajon.org",
+"name": "Holy Trinity Church",
+"county": "San Diego",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-4ba3-776d-8969-d5358fbd02a4",
+"subject": "When a family at Holy Trinity Church needs help"
+},
+"8905fd7ad345": {
+"email": "office@sanantoniochurch.org",
+"name": "San Antonio de Padua del Canon Church",
+"county": "Orange",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-4e6e-7c10-9f01-28e5577b9129",
+"subject": "When a family at San Antonio de Padua del Canon Church needs help"
+},
+"348a77aa67ef": {
+"email": "westsacsdachurch@gmail.com",
+"name": "West Sacramento SDA Church",
+"county": "Yolo",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-517c-734a-870c-25a756c49f1e",
+"subject": "When a family at West Sacramento SDA Church needs help"
+},
+"9d52b3b2fb2f": {
+"email": "info@avebaptistchurch.org",
+"name": "Avenue Baptist Church",
+"county": "Santa Clara",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-544b-7db7-bd00-f997fbdd401d",
+"subject": "When a family at Avenue Baptist Church needs help"
+},
+"0a86603ac8f2": {
+"email": "rectory@olqw.org",
+"name": "Our Lady Queen World Church",
+"county": "Contra Costa",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-5728-7216-97c5-5279cb6f1c5e",
+"subject": "When a family at Our Lady Queen World Church needs help"
+},
+"a48075c84826": {
+"email": "parish@st-anastasia.org",
+"name": "St. Anastasia Catholic Church",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-59fd-7a8d-a63f-c7f1675fa5c6",
+"subject": "When a family at St. Anastasia Catholic Church needs help"
+},
+"bd4bb0e5e2e5": {
+"email": "secretary@bbcmh.org",
+"name": "Beth-El Baptist Church",
+"county": "Santa Clara",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-5ce1-7d92-97b2-2bf1f769a272",
+"subject": "When a family at Beth-El Baptist Church needs help"
+},
+"c216acf48475": {
+"email": "parish@padreserra.org",
+"name": "Padre Serra Parish",
+"county": "Ventura",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-5fb4-7ac7-aed7-d25ade98cafd",
+"subject": "When a family at Padre Serra Parish needs help"
+},
+"e8e94ae30591": {
+"email": "office@stjoachimnewman.org",
+"name": "St Joachim's Catholic Church",
+"county": "Stanislaus",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-629f-79e4-b54a-da39c9d984d5",
+"subject": "When a family at St Joachim's Catholic Church needs help"
+},
+"d678f604937e": {
+"email": "info@stjmod.com",
+"name": "St Joseph's Catholic Church",
+"county": "Stanislaus",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-6627-7697-b8ad-6a16e25b9221",
+"subject": "When a family at St Joseph's Catholic Church needs help"
+},
+"31f5446aada6": {
+"email": "pastorbarragan@yahoo.com",
+"name": "Congregacion De Cristo",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-68f9-784e-aac0-a3f50750a58a",
+"subject": "Cuando una familia de Congregacion De Cristo necesita ayuda"
+},
+"2598ff3f76e9": {
+"email": "miralomasda@gmail.com",
+"name": "Mira Loma Bilingual Seventh-day Adventist Church",
+"county": "Riverside",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-6bce-729d-b729-e6b2d22c0ab7",
+"subject": "When a family in Jurupa Valley needs help"
+},
+"3200b84e54ad": {
+"email": "unisdachurch@gmail.com",
+"name": "United Indonesian Seventh-day Adventist Church",
+"county": "San Bernardino",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-6ea1-7c5c-bab7-ed41226fccf9",
+"subject": "When a family in Fontana needs help"
+},
+"1fa9e0b00219": {
+"email": "thechurchtwo47@gmail.com",
+"name": "The Church 247",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-7196-79e4-ad77-178caf207da9",
+"subject": "When a family at The Church 247 needs help"
+},
+"07f4a926f85e": {
+"email": "info@pillaroffiresandiego.org",
+"name": "Pillar of Fire Church San Diego",
+"county": "San Diego",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-7473-7438-8b37-12e93cf33043",
+"subject": "When a family at Pillar of Fire Church San Diego needs help"
+},
+"47ab468087d4": {
+"email": "beaconsbible@gmail.com",
+"name": "Beacon's Bible Church",
+"county": "San Diego",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-7753-77e5-bc04-b1181d7a8568",
+"subject": "When a family at Beacon's Bible Church needs help"
+},
+"6407c41d513c": {
+"email": "scottvalleysda@gmail.com",
+"name": "Scott Valley SDA Church",
+"county": "Siskiyou",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-7a25-760a-8228-d0847a447430",
+"subject": "When a family at Scott Valley SDA Church needs help"
+},
+"2cab173f7e17": {
+"email": "pmbcsecty@gmail.com",
+"name": "PMBC Church",
+"county": "Santa Cruz",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-7cf2-7d58-b104-5b9a4ab581e3",
+"subject": "When a family at PMBC Church needs help"
+},
+"7c69055cb958": {
+"email": "myglendorachurch@gmail.com",
+"name": "Church of the Brethren",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-7fd5-7ab9-83f6-637941f34aaa",
+"subject": "When a family at Church of the Brethren needs help"
+},
+"5e12e5c26c8a": {
+"email": "office@trinitycrc.org",
+"name": "Trinity Christian Reformed Church",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-82af-76f3-924f-4f9a98dd71bc",
+"subject": "When a family at Trinity Christian Reformed Church needs help"
+},
+"6d9076e8f428": {
+"email": "office@yourcandlewoodchurch.com",
+"name": "Candlewood Church",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-863a-70cb-8017-4124c48936f7",
+"subject": "When a family at Candlewood Church needs help"
+},
+"20b9d2ab31cb": {
+"email": "info@annunciationstockton.org",
+"name": "Cathedral of the Annunciation",
+"county": "San Joaquin",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-890d-778a-8c17-0f42e5bc2406",
+"subject": "When a family at Cathedral of the Annunciation needs help"
+},
+"31a0d7361c62": {
+"email": "olmcsy@gmail.com",
+"name": "Our Lady of Mount Carmel Catholic Church",
+"county": "San Diego",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-8be5-789a-bd83-966ea73f27ce",
+"subject": "When a family at Our Lady of Mount Carmel Catholic Church needs help"
+},
+"bc9a02d2f82c": {
+"email": "connect@antiochsimi.org",
+"name": "Antioch Church",
+"county": "Ventura",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-8edc-7f16-8e8a-3ec1d8adcef1",
+"subject": "When a family at Antioch Church needs help"
+},
+"9bcc233861fd": {
+"email": "firstbaptistsanbernardino@gmail.com",
+"name": "First Baptist Church",
+"county": "San Bernardino",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-91bf-71c3-a346-3e9f78eba086",
+"subject": "When a family at First Baptist Church needs help"
+},
+"510a1990a4c2": {
+"email": "office@christchurchfallbrook.org",
+"name": "Christ Church Fallbrook",
+"county": "San Diego",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-9490-79f0-ab34-4f24004582a3",
+"subject": "When a family at Christ Church Fallbrook needs help"
+},
+"7c3ce80cdedc": {
+"email": "gatheringpcc@gmail.com",
+"name": "The Gathering",
+"county": "Stanislaus",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-9764-79ce-ac7c-cc83ba640270",
+"subject": "When a family at The Gathering needs help"
+},
+"ad3a906611c3": {
+"email": "info@susanvillecoc.org",
+"name": "Church of Christ",
+"county": "Lassen",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-9a45-72d3-9f2c-c7e21d70df3a",
+"subject": "When a family at Church of Christ needs help"
+},
+"36313e9f43a4": {
+"email": "zionlutheranblythe@outlook.com",
+"name": "Zion Lutheran Church",
+"county": "Riverside",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-9d25-7881-96aa-b1b9dbba2a5e",
+"subject": "When a family at Zion Lutheran Church needs help"
+},
+"d12c441d9bee": {
+"email": "hello@parallel.church",
+"name": "Parallel Church",
+"county": "Monterey",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-9ff8-704b-b4c9-1f95da6243a7",
+"subject": "When a family at Parallel Church needs help"
+},
+"7f66d9e0001e": {
+"email": "info@hopechurchvista.com",
+"name": "Hope Church of the Nazarene",
+"county": "San Diego",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-a372-74e2-b433-4a864b085a4d",
+"subject": "When a family at Hope Church of the Nazarene needs help"
+},
+"0f7b28e9dbb2": {
+"email": "info@restorationchurchvalencia.com",
+"name": "Restoration Church",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-a63e-7d5b-b750-a087bdb8455b",
+"subject": "When a family at Restoration Church needs help"
+},
+"11b339799e31": {
+"email": "info@freelifechurch.tv",
+"name": "Freelife Church",
+"county": "San Mateo",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-a90e-783f-bf9a-fb16f9922738",
+"subject": "When a family at Freelife Church needs help"
+},
+"58ba3d5771a4": {
+"email": "pastoraakh@march2zion.org",
+"name": "Zion Hill Baptist Church",
+"county": "Contra Costa",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-abe2-79c5-bd7e-1a43ebc9371c",
+"subject": "When a family at Zion Hill Baptist Church needs help"
+},
+"668139492233": {
+"email": "casadeadoracioninc@yahoo.com",
+"name": "Casa de Adoracion",
+"county": "Los Angeles",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-aeb9-74b0-88cf-d09622d2ab67",
+"subject": "When a family at Casa de Adoracion needs help"
+},
+"1471624154ca": {
+"email": "inspirechurches@gmail.com",
+"name": "Inspire Church",
+"county": "Alameda",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-b19c-7409-a5ce-4eb21a538939",
+"subject": "When a family at Inspire Church needs help"
+},
+"1a97ed581dfc": {
+"email": "info@refugefamily.com",
+"name": "Refuge Calvary Chapel Huntington Beach",
+"county": "Orange",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-b49a-7dbc-8ca6-b4001b3ad662",
+"subject": "When a family at Refuge Calvary Chapel Huntington Beach needs help"
+},
+"3a0febc25e06": {
+"email": "thebarnchristianfellowship1@gmail.com",
+"name": "Calvary Chapel The Barn",
+"county": "San Bernardino",
+"date": "2026-11-18",
+"resend_id": "01a1efe7-b778-7acd-9b19-dae46acdddd4",
+"subject": "When a family at Calvary Chapel The Barn needs help"
 }
 },
 "suppressed": [
@@ -7721,7 +8201,8 @@
 "admin@thewayccc.com",
 "dcchurch@desertchapel.org",
 "lemoore1umc@yahoo.com",
-"office@gracepa.org"
+"office@gracepa.org",
+"bob.rankin@standrewelsegundo.org"
 ],
 "runs": [
 {
@@ -7864,6 +8345,12 @@
 },
 {
 "date": "2026-11-17",
+"sent": 60,
+"failed": 0,
+"requested": 60
+},
+{
+"date": "2026-11-18",
 "sent": 60,
 "failed": 0,
 "requested": 60
