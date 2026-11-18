@@ -2336,7 +2336,8 @@
 "replied": {
 "pastorron@newseasonsws.com": "2026-11-10",
 "info@lathirdcfsl.com": "2026-11-10",
-"upperlakesda@gmail.com": "2026-11-17"
+"upperlakesda@gmail.com": "2026-11-17",
+"office@stpaulsumcsj.com": "2026-11-18"
 },
 "bounced": {
 "escalonfbc@att.net": {
@@ -2361,9 +2362,236 @@
 }
 },
 "suppressed": [
-"upperlakesda@gmail.com"
+"upperlakesda@gmail.com",
+"office@stpaulsumcsj.com"
 ],
-"pending": {},
+"pending": {
+"gmail_first:34de5f609abd": {
+"date": "2026-11-18",
+"to": "info@crossroadsccenter.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:811afb91878e": {
+"date": "2026-11-18",
+"to": "office@promise.family",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:e16fbacefd7c": {
+"date": "2026-11-18",
+"to": "ecogicrca@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:808c5a60ab9c": {
+"date": "2026-11-18",
+"to": "info@thetownchurch.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:d813941faf32": {
+"date": "2026-11-18",
+"to": "office@calvarybaptistsf.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:2741c4c7d373": {
+"date": "2026-11-18",
+"to": "info@crossroadsturlock.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:336234f6f706": {
+"date": "2026-11-18",
+"to": "office@newlifepomona.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:dcee2756052b": {
+"date": "2026-11-18",
+"to": "harvesttbc@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:fcaeb521b3e7": {
+"date": "2026-11-18",
+"to": "info@newlifepca.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:32dd72eb5fb1": {
+"date": "2026-11-18",
+"to": "office@alcrpv.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:99b2ee7c6a21": {
+"date": "2026-11-18",
+"to": "hello@fcfullerton.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:0e5e1019ac01": {
+"date": "2026-11-18",
+"to": "info@anchorchurch.global",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:0d2c4fae6e2e": {
+"date": "2026-11-18",
+"to": "missionhillsla@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:088b440a3d87": {
+"date": "2026-11-18",
+"to": "info@shadowrockchurch.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:a2ef16737d7e": {
+"date": "2026-11-18",
+"to": "pastorreedman@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:40e0dc9a5d22": {
+"date": "2026-11-18",
+"to": "trinitycampforever@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:b88252bc2ec4": {
+"date": "2026-11-18",
+"to": "mail@cornerstonehemet.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:6882b81faa73": {
+"date": "2026-11-18",
+"to": "info@ccc-mbc.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:fcf77d3b0c1f": {
+"date": "2026-11-18",
+"to": "office@assumptionlb.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"gmail_first:356aa4c93e10": {
+"date": "2026-11-18",
+"to": "rwhittemore46@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:cd9d61edbbb3": {
+"date": "2026-11-18",
+"to": "office@cgbcsac.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:5a753ab9e076": {
+"date": "2026-11-18",
+"to": "phlosangeles1@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:7159dc56d676": {
+"date": "2026-11-18",
+"to": "pastorronilopez@outlook.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:32d9f4a04c92": {
+"date": "2026-11-18",
+"to": "pastorjackalisea@salinaschurchoftherock.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:520fc1b47423": {
+"date": "2026-11-18",
+"to": "sda4251@yahoo.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:b09993e943ec": {
+"date": "2026-11-18",
+"to": "info@stbarnabasborregosprings.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:8ab515fb7727": {
+"date": "2026-11-18",
+"to": "francinesanfilippo@yahoo.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:e6025bb31a96": {
+"date": "2026-11-18",
+"to": "info@westsideredlands.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:41d57ad58af3": {
+"date": "2026-11-18",
+"to": "parishofficespxj@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:ff693a8b6a02": {
+"date": "2026-11-18",
+"to": "secretary@sjccotati.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:3a850ca64459": {
+"date": "2026-11-18",
+"to": "lvchacon@stignatiussac.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:7716cf4bd2a0": {
+"date": "2026-11-18",
+"to": "fumcsf@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:2fa23ac34475": {
+"date": "2026-11-18",
+"to": "info@tcotw.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:d4f6426640f0": {
+"date": "2026-11-18",
+"to": "mpbchurch@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:6aaced40d2d7": {
+"date": "2026-11-18",
+"to": "ursdachurch@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:e024c4e7e042": {
+"date": "2026-11-18",
+"to": "pastorhodges1955@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:ad3ed89ba650": {
+"date": "2026-11-18",
+"to": "gloriadei@mygloriadei.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:5b34cb2334b7": {
+"date": "2026-11-18",
+"to": "office@woodsidesda.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:4baa6e5ceadc": {
+"date": "2026-11-18",
+"to": "olgpoxnard@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:43f80ed19c11": {
+"date": "2026-11-18",
+"to": "info@mbcla.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:0b153b1b1f11": {
+"date": "2026-11-18",
+"to": "info@coasthillsbaptist.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:2a411338003c": {
+"date": "2026-11-18",
+"to": "admin@stmarysalinas.org",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:7d324d0b515f": {
+"date": "2026-11-18",
+"to": "iglesiafrutodelavid@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:24144fa4162c": {
+"date": "2026-11-18",
+"to": "lutheranchurchredbluff@gmail.com",
+"at": "2026-11-18T18:24:24+00:00"
+},
+"zoho_fu:0f5d8784fcee": {
+"date": "2026-11-18",
+"to": "office@acyc.family",
+"at": "2026-11-18T18:24:24+00:00"
+}
+},
 "paused": {},
 "runs": [
 {
@@ -2439,8 +2667,8 @@
 "zoho_fu": 25
 }
 ],
-"last_inbox_gmail": "2026-11-17",
-"last_inbox_zoho": "2026-11-17",
+"last_inbox_gmail": "2026-11-18",
+"last_inbox_zoho": "2026-11-18",
 "resumed": {
 "gmail": "2026-11-03"
 }
