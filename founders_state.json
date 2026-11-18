@@ -269,6 +269,96 @@
 "date": "2026-11-17",
 "subject": "Could Latent help one family this holiday?",
 "message_id": "1794939850404130100"
+},
+"todd-limnion-ai": {
+"to": "todd@limnion.ai",
+"date": "2026-11-18",
+"subject": "Could Limnion help one family this holiday?",
+"message_id": "1795026213455130200"
+},
+"founders-neomatter-com": {
+"to": "founders@neomatter.com",
+"date": "2026-11-18",
+"subject": "Could Neomatter help one family this holiday?",
+"message_id": "1795026213438130300"
+},
+"anais-oasive-ai": {
+"to": "anais@oasive.ai",
+"date": "2026-11-18",
+"subject": "Could Oasive help one family this holiday?",
+"message_id": "1795026213432119300"
+},
+"founders-obsessiondb-com": {
+"to": "founders@obsessiondb.com",
+"date": "2026-11-18",
+"subject": "Could ObsessionDB help one family this holiday?",
+"message_id": "1795026213438130301"
+},
+"founders-odin-robotics-com": {
+"to": "founders@odin-robotics.com",
+"date": "2026-11-18",
+"subject": "Could Odin Robotics help one family this holiday?",
+"message_id": "1795026214818130100"
+},
+"ananay-openhack-com": {
+"to": "ananay@openhack.com",
+"date": "2026-11-18",
+"subject": "Could OpenHack help one family this holiday?",
+"message_id": "1795026236421130100"
+},
+"arnav-openlakehq-com": {
+"to": "arnav@openlakehq.com",
+"date": "2026-11-18",
+"subject": "Could OpenLake Technologies help one family this holiday?",
+"message_id": "1795026236463130200"
+},
+"founders-operatechnologies-com": {
+"to": "founders@operatechnologies.com",
+"date": "2026-11-18",
+"subject": "Could OpEra help one family this holiday?",
+"message_id": "1795026236430130300"
+},
+"founders-ordolabs-ai": {
+"to": "founders@ordolabs.ai",
+"date": "2026-11-18",
+"subject": "Could Ordo Labs help one family this holiday?",
+"message_id": "1795026236569130300"
+},
+"macy-papaya-fyi": {
+"to": "macy@papaya.fyi",
+"date": "2026-11-18",
+"subject": "Could Papaya help one family this holiday?",
+"message_id": "1795026237936108000"
+},
+"frankie-bryel-ai": {
+"to": "frankie@bryel.ai",
+"date": "2026-11-18",
+"subject": "Could Perceptual Labs help one family this holiday?",
+"message_id": "1795026259489130100"
+},
+"wilhelm-petrichorbio-com": {
+"to": "wilhelm@petrichorbio.com",
+"date": "2026-11-18",
+"subject": "Could Petrichor help one family this holiday?",
+"message_id": "1795026259557130200"
+},
+"manny-ploid-com": {
+"to": "manny@ploid.com",
+"date": "2026-11-18",
+"subject": "Could Ploid help one family this holiday?",
+"message_id": "1795026259576130200"
+},
+"akshay-pomerado-ai": {
+"to": "akshay@pomerado.ai",
+"date": "2026-11-18",
+"subject": "Could Pomerado help one family this holiday?",
+"message_id": "1795026259519108000"
+},
+"founders-primordiant-com": {
+"to": "founders@primordiant.com",
+"date": "2026-11-18",
+"subject": "Could Primordiant help one family this holiday?",
+"message_id": "1795026260708130200"
 }
 },
 "followups": {
@@ -350,68 +440,7 @@
 }
 },
 "suppressed": [],
-"pending": {
-"first:todd-limnion-ai": {
-"date": "2026-11-18",
-"to": "todd@limnion.ai"
-},
-"first:founders-neomatter-com": {
-"date": "2026-11-18",
-"to": "founders@neomatter.com"
-},
-"first:anais-oasive-ai": {
-"date": "2026-11-18",
-"to": "anais@oasive.ai"
-},
-"first:founders-obsessiondb-com": {
-"date": "2026-11-18",
-"to": "founders@obsessiondb.com"
-},
-"first:founders-odin-robotics-com": {
-"date": "2026-11-18",
-"to": "founders@odin-robotics.com"
-},
-"first:ananay-openhack-com": {
-"date": "2026-11-18",
-"to": "ananay@openhack.com"
-},
-"first:arnav-openlakehq-com": {
-"date": "2026-11-18",
-"to": "arnav@openlakehq.com"
-},
-"first:founders-operatechnologies-com": {
-"date": "2026-11-18",
-"to": "founders@operatechnologies.com"
-},
-"first:founders-ordolabs-ai": {
-"date": "2026-11-18",
-"to": "founders@ordolabs.ai"
-},
-"first:macy-papaya-fyi": {
-"date": "2026-11-18",
-"to": "macy@papaya.fyi"
-},
-"first:frankie-bryel-ai": {
-"date": "2026-11-18",
-"to": "frankie@bryel.ai"
-},
-"first:wilhelm-petrichorbio-com": {
-"date": "2026-11-18",
-"to": "wilhelm@petrichorbio.com"
-},
-"first:manny-ploid-com": {
-"date": "2026-11-18",
-"to": "manny@ploid.com"
-},
-"first:akshay-pomerado-ai": {
-"date": "2026-11-18",
-"to": "akshay@pomerado.ai"
-},
-"first:founders-primordiant-com": {
-"date": "2026-11-18",
-"to": "founders@primordiant.com"
-}
-},
+"pending": {},
 "paused": "",
 "runs": [
 {
@@ -428,6 +457,12 @@
 },
 {
 "date": "2026-11-17",
+"sent": 15,
+"failed": 0,
+"unknown": 0
+},
+{
+"date": "2026-11-18",
 "sent": 15,
 "failed": 0,
 "unknown": 0
