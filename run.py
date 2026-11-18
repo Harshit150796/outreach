@@ -36,8 +36,8 @@ SPANISH = lambda q: q["community"] == "Spanish" or q["denomination"].endswith("(
 
 # Wording approved by the founder on Nov 15, 2026 (email playbook). One plain-text email from a named person
 # with one ask: no headline, bullets, button or images, because a designed email reads as a newsletter.
-# Help is for food, groceries, travel and health benefits. It says what CouponDonation is (a company, not a
-# charity) and that the whole gift reaches the family. Founder request, Nov 17, 2026: every outreach email also
+# Help is for food, groceries, travel and health benefits. It says the whole gift reaches the family (founder,
+# Nov 17 2026: no "company, not a charity" line; CouponDonation is a crowdfunding platform). Founder request, Nov 17, 2026: every outreach email also
 # offers a 30-minute introductory call (config.json book_call_url, the team's Calendly page).
 SUBJECTS = {
     "en": ("When a family at {church} needs help", "When a family in {city} needs help"),
@@ -55,7 +55,7 @@ When a family at {church} is in need of food, groceries, travel or health benefi
 
 The family, or someone at the church for them, starts a free page. People give from $10. Each gift reaches the family as a store gift card, never cash, and the giver is told when it's received and used.
 
-We're a company, not a charity, so gifts aren't tax-deductible. We take no fee from the gift. 100% goes to the families.
+We take no fee from the gift. 100% goes to the families.
 
 If a family comes to mind, or asks you for help, this is the page to pass on:
 {apply}
@@ -83,7 +83,7 @@ Cuando una familia de {church} necesita comida, despensa, transporte o ayuda con
 
 La familia, o alguien de la iglesia en su nombre, crea una página gratis. Se puede dar desde $10. Cada aporte le llega a la familia como una tarjeta de regalo de una tienda, nunca en efectivo, y quien dio recibe un aviso cuando la familia la recibe y cuando la usa.
 
-Somos una empresa, no una organización benéfica, así que los aportes no son deducibles de impuestos. No cobramos comisión sobre el aporte. El 100% llega a las familias.
+No cobramos comisión sobre el aporte. El 100% llega a las familias.
 
 Si piensa en alguna familia, o si alguna le pide ayuda, esta es la página para compartir (está en inglés):
 {apply}
