@@ -417,6 +417,7 @@
 "resend:0254253164ed",
 "resend:028c74bf12cc",
 "resend:02a0c06dedfa",
+"resend:02a2bb51aa56",
 "resend:02d496cd113f",
 "resend:031e1808531c",
 "resend:03ca2f8b7f08",
@@ -839,6 +840,7 @@
 "resend:6345f876b04e",
 "resend:634995a31b86",
 "resend:636ca1906720",
+"resend:637c57585a6e",
 "resend:63946a5b6162",
 "resend:639c87ef581a",
 "resend:63eb819164fc",
@@ -1189,6 +1191,7 @@
 "resend:b7b339e1fe79",
 "resend:b7b87d0d93db",
 "resend:b7c4434d29f8",
+"resend:b8157239da1b",
 "resend:b82d7de22260",
 "resend:b83746019204",
 "resend:b83e21b00e32",
@@ -1229,6 +1232,7 @@
 "resend:bfc90666814d",
 "resend:bfd2213e079e",
 "resend:c022b64ee3ec",
+"resend:c127c6f93bfb",
 "resend:c12d156aa32a",
 "resend:c1354b0ece2c",
 "resend:c17042365c46",
@@ -1334,6 +1338,7 @@
 "resend:dc5da4cae8a5",
 "resend:dcb8ba7dd76e",
 "resend:dcb9340fb362",
+"resend:dd2e4a28ea2b",
 "resend:dd35a43e88a6",
 "resend:dd6330d3d431",
 "resend:dd711f8f86e3",
@@ -1390,6 +1395,7 @@
 "resend:e9c94da416ea",
 "resend:e9e5fa13e41f",
 "resend:ea03e8766ad1",
+"resend:eb001dd608ca",
 "resend:eb204574a8b2",
 "resend:eb3fc4f5d72e",
 "resend:eb4df8d3ee86",
@@ -1419,6 +1425,7 @@
 "resend:f0aa6fd0ff97",
 "resend:f0ae3e7b1c84",
 "resend:f0c10428c73d",
+"resend:f0f2688c8dea",
 "resend:f15705c9bbff",
 "resend:f18c2a34f3a6",
 "resend:f19331cd8f4c",
@@ -1626,6 +1633,11 @@
 "date": "2026-11-19",
 "churches": 105,
 "resend_id": "01a1f511-81ff-70a4-8c8c-73e49bc65505"
+},
+{
+"date": "2026-11-19",
+"churches": 7,
+"resend_id": "01a1f59a-74a2-718a-8aab-1131f740d621"
 }
 ]
 }
