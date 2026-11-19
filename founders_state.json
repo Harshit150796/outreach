@@ -440,7 +440,68 @@
 }
 },
 "suppressed": [],
-"pending": {},
+"pending": {
+"first:chandrika-quivly-ai": {
+"date": "2026-11-19",
+"to": "chandrika@quivly.ai"
+},
+"first:founders-ara-so": {
+"date": "2026-11-19",
+"to": "founders@ara.so"
+},
+"first:contact-reconero-com": {
+"date": "2026-11-19",
+"to": "contact@reconero.com"
+},
+"first:anmol-resineda-com": {
+"date": "2026-11-19",
+"to": "anmol@resineda.com"
+},
+"first:founders-ryhla-ai": {
+"date": "2026-11-19",
+"to": "founders@ryhla.ai"
+},
+"first:founders-rystic-ai": {
+"date": "2026-11-19",
+"to": "founders@rystic.ai"
+},
+"first:shreyas-saccade-health": {
+"date": "2026-11-19",
+"to": "shreyas@saccade.health"
+},
+"first:founders-shireintelligence-com": {
+"date": "2026-11-19",
+"to": "founders@shireintelligence.com"
+},
+"first:ryan-simulithic-com": {
+"date": "2026-11-19",
+"to": "ryan@simulithic.com"
+},
+"first:founders-sinter-systems": {
+"date": "2026-11-19",
+"to": "founders@sinter.systems"
+},
+"first:anton-sona8-com": {
+"date": "2026-11-19",
+"to": "anton@sona8.com"
+},
+"first:founders-sutrix-ai": {
+"date": "2026-11-19",
+"to": "founders@sutrix.ai"
+},
+"first:founders-taan-ai": {
+"date": "2026-11-19",
+"to": "founders@taan.ai"
+},
+"first:founders-talos-us-com": {
+"date": "2026-11-19",
+"to": "founders@talos-us.com"
+},
+"first:founders-telamont-com": {
+"date": "2026-11-19",
+"to": "founders@telamont.com"
+}
+},
 "paused": "",
 "runs": [
 {
@@ -468,5 +529,5 @@
 "unknown": 0
 }
 ],
-"last_inbox": "2026-11-18"
+"last_inbox": "2026-11-19"
 }
