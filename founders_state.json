@@ -359,6 +359,96 @@
 "date": "2026-11-18",
 "subject": "Could Primordiant help one family this holiday?",
 "message_id": "1795026260708130200"
+},
+"chandrika-quivly-ai": {
+"to": "chandrika@quivly.ai",
+"date": "2026-11-19",
+"subject": "Could Quivly AI help one family this holiday?",
+"message_id": "1795112589270130100"
+},
+"founders-ara-so": {
+"to": "founders@ara.so",
+"date": "2026-11-19",
+"subject": "Could Reason Machines help one family this holiday?",
+"message_id": "1795112589277108000"
+},
+"contact-reconero-com": {
+"to": "contact@reconero.com",
+"date": "2026-11-19",
+"subject": "Could Reconero help one family this holiday?",
+"message_id": "1795112589270130101"
+},
+"anmol-resineda-com": {
+"to": "anmol@resineda.com",
+"date": "2026-11-19",
+"subject": "Could Resin Technologies help one family this holiday?",
+"message_id": "1795112589273130100"
+},
+"founders-ryhla-ai": {
+"to": "founders@ryhla.ai",
+"date": "2026-11-19",
+"subject": "Could Ryhla help one family this holiday?",
+"message_id": "1795112591079108000"
+},
+"founders-rystic-ai": {
+"to": "founders@rystic.ai",
+"date": "2026-11-19",
+"subject": "Could Rystic help one family this holiday?",
+"message_id": "1795112618204119300"
+},
+"shreyas-saccade-health": {
+"to": "shreyas@saccade.health",
+"date": "2026-11-19",
+"subject": "Could Saccade help one family this holiday?",
+"message_id": "1795112618157108000"
+},
+"founders-shireintelligence-com": {
+"to": "founders@shireintelligence.com",
+"date": "2026-11-19",
+"subject": "Could Shire Intelligence help one family this holiday?",
+"message_id": "1795112618244119300"
+},
+"ryan-simulithic-com": {
+"to": "ryan@simulithic.com",
+"date": "2026-11-19",
+"subject": "Could Simulithic help one family this holiday?",
+"message_id": "1795112618174130200"
+},
+"founders-sinter-systems": {
+"to": "founders@sinter.systems",
+"date": "2026-11-19",
+"subject": "Could Sinter help one family this holiday?",
+"message_id": "1795112620323108000"
+},
+"anton-sona8-com": {
+"to": "anton@sona8.com",
+"date": "2026-11-19",
+"subject": "Could Sona8 help one family this holiday?",
+"message_id": "1795112638875130100"
+},
+"founders-sutrix-ai": {
+"to": "founders@sutrix.ai",
+"date": "2026-11-19",
+"subject": "Could Sutrix help one family this holiday?",
+"message_id": "1795112638861108000"
+},
+"founders-taan-ai": {
+"to": "founders@taan.ai",
+"date": "2026-11-19",
+"subject": "Could Taan.ai help one family this holiday?",
+"message_id": "1795112638793130100"
+},
+"founders-talos-us-com": {
+"to": "founders@talos-us.com",
+"date": "2026-11-19",
+"subject": "Could Talos help one family this holiday?",
+"message_id": "1795112638794119300"
+},
+"founders-telamont-com": {
+"to": "founders@telamont.com",
+"date": "2026-11-19",
+"subject": "Could Telamont help one family this holiday?",
+"message_id": "1795112640159108000"
 }
 },
 "followups": {
@@ -440,68 +530,7 @@
 }
 },
 "suppressed": [],
-"pending": {
-"first:chandrika-quivly-ai": {
-"date": "2026-11-19",
-"to": "chandrika@quivly.ai"
-},
-"first:founders-ara-so": {
-"date": "2026-11-19",
-"to": "founders@ara.so"
-},
-"first:contact-reconero-com": {
-"date": "2026-11-19",
-"to": "contact@reconero.com"
-},
-"first:anmol-resineda-com": {
-"date": "2026-11-19",
-"to": "anmol@resineda.com"
-},
-"first:founders-ryhla-ai": {
-"date": "2026-11-19",
-"to": "founders@ryhla.ai"
-},
-"first:founders-rystic-ai": {
-"date": "2026-11-19",
-"to": "founders@rystic.ai"
-},
-"first:shreyas-saccade-health": {
-"date": "2026-11-19",
-"to": "shreyas@saccade.health"
-},
-"first:founders-shireintelligence-com": {
-"date": "2026-11-19",
-"to": "founders@shireintelligence.com"
-},
-"first:ryan-simulithic-com": {
-"date": "2026-11-19",
-"to": "ryan@simulithic.com"
-},
-"first:founders-sinter-systems": {
-"date": "2026-11-19",
-"to": "founders@sinter.systems"
-},
-"first:anton-sona8-com": {
-"date": "2026-11-19",
-"to": "anton@sona8.com"
-},
-"first:founders-sutrix-ai": {
-"date": "2026-11-19",
-"to": "founders@sutrix.ai"
-},
-"first:founders-taan-ai": {
-"date": "2026-11-19",
-"to": "founders@taan.ai"
-},
-"first:founders-talos-us-com": {
-"date": "2026-11-19",
-"to": "founders@talos-us.com"
-},
-"first:founders-telamont-com": {
-"date": "2026-11-19",
-"to": "founders@telamont.com"
-}
-},
+"pending": {},
 "paused": "",
 "runs": [
 {
@@ -524,6 +553,12 @@
 },
 {
 "date": "2026-11-18",
+"sent": 15,
+"failed": 0,
+"unknown": 0
+},
+{
+"date": "2026-11-19",
 "sent": 15,
 "failed": 0,
 "unknown": 0
