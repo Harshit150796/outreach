@@ -8659,6 +8659,62 @@
 "date": "2026-11-19",
 "resend_id": "01a1f50e-0c46-72d4-8c8e-f9d5f4d07e23",
 "subject": "When a family at Redeemer Covenant Church needs help"
+},
+"02a2bb51aa56": {
+"email": "info@perris.church",
+"name": "Temple Baptist Church",
+"county": "Riverside",
+"date": "2026-11-19",
+"resend_id": "01a1f59a-2702-7e13-a6dc-247106b3ff31",
+"subject": "When a family at Temple Baptist Church needs help"
+},
+"f0f2688c8dea": {
+"email": "info@cornerstonesimi.com",
+"name": "Cornerstone Church",
+"county": "Ventura",
+"date": "2026-11-19",
+"resend_id": "01a1f59a-29ea-7127-923d-ccc82fdb7f74",
+"subject": "When a family at Cornerstone Church needs help"
+},
+"dd2e4a28ea2b": {
+"email": "office@palisadesumc.org",
+"name": "Palisades United Methodist Church",
+"county": "Orange",
+"date": "2026-11-19",
+"resend_id": "01a1f59a-2cd4-7a0c-acbf-f59d032d7787",
+"subject": "When a family at Palisades United Methodist Church needs help"
+},
+"b8157239da1b": {
+"email": "info@oasischristianfellowship.com",
+"name": "Oasis Christian Fellowship",
+"county": "Contra Costa",
+"date": "2026-11-19",
+"resend_id": "01a1f59a-2fbe-7cd9-ab7d-a59272d53090",
+"subject": "When a family at Oasis Christian Fellowship needs help"
+},
+"eb001dd608ca": {
+"email": "info@blueoaks.church",
+"name": "Blue Oaks Church",
+"county": "Alameda",
+"date": "2026-11-19",
+"resend_id": "01a1f59a-32b3-7a8e-8530-59b7a899dc5b",
+"subject": "When a family at Blue Oaks Church needs help"
+},
+"c127c6f93bfb": {
+"email": "office@redeemerfresno.com",
+"name": "Redeemer Lutheran Church - AA 5:30PM",
+"county": "Fresno",
+"date": "2026-11-19",
+"resend_id": "01a1f59a-35aa-7a84-8a0f-d7da60208884",
+"subject": "When a family at Redeemer Lutheran Church - AA 5:30PM needs help"
+},
+"637c57585a6e": {
+"email": "info@bacbc.org",
+"name": "Bay Area Chinese Bible Church",
+"county": "Alameda",
+"date": "2026-11-19",
+"resend_id": "01a1f59a-389a-7218-bd70-a59d169afbd3",
+"subject": "When a family at Bay Area Chinese Bible Church needs help"
 }
 },
 "suppressed": [
@@ -8743,7 +8799,8 @@
 "reception@carmelmission.org",
 "montereypriest@gmail.com",
 "info@tahoeadventist.org",
-"info@olop-shrine.org"
+"info@olop-shrine.org",
+"secretary@galtbiblechurch.org"
 ],
 "runs": [
 {
@@ -8907,6 +8964,12 @@
 "sent": 60,
 "failed": 0,
 "requested": 60
+},
+{
+"date": "2026-11-19",
+"sent": 7,
+"failed": 0,
+"requested": 7
 }
 ]
 }
