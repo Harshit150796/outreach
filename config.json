@@ -6,7 +6,7 @@
  "ramp": [
   {
    "until_day": 99999,
-   "per_day": 60
+   "per_day": 30
   }
  ],
  "reserve_daily": 30,
