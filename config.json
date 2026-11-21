@@ -13,13 +13,14 @@
  "reserve_monthly": 400,
  "queue_total": 17043,
  "paused": false,
- "resumed_at": "2026-11-16T15:23:13Z",
- "bounce_limit_pct": 5.0,
+ "resumed_at": "2026-11-21T16:06:01Z",
+ "bounce_limit_pct": 2.0,
  "founders_enabled": true,
  "founders_per_day": 15,
  "founders_followup_days": 5,
  "seed_emails": [
   "ticketmasterdorms@gmail.com"
  ],
- "book_call_url": "https://calendly.com/connect-coupondonation/-"
+ "book_call_url": "https://calendly.com/connect-coupondonation/-",
+ "web_confirmed_only": true
 }

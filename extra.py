@@ -35,7 +35,7 @@ GMAIL_FOLLOWUP_MAX = 25
 GMAIL_DAILY_MAX = 50                                         # first + follow-ups, well under Gmail's 500
 ZOHO_RAMP = [(3, 10), (7, 20), (10**9, 25)]
 SKIP_AHEAD = 300   # Gmail takes churches this far behind Resend's next batch, so the two never race
-BOUNCE_PAUSE = 5.0  # % over the last 14 days (min 20 sent) pauses that sender
+BOUNCE_PAUSE = 2.0  # % over the last 14 days (min 20 sent) pauses that sender (founder: under 2%, Nov 21, 2026)
 FREE_DOMAINS = {"gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "aol.com", "icloud.com", "me.com",
                 "msn.com", "live.com", "comcast.net", "sbcglobal.net", "att.net", "verizon.net", "ymail.com",
                 "protonmail.com", "mail.com", "cox.net", "charter.net", "earthlink.net", "pacbell.net"}

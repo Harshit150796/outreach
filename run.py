@@ -220,8 +220,12 @@ def next_batch(n, look_ahead=100000):
                 later.append(q)
         elif len(second) < n:
             second.append(q)
-        if len(first) >= n or seen >= look_ahead:
+        if len(first) >= n or (seen >= look_ahead and not CFG.get("web_confirmed_only")):
             break
+    # Founder (Nov 21, 2026): keep bounces under 2%. With web_confirmed_only, only addresses shown on the
+    # church's own website are sent (the group that bounces least); the rest wait.
+    if CFG.get("web_confirmed_only"):
+        return first[:n]
     return (first + second + later)[:n]
 
 def seeds():
