@@ -12,7 +12,7 @@
  "reserve_daily": 30,
  "reserve_monthly": 400,
  "queue_total": 17043,
- "paused": false,
+ "paused": true,
  "resumed_at": "2026-11-21T16:06:01Z",
  "bounce_limit_pct": 2.0,
  "founders_enabled": true,
@@ -22,5 +22,9 @@
   "ticketmasterdorms@gmail.com"
  ],
  "book_call_url": "https://calendly.com/connect-coupondonation/-",
- "web_confirmed_only": true
+ "web_confirmed_only": true,
+ "paused_reason": "Founder, Nov 22, 2026: paused while coupondonation.com's Gmail reputation recovers; cold outreach moves to a separate domain",
+ "founders_paused": "Founder, Nov 22, 2026: paused while coupondonation.com's Gmail reputation recovers; cold outreach moves to a separate domain",
+ "extra_paused": true,
+ "extra_paused_reason": "Founder, Nov 22, 2026: paused while coupondonation.com's Gmail reputation recovers; cold outreach moves to a separate domain"
 }
